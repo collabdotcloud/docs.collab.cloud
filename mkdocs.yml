@@ -1,0 +1,60 @@
+site_name: ThreeThirds Collaboration Docs
+site_description: ThreeThirds Collaboration Documentation
+site_author: Jared Roberts
+site_url: https://docs.collab.cloud
+repo_url: https://collab.cloud
+repo_name: collab.cloud
+
+theme:
+  name: material
+  features:
+    - tabs
+  palette:
+    primary: red
+    accent: orange
+  favicon: assets/images/favicon.png
+#  logo: assets/images/logo.svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/collabdotcloud
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/3thirdscollab
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/threethirds-hcl-cloud-hosting
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Getting Started: getting-started.md
+    - What's New: whats-new.md
+    - Migration from IBM SmartCloud: admin/ibm-migration.md
+  - Admin Documentation:
+    - Administering Connections:
+      - User Management: admin/usermanage-connections.md
+    - Administering Mail:
+      - User Management: admin/usermanage-mail.md
+    - Customizing: admin/admindummypage.md
+    - Security: admin/admindummypage.md
+    - Mobile: admin/admindummypage.md
+  - User Documentation:
+      - Getting Started: users/userdummypage.md
+  - Help:
+    - Troubleshooting & Support: help/troubleshooting-support.md
+    - Downloads: help/downloads.md
+    - Contributing: help/contributing.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+extra_css:
+  - "/assets/css/custom.css"
+
+#google_analytics:
+#  - "INSERT CODE FROM GOOGLE SITE ADMIN"
+#  - "auto"
