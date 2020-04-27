@@ -1,4 +1,4 @@
-# User Management - Mail
+# <img src="/assets/images/HCL_Verse_Master.png" alt="VerseLogo" height="28" /> User Management - Mail
 
 ### Onboarding Mail Users
 Here is some text.

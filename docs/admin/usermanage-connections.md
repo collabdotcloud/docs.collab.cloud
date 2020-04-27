@@ -1,4 +1,4 @@
-# User Management - Connections
+# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> User Management - Connections
 
 ### Onboarding Connections Users
 Here is some text.

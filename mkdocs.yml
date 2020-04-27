@@ -31,15 +31,24 @@ nav:
     - What's New: whats-new.md
     - Migration from IBM SmartCloud: admin/ibm-migration.md
   - Admin Documentation:
-    - Administering Connections:
-      - User Management: admin/usermanage-connections.md
     - Administering Mail:
       - User Management: admin/usermanage-mail.md
+      - Mail Mobile: admin/admin-mail-mobile.md
+    - Administering Connections:
+      - User Management: admin/usermanage-connections.md
+      - Connections Mobile: admin/admin-connections-mobile.md
     - Customizing: admin/admindummypage.md
     - Security: admin/admindummypage.md
-    - Mobile: admin/admindummypage.md
   - User Documentation:
-      - Getting Started: users/userdummypage.md
+    - Using Mail:
+      - Getting Started: users/using-mail-gettingstarted.md
+      - Using Mail & Verse: users/using-mail-verse.md
+    - Using Connections:
+      - Getting Started: users/using-connections-gettingstarted.md
+      - Using Connections: users/using-connections.md
+    - Using Sametime:
+      - Getting Started: users/using-sametime-gettingstarted.md
+      - Using Sametime: users/using-sametime.md
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
