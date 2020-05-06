@@ -9,4 +9,4 @@ Here is some text.
 Here is some text.
 
 ### Desktop Plugin
-Here is some text.
+The desktop plugins allow you to sync data locally on your computer and integrate in the operating system. There are 2 versions of them. 1 for Windows and 1 for Mac. You can download those [here](https://collab.cloud/downloads)
