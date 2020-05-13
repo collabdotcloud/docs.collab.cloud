@@ -4,7 +4,7 @@
 
 ### Where to find the software
 
-The Desktop Connector for Windows can be found on our [Downloads page](https://collab.cloud/downloads)
+The Desktop Connector for Windows can be found on our [Downloads page](https://downloads.collab.cloud)
 
 
 ### How to use the software
@@ -21,3 +21,5 @@ Information on how to use the Desktop Connector for Windows can be found on the 
 Do not fill out a username and password and select "Open Standard for Authorization (OAuth)" from the Authentication type dropdown list
 
 <img src="/assets/images/screen-shots/connections/connect-details.png" alt="Connect Details/>
+
+3.
