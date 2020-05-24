@@ -1,28 +1,28 @@
 # <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> Getting Started with Connections
 
-## Connecting to __collab.cloud__
+##First Connection
 
-### Web Browser
-Here is some text.
+###Connect to your dedicated url
 
-### Mobile & Tablet Device
-Here is some text.
+You should have received a dedicated url from us for your organization.
+The format is https://customername.collab.cloud
 
-## Desktop Plugin
-The desktop plugins allow you to sync data locally on your computer and integrate in the operating system. There are 2 versions of them. 1 for Windows and 1 for Mac. You can download those [here](https://collab.cloud/downloads)
+###Reset your password
 
-### How to Use the Software
-Information on how to use the Desktop Connector for Windows can be found on the HCL documentation website [here](https://help.hcltechsw.com/connections/v65/connectors/enduser/c_ms_plugins_win_explorer.html)
+Once you are on the login page, please click the "Forgot Password?" link.
 
-### Setup Windows
-1. Once you have installed the connector you can configure it by right click in your system tray and select the "Connect to a site" option
+<img src="/assets/images/screen-shots/connections/reset_password_link.png" alt="Reset Password" />
 
-<img src="/assets/images/screen-shots/connections/connect-to-a-site.png" alt="Connect to a site" />
+On the next page, enter your email address and click "Submit"
 
-2. In the Connect to a Site dialog, enter your companies Connections url. It will have a format "https://companyname.collab.cloud".
-Do not fill out a username and password and select "Open Standard for Authorization (OAuth)" from the Authentication type dropdown list
+<img src="/assets/images/screen-shots/connections/request password.png" alt="Submit Request" />
 
-# <img src="/assets/images/screen-shots/connections/connection-details.png" alt="Connect Details" />
+You will receive an email with a link to set a new password
 
-### Setup Mac
-Here is some text.
+<img src="/assets/images/screen-shots/connections/reset_mail.png" alt="Reset Mail" />
+
+Click the link in the mail to reset your password, on the page that opens, set a new password and click "Submit".
+
+The password policy we have implemented requires a password that is mininal 8 characters long, contains 1 uppercase character, 1 digit and 1 special character. You can not have a part of your email address in your password and cannot use the last 5 passwords used
+
+<img src="/assets/images/screen-shots/connections/update_password.png" alt="Reset Mail" />
