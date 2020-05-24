@@ -45,6 +45,8 @@ nav:
       - Using Mail & Verse: users/using-mail-verse.md
     - Using Connections:
       - Getting Started: users/using-connections-gettingstarted.md
+      - Desktop Sync for Mac: docs/users/desktop-plugins-mac.md
+      - Desktop Connector for Windows: docs/users/desktop-plugins-windows.md
       - Using Connections: users/using-connections.md
     - Using Sametime:
       - Getting Started: users/using-sametime-gettingstarted.md
