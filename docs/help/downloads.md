@@ -1,5 +1,7 @@
 # Downloads
 
-Log in to your [Admin Panel](https://collab.cloud) to view and download entitled software.
+For access to the entitled software we have a download link per data center.
 
-image here
+If you are in our European Data Center you can find your downloads [here](https://downloadseu.collab.cloud).
+
+If you are in our US Data Center you can find your downloads [here](https://downloadsus.collab.cloud).
