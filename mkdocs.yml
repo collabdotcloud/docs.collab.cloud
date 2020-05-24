@@ -27,18 +27,18 @@ extra:
 nav:
   - Home: index.md
   - Getting Started:
-    - Getting Started: getting-started.md
-    - What's New: whats-new.md
+    - New Customer: new-customer.md
+#    - What's New: whats-new.md
     - Migration from IBM SmartCloud: admin/ibm-migration.md
   - Admin Documentation:
     - Administering Mail:
       - User Management: admin/usermanage-mail.md
       - Mail Mobile: admin/admin-mail-mobile.md
     - Administering Connections:
-      - User Management: admin/usermanage-connections.md
-      - Connections Mobile: admin/admin-connections-mobile.md
-    - Customizing: admin/admindummypage.md
-    - Security: admin/admindummypage.md
+  #    - User Management: admin/usermanage-connections.md
+  #    - Connections Mobile: admin/admin-connections-mobile.md
+  #  - Customizing: admin/admindummypage.md
+  #  - Security: admin/admindummypage.md
   - User Documentation:
     - Using Mail:
       - Getting Started: users/using-mail-gettingstarted.md
