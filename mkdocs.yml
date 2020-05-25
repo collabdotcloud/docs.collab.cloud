@@ -28,29 +28,29 @@ nav:
   - Home: index.md
   - Getting Started:
     - New Customer: new-customer.md
-#    - What's New: whats-new.md
+    - What's New: whats-new.md
     - Migration from IBM SmartCloud: admin/ibm-migration.md
-  - Admin Documentation:
-    - Administering Mail:
-      - User Management: admin/usermanage-mail.md
-      - Mail Mobile: admin/admin-mail-mobile.md
-    - Administering Connections:
-  #    - User Management: admin/usermanage-connections.md
-  #    - Connections Mobile: admin/admin-connections-mobile.md
-  #  - Customizing: admin/admindummypage.md
-  #  - Security: admin/admindummypage.md
+#  - Admin Documentation:
+#    - Administering Mail:
+#      - User Management: admin/usermanage-mail.md
+#      - Mail Mobile: admin/admin-mail-mobile.md
+#    - Administering Connections:
+#      - User Management: admin/usermanage-connections.md
+#      - Connections Mobile: admin/admin-connections-mobile.md
+#    - Customizing: admin/admindummypage.md
+#    - Security: admin/admindummypage.md
   - User Documentation:
-    - Using Mail:
-      - Getting Started: users/using-mail-gettingstarted.md
-      - Using Mail & Verse: users/using-mail-verse.md
+#    - Using Mail:
+#      - Getting Started: users/using-mail-gettingstarted.md
+#      - Using Mail & Verse: users/using-mail-verse.md
     - Using Connections:
       - Getting Started: users/using-connections-gettingstarted.md
-      - Desktop Sync for Mac: docs/users/desktop-plugins-mac.md
-      - Desktop Connector for Windows: docs/users/desktop-plugins-windows.md
-      - Using Connections: users/using-connections.md
-    - Using Sametime:
-      - Getting Started: users/using-sametime-gettingstarted.md
-      - Using Sametime: users/using-sametime.md
+      - Desktop Sync for Mac: users/desktop-plugins-mac.md
+      - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
+#      - Using Connections: users/using-connections.md
+#    - Using Sametime:
+#      - Getting Started: users/using-sametime-gettingstarted.md
+#      - Using Sametime: users/using-sametime.md
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
