@@ -20,8 +20,13 @@ Information on how to install the Desktop Connector for Windows can be found on 
 
 <img src="/assets/images/screen-shots/connections/connection-details.png" alt="Connection Details" width=50% />
 
-3.
+3. Now click "Connect", you will receive a pop-up window where you can enter your credentials
 
-### How to use the software
+<img src="/assets/images/screen-shots/connections/desktoplogin.png" alt="login" />
 
-Information on how to use the Desktop Connector for Windows can be found on the [HCL documentation website](https://help.hcltechsw.com/connections/v65/connectors/enduser/c_ms_plugins_win_explorer.html)
+4. Please save your settings to start using the application
+
+<img src="/assets/images/screen-shots/connections/save-settings.png" alt="login" />
+
+### How to Use the Software
+Information on how to use the Desktop Connector for Windows can be found on the HCL documentation website [here](https://help.hcltechsw.com/connections/v65/connectors/enduser/c_ms_plugins_win_explorer.html)
