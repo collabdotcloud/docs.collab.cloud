@@ -4,13 +4,10 @@
 *(Meetings coming soon)*
 
 ### Web Browser
-Here is some text.
+Sametime chat is available as integrated feature in HCL Connections as well as in HCL Verse mail application. There is no seperate login needed as Sametime chat will automatically be loaded once HCL Connections or HCL Verse is started.
 
 ### Mobile & Tablet Device
-Here is some text.
+HCL Sametime is available as app for iOS and Android devices.
 
 ### HCL Notes Client
-Here is some text.
-
-### Outlook Client
-Here is some text.
+HCL Sametime can be connected within HCL Notes client as embedded feature.

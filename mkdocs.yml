@@ -48,9 +48,9 @@ nav:
       - Desktop Sync for Mac: users/desktop-plugins-mac.md
       - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
 #      - Using Connections: users/using-connections.md
-#    - Using Sametime:
-#      - Getting Started: users/using-sametime-gettingstarted.md
-#      - Using Sametime: users/using-sametime.md
+    - Using Sametime:
+      - Getting Started: users/using-sametime-gettingstarted.md
+      - Using Sametime: users/using-sametime.md
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
