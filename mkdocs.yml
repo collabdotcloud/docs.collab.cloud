@@ -30,7 +30,9 @@ nav:
     - New Customer: new-customer.md
     - What's New: whats-new.md
     - Migration from IBM SmartCloud: admin/ibm-migration.md
-#  - Admin Documentation:
+  - Admin Documentation:
+    - Extensions:
+      - WebEx: admin/extension-webex.md
 #    - Administering Mail:
 #      - User Management: admin/usermanage-mail.md
 #      - Mail Mobile: admin/admin-mail-mobile.md
@@ -47,7 +49,8 @@ nav:
       - Getting Started: users/using-connections-gettingstarted.md
       - Desktop Sync for Mac: users/desktop-plugins-mac.md
       - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
-      - WebEx extension: users/using-webex-extension.md
+      - Extensions:
+        - WebEx: users/using-webex-extension.md
 #      - Using Connections: users/using-connections.md
       
     - Using Sametime:

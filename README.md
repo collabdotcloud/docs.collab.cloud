@@ -11,7 +11,7 @@ The static files for the website are served out from the `gh-pages` branch.
 3. Directly commit any changes to the master branch to publish a new version of the website. This includes editing md files or config in `mkdocs.yml` and adding new pages and assets.
 4. Then the site must be generated and committed by issuing:
 
-```
+```sh
 mkdocs gh-deploy
 ```
 
@@ -19,11 +19,11 @@ mkdocs gh-deploy
 
 1. Run this command in project dir
 
-```
+```sh
 mkdocs serve
 ```
 
-2. Browse to http://127.0.0.1:8000
+2. Browse to [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## More info
 
