@@ -1,8 +1,10 @@
 # WebEx extension
 
+The WebEx feature needs to be enabled by your Connections Administrator.
+
 ## Configure your WebEx Link
 
-Go to your profile and add your WebEx link to "My Links".The name has to be 'webex'
+Go to your profile and add your WebEx link to "My Links". The name has to be 'webex'.
 
 ![Webex Links](../assets/images/extensions/webex-my-links.png)
 

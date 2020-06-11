@@ -47,7 +47,9 @@ nav:
       - Getting Started: users/using-connections-gettingstarted.md
       - Desktop Sync for Mac: users/desktop-plugins-mac.md
       - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
+      - WebEx extension: users/using-webex-extension.md
 #      - Using Connections: users/using-connections.md
+      
     - Using Sametime:
       - Getting Started: users/using-sametime-gettingstarted.md
       - Using Sametime: users/using-sametime.md
