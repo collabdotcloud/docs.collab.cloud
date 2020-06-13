@@ -11,7 +11,7 @@
         <meta name="description" content="ThreeThirds Collaboration Documentation">
       
       
-        <link rel="canonical" href="https://docs.collab.cloud/admin/usermanage-connections/">
+        <link rel="canonical" href="https://docs.collab.cloud/admin/sametime-saml-setup/">
       
       
         <meta name="author" content="Jared Roberts">
@@ -21,7 +21,7 @@
     
     
       
-        <title>User Management - Connections - ThreeThirds Collaboration Docs</title>
+        <title>Client Setup (SAML) - ThreeThirds Collaboration Docs</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#user-management-connections" class="md-skip">
+        <a href="#client-setup-using-saml-single-sign-on-sso" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> User Management - Connections
+              Client Setup (SAML)
             
           </span>
         </div>
@@ -154,14 +154,16 @@
         
           
 
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../.." class="md-tabs__link md-tabs__link--active">
+      <a href="../.." class="md-tabs__link">
         Home
       </a>
     
@@ -273,10 +275,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Admin Documentation
@@ -382,10 +386,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
     
     <label class="md-nav__link" for="nav-2-3">
       Administering Sametime
@@ -407,11 +413,80 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../sametime-saml-setup/" title="Client Setup (SAML)" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Client Setup (SAML)
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Client Setup (SAML)" class="md-nav__link md-nav__link--active">
       Client Setup (SAML)
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sametime-client-settings-saml" class="md-nav__link">
+    Sametime Client Settings (SAML)
+  </a>
+  
+    <nav class="md-nav" aria-label="Sametime Client Settings (SAML)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#client-setup-manual" class="md-nav__link">
+    Client setup (manual)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-setup-using-marvelclient-eclipse" class="md-nav__link">
+    Client Setup Using MarvelClient Eclipse
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-setup-using-domino-policysettings" class="md-nav__link">
+    Client setup using Domino Policy/Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -709,37 +784,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#onboarding-connections-users" class="md-nav__link">
-    Onboarding Connections Users
+  <a href="#sametime-client-settings-saml" class="md-nav__link">
+    Sametime Client Settings (SAML)
+  </a>
+  
+    <nav class="md-nav" aria-label="Sametime Client Settings (SAML)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#client-setup-manual" class="md-nav__link">
+    Client setup (manual)
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#changing-connections-user-info" class="md-nav__link">
-    Changing Connections User Info
+        
+          <li class="md-nav__item">
+  <a href="#client-setup-using-marvelclient-eclipse" class="md-nav__link">
+    Client Setup Using MarvelClient Eclipse
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#managing-connections-access" class="md-nav__link">
-    Managing Connections Access
+        
+          <li class="md-nav__item">
+  <a href="#client-setup-using-domino-policysettings" class="md-nav__link">
+    Client setup using Domino Policy/Settings
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#reset-passwords" class="md-nav__link">
-    Reset Passwords
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delete-users" class="md-nav__link">
-    Delete Users
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -759,17 +833,291 @@
                   
                 
                 
-                <h1 id="user-management-connections"><img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> User Management - Connections<a class="headerlink" href="#user-management-connections" title="Permanent link">&para;</a></h1>
-<h3 id="onboarding-connections-users">Onboarding Connections Users<a class="headerlink" href="#onboarding-connections-users" title="Permanent link">&para;</a></h3>
-<p>Here is some text.</p>
-<h3 id="changing-connections-user-info">Changing Connections User Info<a class="headerlink" href="#changing-connections-user-info" title="Permanent link">&para;</a></h3>
-<p>Here is some text.</p>
-<h3 id="managing-connections-access">Managing Connections Access<a class="headerlink" href="#managing-connections-access" title="Permanent link">&para;</a></h3>
-<p>Here is a link. <a href="https://www.ibm.com">Browse to resolve issue</a>.</p>
-<h3 id="reset-passwords">Reset Passwords<a class="headerlink" href="#reset-passwords" title="Permanent link">&para;</a></h3>
-<p>Review <a href="/assets/analytics/Kudos%20Analytics%20Tuning.pdf">this guide</a> embedded in the assets.</p>
-<h3 id="delete-users">Delete Users<a class="headerlink" href="#delete-users" title="Permanent link">&para;</a></h3>
-<p>Review <a href="/assets/analytics/Kudos%20Analytics%20Tuning.pdf">this guide</a> embedded in the assets.</p>
+                <h1 id="client-setup-using-saml-single-sign-on-sso"><img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Client Setup using SAML Single Sign-On (SSO)<a class="headerlink" href="#client-setup-using-saml-single-sign-on-sso" title="Permanent link">&para;</a></h1>
+<p>If you have Notes Federated Login enabled with ThreeThirds Identity Provider (KeyCloak), you can configure your Users' Sametime clients to login automatically to ThreeThirds Multi-Tenant Sametime chat with no password.</p>
+<hr />
+<blockquote>
+<p><strong>Note:</strong> If you are a hybrid customer (you maintain your own Domino mail environment) you will need to have SAML authentication with ThreeThirds enabled. See Federated Identity Authentication with SAML for more information.</p>
+</blockquote>
+<hr />
+<h3 id="sametime-client-settings-saml">Sametime Client Settings (SAML)<a class="headerlink" href="#sametime-client-settings-saml" title="Permanent link">&para;</a></h3>
+<p>Configure the Sametime embedded client using the below methods.</br></p>
+<h4 id="client-setup-manual">Client setup (manual)<a class="headerlink" href="#client-setup-manual" title="Permanent link">&para;</a></h4>
+<p>To manually set up Sametime embedded client for Notes - configure the following settings:</p>
+<table>
+<thead>
+<tr>
+<th>General</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Server Community name</td>
+<td>Depends where your service is located:<br/><code>chatna.collab.cloud</code> (North America)<br/><code>chateu.collab.cloud</code> (Europe)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Login</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Your email address (eg. <code>jroberts@collab.cloud</code>)</td>
+</tr>
+<tr>
+<td>Password</td>
+<td>-leave blank-</td>
+</tr>
+<tr>
+<td>Automatically Log In</td>
+<td>-check enabled-</td>
+</tr>
+<tr>
+<td>Use Token Based Single Sign On</td>
+<td>-check enabled-</td>
+</tr>
+<tr>
+<td>Authentication Server</td>
+<td>Depends where your service is located:<br/><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime</code> (North America)<br/><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime</code> (Europe)</td>
+</tr>
+<tr>
+<td>Authentication Type</td>
+<td><code>SAML</code></td>
+</tr>
+<tr>
+<td>Login Type</td>
+<td><code>browser</code></td>
+</tr>
+<tr>
+<td>Username Tag</td>
+<td><code>email</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Server</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Host Server</td>
+<td>Depends where your service is located:<br/><code>chatna.collab.cloud</code> (North America)<br/><code>chateu.collab.cloud</code> (Europe)</td>
+</tr>
+<tr>
+<td>Server Community Port</td>
+<td><code>1533</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Options</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Use this server for awareness status lookup</td>
+<td>-check enabled-</td>
+</tr>
+<tr>
+<td>Use canonical names for status lookup</td>
+<td>-leave blank-</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/assets/images/screen-shots/sametime/st-set-st-1.png" alt="ST Manual Setup" /></p>
+<hr />
+<h4 id="client-setup-using-marvelclient-eclipse">Client Setup Using MarvelClient Eclipse<a class="headerlink" href="#client-setup-using-marvelclient-eclipse" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p><strong>Note:</strong> This requires a license for MarvelClient Eclipse. Please contact your ThreeThirds account representative for more information.</p>
+</blockquote>
+<p>To auto-configure settings for Sametime embedded client for all users using MarvelClient Eclipse - create a Sametime Eclipse Action (<em>ESTC - Sametime</em>) with the following settings:</p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Title</td>
+<td>collab.cloud chat</td>
+</tr>
+<tr>
+<td>Action</td>
+<td><code>Add/Change</code></td>
+</tr>
+<tr>
+<td>Search--&gt;Host Server</td>
+<td>check <code>full match</code><br/>Depending where your service is located:<br/><code>chatna.collab.cloud</code> (North America)<br/><code>chateu.collab.cloud</code> (Europe)</td>
+</tr>
+<tr>
+<td>Search--&gt;Username</td>
+<td>check <code>match communities for ANY username</code></td>
+</tr>
+<tr>
+<td>Search--&gt;Fix Empty?</td>
+<td>check <code>fix empty communities</code><br/>check <code>make default server community</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Community</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Community name</td>
+<td>check <code>Community name = Host Server</code></td>
+</tr>
+<tr>
+<td>UserID (not for login)</td>
+<td><code>&lt;notes:userdetails_internetaddress&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Login</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>User Name</td>
+<td><code>&lt;notes:userdetails_internetaddress&gt;</code></td>
+</tr>
+<tr>
+<td>Password</td>
+<td>-leave blank-</td>
+</tr>
+<tr>
+<td>Automatically Log In</td>
+<td>-check enabled-</td>
+</tr>
+<tr>
+<td>Use Token Based Single Sign On</td>
+<td>-check enabled-</td>
+</tr>
+<tr>
+<td>Authentication Server</td>
+<td>Depends where your service is located:<br/><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime</code> (North America)<br/><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime</code> (Europe)</td>
+</tr>
+<tr>
+<td>Authentication Type</td>
+<td><code>SAML</code></td>
+</tr>
+<tr>
+<td>Login Type</td>
+<td><code>browser</code></td>
+</tr>
+<tr>
+<td>Username Tag</td>
+<td><code>email</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Server</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Host Server</td>
+<td>Depends where your service is located:<br/><code>chatna.collab.cloud</code> (North America)<br/><code>chateu.collab.cloud</code> (Europe)</td>
+</tr>
+<tr>
+<td>Server Community Port</td>
+<td><code>1533</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Options</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Use this server for awareness status lookup</td>
+<td>-check enabled-</td>
+</tr>
+<tr>
+<td>Use canonical names for status lookup</td>
+<td>-leave blank-</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Use the button <code>Set all Change Options to ∞</code> to set theese options to be persistent for all users.</p>
+</blockquote>
+<p><img src="/assets/images/screen-shots/sametime/mc-set-st-1.png" alt="MarvelClient ST 1" /></p>
+<hr />
+<h4 id="client-setup-using-domino-policysettings">Client setup using Domino Policy/Settings<a class="headerlink" href="#client-setup-using-domino-policysettings" title="Permanent link">&para;</a></h4>
+<p>To configure initial settings for Sametime embedded client for Notes via Policy Settings - create a Desktop settings document with the following settings:</p>
+<blockquote>
+<p><strong>Note:</strong> This may not cover all required settings - some manual configuration may be required.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Basics</th>
+<th></th>
+<th>How to Apply This Setting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HCL Sametime Server</td>
+<td>Depends where your service is located:<br/><code>chatna.collab.cloud</code> (North America)<br/><code>chateu.collab.cloud</code> (Europe)</td>
+<td>Set Initial Value</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Preferences--&gt;Sametime</th>
+<th></th>
+<th>How to Apply This Setting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sametime Server</td>
+<td>Depends where your service is located:<br/><code>chatna.collab.cloud</code> (North America)<br/><code>chateu.collab.cloud</code> (Europe)</td>
+<td>Set Initial Value</td>
+</tr>
+<tr>
+<td>Log Onto Sametime Using Single Sign-On (SSO)</td>
+<td>-set Enabled-</td>
+<td>Set Initial Value</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/assets/images/screen-shots/sametime/pol-set-st-1.png" alt="Desktop Policy ST 1" />
+<img src="/assets/images/screen-shots/sametime/pol-set-st-2.png" alt="Desktop Policy ST 2" /></p>
                 
               
               
@@ -784,6 +1132,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../auth-saml/" title="Federated Identity Authentication with SAML" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Federated Identity Authentication with SAML
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../users/using-connections-gettingstarted/" title="Getting Started" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Getting Started
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

@@ -11,7 +11,7 @@
         <meta name="description" content="ThreeThirds Collaboration Documentation">
       
       
-        <link rel="canonical" href="https://docs.collab.cloud/admin/usermanage-connections/">
+        <link rel="canonical" href="https://docs.collab.cloud/admin/auth-saml/">
       
       
         <meta name="author" content="Jared Roberts">
@@ -21,7 +21,7 @@
     
     
       
-        <title>User Management - Connections - ThreeThirds Collaboration Docs</title>
+        <title>Federated Identity Authentication with SAML - ThreeThirds Collaboration Docs</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#user-management-connections" class="md-skip">
+        <a href="#federated-identity-authentication-with-saml-sso" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> User Management - Connections
+              Federated Identity Authentication with SAML
             
           </span>
         </div>
@@ -154,14 +154,16 @@
         
           
 
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../.." class="md-tabs__link md-tabs__link--active">
+      <a href="../.." class="md-tabs__link">
         Home
       </a>
     
@@ -273,10 +275,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Admin Documentation
@@ -340,10 +344,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
     
     <label class="md-nav__link" for="nav-2-2">
       Authentication
@@ -365,11 +371,53 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../auth-saml/" title="Federated Identity Authentication with SAML" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Federated Identity Authentication with SAML
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Federated Identity Authentication with SAML" class="md-nav__link md-nav__link--active">
       Federated Identity Authentication with SAML
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequsites-for-hybrid-customers" class="md-nav__link">
+    Prerequsites for Hybrid Customers
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -709,36 +757,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#onboarding-connections-users" class="md-nav__link">
-    Onboarding Connections Users
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#changing-connections-user-info" class="md-nav__link">
-    Changing Connections User Info
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#managing-connections-access" class="md-nav__link">
-    Managing Connections Access
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reset-passwords" class="md-nav__link">
-    Reset Passwords
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delete-users" class="md-nav__link">
-    Delete Users
+  <a href="#prerequsites-for-hybrid-customers" class="md-nav__link">
+    Prerequsites for Hybrid Customers
   </a>
   
 </li>
@@ -759,17 +779,21 @@
                   
                 
                 
-                <h1 id="user-management-connections"><img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> User Management - Connections<a class="headerlink" href="#user-management-connections" title="Permanent link">&para;</a></h1>
-<h3 id="onboarding-connections-users">Onboarding Connections Users<a class="headerlink" href="#onboarding-connections-users" title="Permanent link">&para;</a></h3>
-<p>Here is some text.</p>
-<h3 id="changing-connections-user-info">Changing Connections User Info<a class="headerlink" href="#changing-connections-user-info" title="Permanent link">&para;</a></h3>
-<p>Here is some text.</p>
-<h3 id="managing-connections-access">Managing Connections Access<a class="headerlink" href="#managing-connections-access" title="Permanent link">&para;</a></h3>
-<p>Here is a link. <a href="https://www.ibm.com">Browse to resolve issue</a>.</p>
-<h3 id="reset-passwords">Reset Passwords<a class="headerlink" href="#reset-passwords" title="Permanent link">&para;</a></h3>
-<p>Review <a href="/assets/analytics/Kudos%20Analytics%20Tuning.pdf">this guide</a> embedded in the assets.</p>
-<h3 id="delete-users">Delete Users<a class="headerlink" href="#delete-users" title="Permanent link">&para;</a></h3>
-<p>Review <a href="/assets/analytics/Kudos%20Analytics%20Tuning.pdf">this guide</a> embedded in the assets.</p>
+                <h1 id="federated-identity-authentication-with-saml-sso">Federated Identity Authentication with SAML (SSO)<a class="headerlink" href="#federated-identity-authentication-with-saml-sso" title="Permanent link">&para;</a></h1>
+<p>Federated identity is a means of achieving single sign-on (SSO), providing users the convenience of using a single password for many services. ThreeThirds provides the ability for customers to use Connections, Verse Mail, Sametime Chat and Notes client software using a single identity and one password for all services. Federated identity for user authentication is achieved by using the Security Assertion Markup Language (SAML) standard.</p>
+<hr />
+<blockquote>
+<p><strong>Note:</strong> ThreeThirds do not offer Federated Identity SSO with your on-premises idP - such as Active Directory Federation Services (ADFS) right now. However this option will soon be available. Please contact your ThreeThirds account representative for more information.</p>
+</blockquote>
+<hr />
+<h3 id="prerequsites-for-hybrid-customers">Prerequsites for Hybrid Customers<a class="headerlink" href="#prerequsites-for-hybrid-customers" title="Permanent link">&para;</a></h3>
+<p>If you are a hybrid customer (you maintain your own Domino mail environment) you may need to have the following in place in your Domino environment:</p>
+<ul>
+<li>ID Vault</li>
+<li>HCL Verse installed and operating</li>
+<li>SSL/TLS enabled on Domino Web Servers</li>
+</ul>
+<p>More information on this very soon.</p>
                 
               
               
@@ -784,6 +808,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../extension-webex/" title="WebEx" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                WebEx
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../sametime-saml-setup/" title="Client Setup (SAML)" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Client Setup (SAML)
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
