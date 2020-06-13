@@ -21,7 +21,38 @@ Once logged in to mail application Verse/iNotes the Sametime plugin can be found
 ### Using Sametime from Notes
 Here is some text.
 
+### Using Sametime from Standalone client
+On first start of the Sametime standalone client configuration is needed as follows.
+As shown in the following picture set the servername to the appropriate cloud environment:
+
+- EU: chateu.collab.cloud
+
+- NA: chatna.collab.cloud
+
+Put in your email address as username.
+
+<img src="/assets/images/screen-shots/sametime/sametime-rich-step1.png" alt="Verse Status" width=50% />
+
+Click on "Settings" to fill in SSO values as follows. For "Authentication server" field set the appropriate values.
+Check the box "Use token-based single sign-on".
+
+- EU: https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime
+
+- NA: https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime
+
+Set Authentication type to "SAML" and Login type to "Browser".
+
+<img src="/assets/images/screen-shots/sametime/sametime-rich-step2.png" alt="Verse Status" width=50% />
+
+Click OK to close the settings window.
+Important: Now restart Sametime client.
+
+After restart the login page will appear. Put in your email address and password and then login. After first start you will be prompted to restart Sametime client. Login again after restart and you are online.
+
 ### Using Sametime from Mobile & Table Devices
+
+Attention: As of now the iOS Sametime app is not working. The working app will be released by HCL end June 2020 !!
+
 The mobile app to be installed in HCL Sametime. It can be found in Android store as well as in Apple store for iOS devices.
 To enable mobile chat add a new Community and add the appropriate data there:
 
