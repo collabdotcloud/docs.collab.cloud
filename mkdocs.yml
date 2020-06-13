@@ -26,21 +26,24 @@ extra:
 
 nav:
   - Home: index.md
-  - Getting Started:
-    - New Customer: new-customer.md
-    - What's New: whats-new.md
-    - Migration from IBM SmartCloud: admin/ibm-migration.md
+#  - Getting Started:
+#    - New Customer: new-customer.md
+#    - What's New: whats-new.md
+#    - Migration from IBM SmartCloud: admin/ibm-migration.md
   - Admin Documentation:
     - Extensions:
       - WebEx: admin/extension-webex.md
+    - Authentication:
+      - Federated Identity Authentication with SAML: admin/auth-saml.md
 #    - Administering Mail:
 #      - User Management: admin/usermanage-mail.md
 #      - Mail Mobile: admin/admin-mail-mobile.md
 #    - Administering Connections:
 #      - User Management: admin/usermanage-connections.md
 #      - Connections Mobile: admin/admin-connections-mobile.md
+    - Administering Sametime:
+      - Client Setup (SAML): admin/sametime-saml-setup.md
 #    - Customizing: admin/admindummypage.md
-#    - Security: admin/admindummypage.md
   - User Documentation:
 #    - Using Mail:
 #      - Getting Started: users/using-mail-gettingstarted.md
@@ -52,7 +55,7 @@ nav:
       - Extensions:
         - WebEx: users/using-webex-extension.md
 #      - Using Connections: users/using-connections.md
-      
+
     - Using Sametime:
       - Getting Started: users/using-sametime-gettingstarted.md
       - Using Sametime: users/using-sametime.md

@@ -25,9 +25,9 @@ Here is some text.
 On first start of the Sametime standalone client configuration is needed as follows.
 As shown in the following picture set the servername to the appropriate cloud environment:
 
-- EU: chateu.collab.cloud
+- EU: `chateu.collab.cloud`
 
-- NA: chatna.collab.cloud
+- NA: `chatna.collab.cloud`
 
 Put in your email address as username.
 
@@ -36,9 +36,9 @@ Put in your email address as username.
 Click on "Settings" to fill in SSO values as follows. For "Authentication server" field set the appropriate values.
 Check the box "Use token-based single sign-on".
 
-- EU: https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime
+- EU: `https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime`
 
-- NA: https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime
+- NA: `https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime`
 
 Set Authentication type to "SAML" and Login type to "Browser".
 
