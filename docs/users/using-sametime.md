@@ -22,12 +22,13 @@ Once logged in to mail application Verse/iNotes the Sametime plugin can be found
 Here is some text.
 
 ### Using Sametime from Standalone client
-On first start of the Sametime standalone client configuration is needed as follows.
+On first start of the Sametime standalone client configuration is needed as follows. Please be aware that the login method with SAML SSO is the ONLY method to login to Sametime.
 As shown in the following picture set the servername to the appropriate cloud environment:
 
-- EU: `chateu.collab.cloud`
-
-- NA: `chatna.collab.cloud`
+|Region|Value|
+|---------|--------|
+|EU|chateu.collab.cloud|
+|NA|chatna.collab.cloud|
 
 Put in your email address as username.
 
@@ -36,9 +37,10 @@ Put in your email address as username.
 Click on "Settings" to fill in SSO values as follows. For "Authentication server" field set the appropriate values.
 Check the box "Use token-based single sign-on".
 
-- EU: `https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime`
-
-- NA: `https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime`
+|Region|Value|
+|---------|--------|
+EU|https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime|
+|NA|https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime|
 
 Set Authentication type to "SAML" and Login type to "Browser".
 
