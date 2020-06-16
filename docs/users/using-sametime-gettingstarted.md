@@ -11,3 +11,6 @@ HCL Sametime is available as app for iOS and Android devices.
 
 ### HCL Notes Client
 HCL Sametime can be connected within HCL Notes client as embedded feature.
+
+### Restrictions
+Logon to Sametime is only available with the SAML login process. There is no option to login with other methods.
