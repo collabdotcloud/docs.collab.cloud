@@ -8,7 +8,9 @@ To add the Activities Plus widget, go to:
 
 <img src="/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png" alt="Community Actions Add Apps" />
 
-<img src="/assets/images/screen-shots/aplus/aplus-add-apps.png" alt="Add Apps" />
+Select **_Activities Plus_** in the list
+
+<img src="/assets/images/screen-shots/aplus/aplus-add-apps.png" alt="Add Apps" width="50%"/>
 
 Once the widget is added you have the option to show all Community Activities/Boards that belongs to this Community, or a specific Activity/Board. If you want to change these settings after saving, click on the settings wheel inside the widget.
 
