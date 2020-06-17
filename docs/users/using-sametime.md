@@ -19,7 +19,7 @@ Once logged in to mail application Verse/iNotes the Sametime plugin can be found
 <img src="/assets/images/screen-shots/sametime/verse-status.png" alt="Verse Status" width=50% />
 
 ### Using Sametime from Notes
-[Notes Client Setup](https://docs.collab.cloud/admin/sametime-saml-setup/)
+[Notes Client Setup](https://docs.collab.cloud/admin/admin-sametime/)
 
 ### Using Sametime from Standalone client
 On first start of the Sametime standalone client configuration is needed as follows. Please be aware that the login method with SAML SSO is the ONLY method to login to Sametime.
