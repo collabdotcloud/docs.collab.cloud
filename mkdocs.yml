@@ -31,7 +31,7 @@ nav:
 
   - Admin Documentation:
     - Administration:
-#      - Manage Organisation: admin/
+      - Manage Organisation: admin/admin-org.md
 #      - Connections: admin/
 #      - Mail: admin/
       - Sametime: admin/admin-sametime.md
@@ -39,7 +39,7 @@ nav:
       - Federated Identity Authentication with SAML: admin/auth-saml.md
     - Extensions:
       - WebEx: admin/extension-webex.md
-#    - Customizing: admin/admindummypage.md
+#    - Customizing: admin/
 
   - User Documentation:
 #    - Using Mail:
