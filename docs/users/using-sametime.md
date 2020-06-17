@@ -40,7 +40,7 @@ Check the box "Use token-based single sign-on".
 |Region|Value|
 |---------|--------|
 EU|https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime|
-|NA|https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime|
+|NA|https://loginna.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime|
 
 Set Authentication type to "SAML" and Login type to "Browser".
 
