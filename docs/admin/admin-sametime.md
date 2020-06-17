@@ -1,16 +1,17 @@
-# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Client Setup using SAML Single Sign-On (SSO)
-If you have Notes Federated Login enabled with ThreeThirds Identity Provider (KeyCloak), you can configure your Users' Sametime clients to login automatically to ThreeThirds Multi-Tenant Sametime chat with no password.
+# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Sametime Admin
+Administraton information for Sametime in the ThreeThirds *collab.cloud* environment.
 
 ---
+
+##Client Setup using SAML Single Sign-On (SSO)
+
+If you have Notes Federated Login enabled with ThreeThirds Identity Provider (KeyCloak), you can configure your Users' Sametime clients to login automatically to ThreeThirds Multi-Tenant Sametime chat with no password.
 
 > **Note:** If you are a hybrid customer (you maintain your own Domino mail environment) you will need to have SAML authentication with ThreeThirds enabled. See Federated Identity Authentication with SAML for more information.
 
 ---
 
-### Sametime Client Settings (SAML)
-Configure the Sametime embedded client using the below methods.</br>
-
-#### Client setup (manual)
+### Client setup - Manual
 To manually set up Sametime embedded client for Notes - configure the following settings:
 
 |General||
@@ -42,7 +43,7 @@ To manually set up Sametime embedded client for Notes - configure the following 
 
 ---
 
-#### Client Setup Using MarvelClient Eclipse
+### Client Setup Using MarvelClient Eclipse
 > **Note:** This requires a license for MarvelClient Eclipse. Please contact your ThreeThirds account representative for more information.
 
 To auto-configure settings for Sametime embedded client for all users using MarvelClient Eclipse - create a Sametime Eclipse Action (*ESTC - Sametime*) with the following settings:
@@ -87,7 +88,7 @@ To auto-configure settings for Sametime embedded client for all users using Marv
 
 ---
 
-#### Client setup using Domino Policy/Settings
+### Client setup using Domino Policy/Settings
 To configure initial settings for Sametime embedded client for Notes via Policy Settings - create a Desktop settings document with the following settings:
 > **Note:** This may not cover all required settings - some manual configuration may be required.
 

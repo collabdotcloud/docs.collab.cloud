@@ -1,17 +1,9 @@
 # Troubleshooting & Support
 
-## Troubleshooting
+## IBM Migration Issues
 
-#### Heading 3
-Here is some text.<br><br>
+For issues relating to IBM Migration, contact your ThreeThirds account manager or migration representative. Issues relating to migration may be dealt with on a priority basis.
 
-#### Heading 3-1
-Here is a link. [Browse to resolve issue](https://www.ibm.com).<br><br>
-
-## Get Support
-
-#### Heading 3
-Here is some text.<br><br>
-
-#### Heading 3-1
-Here is a link. [Browse to resolve issue](https://www.ibm.com).<br>
+## General Support
+For general support, please email [support@collab.cloud](mailto:support@collab.cloud).<br />
+Please quote your name, email address and your Organiztation ID along with your issue.
