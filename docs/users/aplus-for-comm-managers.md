@@ -4,7 +4,7 @@ In order to access and work in a Community Activity the Activities Plus widget n
 
 To add the Activities Plus widget, go to:
 
-**Community Actions – Add Apps - Activities Plus_** in the right hand side of the Community
+**_Community Actions – Add Apps - Activities Plus_** in the right hand side of the Community
 
 <img src="/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png" alt="Community Actions Add Apps" />
 
@@ -14,11 +14,11 @@ Select **_Activities Plus_** in the list
 
 Once the widget is added you have the option to show all Community Activities/Boards that belongs to this Community, or a specific Activity/Board. If you want to change these settings after saving, click on the settings wheel inside the widget.
 
-<img src="/assets/images/screen-shots/aplus/aplus-widget-settings.png" alt="Widget Settings" />
+<img src="/assets/images/screen-shots/aplus/aplus-widget-settings.png" alt="Widget Settings" width="50%"/>
 
 The new widget in the Community can be moved by dragging and dropping, or by clicking on the three dots in the upper right corner.
 
-<img src="/assets/images/screen-shots/aplus/aplus-move-widget.png" alt="Move Widget" />
+<img src="/assets/images/screen-shots/aplus/aplus-move-widget.png" alt="Move Widget" width="50%"/>
 
 A great tip is to move the Activities Plus widget so it covers the whole page, by dragging and dropping. When the widget is larger you get a better overview of your work.
 
@@ -52,13 +52,13 @@ Before you click **_Add Members_** and close the dialogue box you have the optio
 
 Go back to the Community and have a look in the Activity Plus widget. Now you will see your Community Activity.
 
-<img src="/assets/images/screen-shots/aplus/aplus-activities-in-widget.png" alt="Activities In Widget" />
+<img src="/assets/images/screen-shots/aplus/aplus-activities-in-widget.png" alt="Activities In Widget" width="50%"/>
 
 ##Create a new Activity in the Community Widget
 
 In the Activities Plus widget, click the **_Orange plus_** in the bottom right hand side corner. A dialogue box will open with options for your new Activity.
 
-<img src="/assets/images/screen-shots/aplus/aplus-new-activity.png" alt="New Activity" />
+<img src="/assets/images/screen-shots/aplus/aplus-new-activity.png" alt="New Activity" width="50%"/>
 
 Once the new Activity is created you will see and be able to work in this Activity directly in the Community.
 
