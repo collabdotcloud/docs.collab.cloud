@@ -68,4 +68,4 @@ ___
 
 ##For more information, tips and tricks on how to work with Activities in Activities Plus
 
-[Click here](https://downloads.collab.cloud/aplus-tips-and-tricks)
+[Click here](https://docs.collab.cloud/users/aplus-tips-and-tricks/)
