@@ -16,11 +16,6 @@ To access and work with a stand alone Activity, go to the Activities Plus page b
 
 Here you can work with your existing Activities, or create new ones. Both private Activities, public Activities and shared Activities.
 
-###For more information, tips and tricks on how to work with Activities in Activities Plus
-
-[Click here](https://downloads.collab.cloud/aplus-tips-and-tricks)
-
-
 ##Community Activity
 
 A Community Activity is an Activity that belongs to a specific HCL Connections Community. The members of the Community are also members of the Community Activity. Collaborate and access the Activity directly in the Community.
@@ -29,6 +24,8 @@ If you cannot see any Activities in a Community, the Activities Plus widget need
 
 <img src="/assets/images/screen-shots/aplus/aplus-widget-in-community.png" alt="Activities Plus Widget in Community" />
 
-###For more information, tips and tricks on how to work with Activities in Activities Plus
+___
 
-[Click here](https://downloads.collab.cloud/aplus-tips-and-tricks)
+##For more information, tips and tricks on how to work with Activities in Activities Plus
+
+[Click here](https://downloads.collab.cloud/users/aplus-tips-and-tricks)
