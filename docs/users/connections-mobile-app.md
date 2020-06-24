@@ -20,9 +20,9 @@ In the **_Server URL_** field, type your dedicated company URL. If you do not kn
 
 <table>
   <tr>
-    <td> <img src="/assets/images/screen-shots/mobileapp/HCLMobile2.png"  alt="Server URL" ></td>
+    <td> <img src="/assets/images/screen-shots/mobileapp/hclmobile2.png"  alt="Server URL" ></td>
 
-    <td> <img src="/assets/images/screen-shots/mobileapp/HCLMobile3.png" alt="Server URL" </td>
+    <td> <img src="/assets/images/screen-shots/mobileapp/hclmobile3.png" alt="Server URL" </td>
    </tr>
 </table>
 
@@ -30,8 +30,8 @@ Click **_Continue_**
 
 Fill in your Email address and Password and click **_Log In_**
 
-<img src="/assets/images/screen-shots/mobileapp/HCLMobile5.png" alt="Log In" />
+<img src="/assets/images/screen-shots/mobileapp/hclmobile5.png" alt="Log In" />
 
 You are in!
 
-<img src="/assets/images/screen-shots/mobileapp/HCLMobile6.png" alt="Connections Mobile" />
+<img src="/assets/images/screen-shots/mobileapp/hclmobile6.png" alt="Connections Mobile" />
