@@ -28,7 +28,7 @@ In the **_Server URL_** field, type your dedicated company URL. If you do not kn
 
 Click **_Continue_**
 
-Fill in your Email address and Password and click **_Log In_**
+Fill in your email address and Password and click **_Log In_** Note that you can change language in the upper right corner.
 
 <img src="/assets/images/screen-shots/mobileapp/hclmobile5.png" alt="Log In" width="50%"/>
 

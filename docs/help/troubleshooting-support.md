@@ -6,4 +6,4 @@ For issues relating to IBM Migration, contact your ThreeThirds account manager o
 
 ## General Support
 For general support, please email [support@collab.cloud](mailto:support@collab.cloud).<br />
-Please quote your name, email address and your Organiztation ID along with your issue.
+Please quote your name, email address and your Organization ID along with your issue.
