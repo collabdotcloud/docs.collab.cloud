@@ -9,7 +9,7 @@ You need to the download link relevant to your customer datacenter, and your Thr
 #### Download links
 [European datacenter - https://downloadseu.collab.cloud](https://downloadseu.collab.cloud)
 
-[US datacenter - https://downloadsus.collab.cloud](https://downloadsus.collab.cloud)
+[US datacenter - https://downloadsna.collab.cloud](https://downloadsna.collab.cloud)
 
 *Don't know which datacenter your environment is deployed in?* [Contact Us](mailto:support@collab.cloud)
 

@@ -4,7 +4,7 @@
 
 ### Where to find the software
 
-The Desktop Connector for Windows can be found on our [Downloads page](https://downloads.collab.cloud)
+The Desktop Connector for Windows can be found on our [here](https://docs.collab.cloud/help/downloads/)
 
 ### How to install the software
 
@@ -16,7 +16,7 @@ Information on how to install the Desktop Connector for Windows can be found on 
 
 <img src="/assets/images/screen-shots/connections/connect-to-a-site.png" alt="Connect to a site" width=50% />
 
-2. In the *Connect to a Site* dialog, enter your Company allocated Connections URL. It will have a format like: <strong>https://companyname.collab.cloud</strong>. Select *Open Standard for Authorization (OAuth)* as Authentuication Type (Do not fill out a username and password).
+2. In the *Connect to a Site* dialog, enter your Company allocated Connections URL. It will have a format like: <strong>https://companyname.collab.cloud</strong>. Select *Open Standard for Authorization (OAuth)* as Authentication Type (Do not fill out a username and password).
 
 <img src="/assets/images/screen-shots/connections/connection-details.png" alt="Connection Details" width=50% />
 
