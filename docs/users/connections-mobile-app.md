@@ -12,7 +12,7 @@ For Android: [HCL Connections Mobile App](https://play.google.com/store/apps/det
 
 On the first login screen choose **_My company's server_**
 
-<img src="/assets/images/screen-shots/mobileapp/HCLMobile1.png" alt="My company's server" />
+<img src="/assets/images/screen-shots/mobileapp/hclmobile1.png" alt="My company's server" />
 
 The field **_Account Name_** is optional. Here you can choose a name of your account if you like.
 
