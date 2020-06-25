@@ -51,7 +51,7 @@ nav:
         - WebEx: users/using-webex-extension.md
         - Desktop Sync for Mac: users/desktop-plugins-mac.md
         - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
-#      - Using Connections: users/using-connections.md
+      - Connections Mobile App: users/connections-mobile-app.md
     - Using Sametime:
       - Getting Started: users/using-sametime-gettingstarted.md
       - Using Sametime: users/using-sametime.md
@@ -61,8 +61,6 @@ nav:
       - For Community Managers: users/aplus-for-comm-managers.md
       - Tips And Tricks: users/aplus-tips-and-tricks.md
       - Activities Plus Mobile App: users/aplus-mobile-app.md
-    - Using the Connections Mobile App:
-      - Getting Started: users/connections-mobile-app.md
 
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
