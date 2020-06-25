@@ -77,8 +77,5 @@ Save the settings and login to chat.
 
 * Webchat window in Connections will not open on new incoming conversation.<br />
 Please check browser settings for popup blocking and add the site to exceptions
-* You will be logged out from standalone client after starting Connections.<br />
-Under investigation
-
 
 Go to [HCL's Sametime Documentation site](https://help.hcltechsw.com/sametime/sametime_welcome.html) for more information.
