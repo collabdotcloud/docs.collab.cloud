@@ -35,6 +35,7 @@ nav:
 #      - Connections: admin/
 #      - Mail: admin/
       - Sametime: admin/admin-sametime.md
+      - Connections API: admin/api-clients.md 
     - Authentication:
       - Federated Identity Authentication with SAML: admin/auth-saml.md
     - Extensions:
