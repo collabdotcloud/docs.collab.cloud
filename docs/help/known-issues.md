@@ -21,3 +21,6 @@ Some of you might occasionally see a bad gateway message. We have been working h
 
 ##Internet Explorer 11
 Internet Explorer 11 is not supported on our environment. While we realize it is supported on HCL Connections 6.5 on premise, it is not on HCL Connections 6.5 Multi Tenant. We have filed a request to support this in future versions with HCL
+
+##Search
+The Search index is not up to date. It is being rebuilt as soon as possible. This is due to constant importing of data into the databases and file system, it is impossible to keep up until migrations are finished. New content is being indexed, migrated content will be indexed with a delay
