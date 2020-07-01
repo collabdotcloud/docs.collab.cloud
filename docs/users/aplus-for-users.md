@@ -25,3 +25,7 @@ If you cannot see any Activities in a Community, the Activities Plus widget need
 <img src="/assets/images/screen-shots/aplus/aplus-widget-in-community.png" alt="Activities Plus Widget in Community" />
 
 ___
+
+##For more information, tips and tricks on how to work with Activities in Activities Plus
+
+[Click here](https://docs.collab.cloud/users/aplus-tips-and-tricks/)
