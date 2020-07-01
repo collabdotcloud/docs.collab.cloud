@@ -19,7 +19,6 @@ If you have experience from Connections on-premises you will see that The experi
 * Edit their profile by clicking their picture and selecting My Profile
 * View abbreviated business cards of people that share content with them (cards don't contain clickable links for employee names)
 * Share files with people
-* Participate in chats
 * See status updates if they are @mentioned in them
 
 ##External users - what they **CAN NOT** do
