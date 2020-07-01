@@ -35,7 +35,7 @@ nav:
 #      - Connections: admin/
 #      - Mail: admin/
       - Sametime: admin/admin-sametime.md
-      - Connections API: admin/api-clients.md 
+      - Connections API: admin/api-clients.md
     - Authentication:
       - Federated Identity Authentication with SAML: admin/auth-saml.md
     - Extensions:
@@ -53,6 +53,7 @@ nav:
         - Desktop Sync for Mac: users/desktop-plugins-mac.md
         - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
       - Connections Mobile App: users/connections-mobile-app.md
+      - External users: users/connections-external-users.md
     - Using Sametime:
       - Getting Started: users/using-sametime-gettingstarted.md
       - Using Sametime: users/using-sametime.md
