@@ -25,17 +25,18 @@ Most other functions are by request to support at [support@collab.cloud](mailto:
 |Modify Organisation Contact Information | `[X]` || `[X]` |||
 |Add Subscriptions to Organisation | `[X]` ||| `[X]` ||
 |Remove Subscriptions from Organisation | `[X]` |||| `[X]` |
-|View Users || `[X]` ||||
-|View Subscriptions || `[X]` ||||
 |||||||
 |<strong>User Management</strong> ||||||
-|Create Users || `[X]` ||||
-|Rename Users || `[X]` ||||
-|Update/Modify Users || `[X]` ||||
-|Delete Users | `[X]` || `[X]` |||
+|View Users || `[X]` ||||
+|View Subscriptions || `[X]` ||||
 |Reset Password || `[X]` ||||
 |Change User Role || `[X]` ||||
-|Add Subscriptions to User || `[X]` ||||
+|Set User Inactive || `[X]` ||||
+|Create Users | `[X]` || `[X]` |||
+|Rename Users | `[X]` || `[X]` |||
+|Update/Modify Users | `[X]` || `[X]` |||
+|Delete Users | `[X]` || `[X]` |||
+|Add Subscriptions to User | `[X]` || `[X]` |||
 |Remove Subscriptions from User | `[X]` || `[X]` |||
 |||||||
 |<strong>Mail</strong> ||||||
@@ -46,10 +47,10 @@ Most other functions are by request to support at [support@collab.cloud](mailto:
 |Disable Sametime Chat | `[X]` |||||
 |||||||
 |<strong>System</strong> ||||||
-|Change Theme/Colours ||| `[X]` |||
-|Add Company Logo ||| `[X]` |||
+|Change Theme/Colours |||| `[X]` ||
+|Add Company Logo |||| `[X]` ||
 |Manage IP Restrictions | `[X]` ||| `[X]` ||
-|Add Organisation Extensions | `[X]`* || `[X]` |||
+|Add Organisation Extensions | `[X]`* ||| `[X]` ||
 
 >\*Adding Organisation Extensions, or migrating Extensions from IBM Connections Cloud will need to be performed in consultation with ThreeThirds development, and may incur professional services fees. <br />
 Organizaton Administrators can add custom Extensions via the Applications Register at `https://yourtenantname.collab.cloud/appreg`
