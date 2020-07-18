@@ -3,7 +3,7 @@
 For access to the entitled software, we have a download link per datacenter.
 You need to the download link relevant to your customer datacenter, and your ThreeThirds username and password to access the download site.
 
-![Verse Status](/assets/images/screen-shots/help/downloads-eu.png)
+![Verse Status](../assets/images/screen-shots/help/downloads-eu.png)
 
 ---
 
