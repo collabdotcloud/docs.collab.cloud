@@ -1,12 +1,14 @@
 # Downloads
+
 For access to the entitled software, we have a download link per datacenter.
 You need to the download link relevant to your customer datacenter, and your ThreeThirds username and password to access the download site.
 
-<img src="/assets/images/screen-shots/help/downloads-eu.png" alt="Verse Status" />
+[Verse Status](/assets/images/screen-shots/help/downloads-eu.png)
 
 ---
 
-#### Download links
+## Download links
+
 [European datacenter - https://downloadseu.collab.cloud](https://downloadseu.collab.cloud)
 
 [US datacenter - https://downloadsna.collab.cloud](https://downloadsna.collab.cloud)
@@ -15,7 +17,7 @@ You need to the download link relevant to your customer datacenter, and your Thr
 
 ---
 
-#### Mobile apps
+## Mobile apps
 
 [Apple App Store](https://apps.apple.com/us/app/hcl-connections/id450533489)
 

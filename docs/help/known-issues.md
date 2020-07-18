@@ -30,7 +30,7 @@ The Search index is not up to date. It is being rebuilt as soon as possible. Thi
 
 ### Newsletter
 
-Wrong links in newsletters for exampl invitation to communities.
+Wrong links in newsletters for example the invitation to communities duplicates the hostname.
 
 ### Wiki
 
