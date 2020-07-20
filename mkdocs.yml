@@ -31,7 +31,10 @@ nav:
 
   - Admin Documentation:
     - Administration:
-      - Manage Organisation: admin/admin-org.md
+      - Manage Organisation:
+        - Overview: admin/admin-org.md
+        - Organisation management: admin/manage-org.md
+        - User management: admin/manage-users.md
 #      - Connections: admin/
 #      - Mail: admin/
       - Sametime: admin/admin-sametime.md
