@@ -10,9 +10,13 @@ Thank you for your understanding!
 
 ---
 
+## Spelling service is unavailable
+
+We discovered a potential performance problem due to a bug in the spelling service of the richtext editor. The spelling service will be unavailable from July 22. The vendor is currently working on a fix. We expect to get the fix during August.
+
 ## Internet Explorer 11
 
-Internet Explorer 11 is not supported on our environment. While we realize it is supported on HCL Connections 6.5 on premise, it is not on HCL Connections 6.5 Multi Tenant. We have filed a request to support this in future versions with HCL
+Internet Explorer 11 is not supported on our environment. While we realize it is supported on HCL Connections 6.5 on premise, it is not on HCL Connections 6.5 Multi Tenant. We have filed a request to support this in future versions with HCL.
 
 ## Slowness on the platform
 
