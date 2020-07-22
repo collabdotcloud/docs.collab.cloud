@@ -70,7 +70,11 @@ nav:
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
-    - Known Issues: help/known-issues.md
+    #- Known Issues: help/known-issues.md
+  - Known Issues: 
+     - "": help/known-issues.md
+  
+
 
 markdown_extensions:
   - admonition
