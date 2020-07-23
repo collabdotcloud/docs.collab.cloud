@@ -11,6 +11,8 @@ How you manage your Users depends on your Organization Account Type. Follow the 
 
 1. Provide all required information for the new user. The email must be unique. Note that you may use this form to create a guest / external user, if you do so that user will be provisioned as a connections guest and will not be able to be changed.
 
+**Note!** External users cannot be invited directly in the Community. External users needs to be created in the dialog below.
+
     ![new user](/assets/images/screen-shots/admin/new-user.png)
 
 ---

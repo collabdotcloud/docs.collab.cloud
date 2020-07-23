@@ -2,19 +2,21 @@
 
 External Users in your organisation can participate fully in things they are directly involved with, such as a file they've created or that someone has shared with them.
 
+If you like to add an external user to your Community you need to contact your company Administrator who can create them for you. Then you can add them to your Community.
+
 If you have experience from Connections on-premises you will see that The experience is similar, but not identical.
 
 ##External users - what they **CAN** do
 
 * Collaborate fully as members in Communities they are added to
 * Follow these things:
-  * Standalone Files that they uploaded, or that were shared with them
-  * These Community apps:  Files and Folders, Forums and Forum Topics, Activities, and Wikis/Wiki pages
+   Standalone Files that they uploaded, or that were shared with them
+   These Community apps:  Files and Folders, Forums and Forum Topics, Activities, and Wikis/Wiki pages
 * View and download files that are shared with them
 * Edit files in HCL Docs
 * See activity stream content to which they have access
-  * Recent Updates (and Status Updates if they are @mentioned) in Communities they are members of
-  * On homepage for content they follow, content in Communities they are members of, or posts they are @mentioned in
+* Recent Updates (and Status Updates if they are @mentioned) in Communities they are members of
+* On homepage for content they follow, content in Communities they are members of, or posts they are @mentioned in
 * "Like" content
 * Edit their profile by clicking their picture and selecting My Profile
 * View abbreviated business cards of people that share content with them (cards don't contain clickable links for employee names)
