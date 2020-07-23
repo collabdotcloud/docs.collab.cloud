@@ -46,9 +46,10 @@ nav:
       - Connections API: admin/api-clients.md
 
   - User Documentation:
-#    - Using Mail:
-#      - Getting Started: users/using-mail-gettingstarted.md
-#      - Using Mail & Verse: users/using-mail-verse.md ok
+    - Using Mail:
+      - Getting Started: users/using-mail-gettingstarted.md
+      - Using Mail & Verse: users/using-mail-verse.md
+      - HCL Verse on your Smartphone or tablet: users/verse-traveler.md
     - Using Connections:
       - Getting Started: users/using-connections-gettingstarted.md
       - Extensions:
