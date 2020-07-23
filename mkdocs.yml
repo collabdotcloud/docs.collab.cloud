@@ -30,20 +30,20 @@ nav:
   - Migration from IBM SmartCloud: ibm-migration.md
 
   - Admin Documentation:
-    - Administration:
-      - Manage Organisation:
-        - Overview: admin/admin-org.md
-        - Organisation management: admin/manage-org.md
-        - User management: admin/manage-users.md
-#      - Connections: admin/
-#      - Mail: admin/
-      - Sametime: admin/admin-sametime.md
-      - Connections API: admin/api-clients.md
+    - Manage Organisation:
+      - Overview: admin/admin-org.md
+      - Organisation Info: admin/manage-org.md
+    - Manage Users:
+      - General: admin/manage-users.md
+      - For Hybrid Customers: admin/manage-users-hybrid.md
+#      - Mail/IM Only Customers: admin/manage-users-mailim.md
     - Authentication:
       - Federated Identity Authentication with SAML: admin/auth-saml.md
+      - Sametime Client Authentication: admin/admin-sametime.md
     - Extensions:
       - WebEx: admin/extension-webex.md
-#    - Customizing: admin/
+      - Connections AppReg: admin/appreg.md
+      - Connections API: admin/api-clients.md
 
   - User Documentation:
 #    - Using Mail:
@@ -71,9 +71,9 @@ nav:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
     #- Known Issues: help/known-issues.md
-  - Known Issues: 
+  - Known Issues:
      - "": help/known-issues.md
-  
+
 
 
 markdown_extensions:

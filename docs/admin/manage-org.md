@@ -1,4 +1,4 @@
-# Manage your Organisation.
+# Manage your Organisation information.
 
 ## Updating your contact information.
 

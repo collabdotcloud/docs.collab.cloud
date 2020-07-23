@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Sametime Admin
+# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Sametime Client Authentication
 
 Administraton information for Sametime in the ThreeThirds *collab.cloud* environment.
 
