@@ -26,7 +26,5 @@ Confirm with **_Create_**
 
 
 
-
-
 ### How to Use the Software
-Information on how to use the Desktop Connector for Mac can be found on the HCL documentation website [here](https://help.hcltechsw.com/connections/v65/connectors/enduser/c_ms_plugins_win_explorer.html)
+Information on how to use the Desktop Connector for Mac can be found on the HCL documentation website [here](https://help.hcltechsw.com/connections/v65/connectors/enduser/mac_desktop_plugin_filesync_gs2_2.html)
