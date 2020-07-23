@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Verse_Master.png" alt="VerseLogo" height="30" /> Using Mail & Verse
+# <img src="/assets/images/HCL_Verse_Master.png" alt="VerseLogo" height="28" /> Using Mail & Verse
 
 ### Using Mail
 Coming soon!

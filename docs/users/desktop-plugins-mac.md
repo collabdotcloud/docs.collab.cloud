@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="30" /> HCL Connections for Mac
+# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections for Mac
 
 ## Install The Desktop Connector for Windows
 

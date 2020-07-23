@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="30" /> HCL Connections External Users
+# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections External Users
 
 External Users in your organisation can participate fully in things they are directly involved with, such as a file they've created or that someone has shared with them.
 

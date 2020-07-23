@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="30" /> Using Sametime
+# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Using Sametime
 
 ### Using Sametime from Connections
 Once authenticated to Connections the Sametime plugin will automatically be loaded. In the lower right corner the Sametime plugin can be found.

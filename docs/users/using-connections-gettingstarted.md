@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="30" /> Getting Started with Connections
+# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> Getting Started with Connections
 
 ##First Time Connecting
 

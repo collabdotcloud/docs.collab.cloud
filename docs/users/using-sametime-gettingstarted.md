@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="30" /> Getting Started with Sametime Chat
+# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Getting Started with Sametime Chat
 
 ## Connecting to __collab.cloud__ Sametime Chat
 *(Meetings coming soon)*
