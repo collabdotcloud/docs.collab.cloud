@@ -28,7 +28,7 @@ Select the data you want to sync and click **_Next_**
 
 <img src="/assets/images/screen-shots/mail/verseapp4.png" alt="Sync Data" />
 
-Depending on if you use an Apple device or an Android device you might now get a message saying you will need to grant access to your device's calendar, contacts and storage. Click Accept.
+Depending on if you use an Apple device or an Android device you might now get a message saying you will need to grant access to your device's calendar, contacts and storage. Click **_Accept_**.
 
 The sync of your mail to your device will start right away. Please note, an initial sync may take some time, depending on the amount of mail and calendar entries you have.
 
