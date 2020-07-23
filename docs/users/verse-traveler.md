@@ -32,6 +32,6 @@ Depending on if you use an Apple device or an Android device you might now get a
 
 The sync of your mail to your device will start right away. Please note, an initial sync may take some time, depending on the amount of mail and calendar entries you have.
 
-<img src="/assets/images/screen-shots/mail/verseapp6.png" alt="Verse Start Page" />
+<img src="/assets/images/screen-shots/mail/verseapp7.png" alt="Verse Start Page" />
 
 Done!
