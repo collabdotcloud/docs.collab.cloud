@@ -65,5 +65,14 @@ Clicking the reset password button gives you 2 options as follows
 
 ## Updating user info
 
-Name changes performed the via Domino (adminP) process will be synchronized with the _collab.cloud_ Admin App - however <strong>email addresses are not changed automatically</strong>.</br></br>
+Name changes performed via the Domino (adminP) process will be synchronized with the _collab.cloud_ Admin App - however <strong>email addresses are not changed automatically</strong>.</br></br>
 Please send a request to [support@collab.cloud](mailto:support@collab.cloud) for email address changes for _Clustered Mail Cloud_ users.
+
+---
+
+## Deleting Users from Domino Directory
+
+When a user is deleted from the Domino directory. The _Clustered Mail Cloud_ license is removed from the user in the Admin App via the sync process. The user remains Active until your administrator logs into the Admin App and performs further actions such as:
+
+* Add/Remove other licenses for the user if required
+* Set the user to `Inactive` if the user is intended to be deleted
