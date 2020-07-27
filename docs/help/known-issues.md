@@ -30,6 +30,18 @@ Servers are in good shape and adequately sized. We see 2 issues, thumbnails are 
 
 The Search index is not up to date. It is being rebuilt as soon as possible. This is due to constant importing of data into the databases and file system, it is impossible to keep up until migrations are finished. New content is being indexed, migrated content will be indexed with a delay
 
+## Sametime
+
+### Sametime Login
+
+The "Remember me" function in login page is not working and will result in a indefinite reload on starting the app on next day. This issue will appear on embedded Sametime within Notes client as well as in Sametime standalone client.
+Please do not use this function until this issue is solved.
+
+### Sametime Connections Plugin
+
+The Sametime Connections plugin (upper right corner) is not working as expected. Login is successful but no chat will be received if someone is ping you.
+Please use the webchat (webchatna.collab.cloud / webchateu.collab.cloud) instead until this issue is resolved
+
 ## Open Cases with HCL
 
 ### Newsletter
