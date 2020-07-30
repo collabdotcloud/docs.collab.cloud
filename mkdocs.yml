@@ -74,6 +74,8 @@ nav:
     #- Known Issues: help/known-issues.md
   - Known Issues:
      - "": help/known-issues.md
+  - Faq:
+     -Faq: help/faq.md
 
 
 
