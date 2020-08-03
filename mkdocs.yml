@@ -56,6 +56,7 @@ nav:
         - WebEx: users/using-webex-extension.md
         - Desktop Sync for Mac: users/desktop-plugins-mac.md
         - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
+      - Quotas and storage: users/quotas-storage.md  
       - Connections Mobile App: users/connections-mobile-app.md
       - External users: users/connections-external-users.md
     - Using Sametime:

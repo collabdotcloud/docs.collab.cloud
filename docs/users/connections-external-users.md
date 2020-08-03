@@ -2,9 +2,11 @@
 
 External Users in your organisation can participate fully in things they are directly involved with, such as a file they've created or that someone has shared with them.
 
-If you like to add an external user to your Community you need to contact your company Administrator who can create them for you. Then you can add them to your Community.
-
 If you have experience from Connections on-premises you will see that The experience is similar, but not identical.
+
+##Adding external users
+
+If you like to add an external user to your Community you need to contact your company Administrator who can create them for you. Then you can add them to your Community.
 
 ##External users - what they **CAN** do
 
