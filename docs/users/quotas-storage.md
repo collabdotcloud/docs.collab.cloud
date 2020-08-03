@@ -1,9 +1,8 @@
 # <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections Quota and Storage
 
 Below are the quotas and storage limits for HCL Connections Cloud:
-limits
 
-##communities
+##Communities
 
 Community Default: 50GB
 Upload limit files: 2GB
