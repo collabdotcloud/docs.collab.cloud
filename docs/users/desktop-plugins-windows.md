@@ -49,6 +49,10 @@ Please close all applications and do so if needed.
 
 <img src="/assets/images/screen-shots/connections/save-settings.png" alt="login" />
 
+### Add you Communities
+
+As the list of communities was stored on the client they could not be migrated, you will have to add them again
+
 ### How to Use the Software
 
 Information on how to use the Desktop Connector for Windows can be found on the HCL documentation website [here](https://help.hcltechsw.com/connections/v65/connectors/enduser/c_ms_plugins_win_explorer.html)
