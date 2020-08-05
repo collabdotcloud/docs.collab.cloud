@@ -46,6 +46,10 @@ Set Authentication type to "SAML" and Login type to "Browser".
 
 <img src="/assets/images/screen-shots/sametime/sametime-rich-step2.png" alt="Verse Status" width=50% />
 
+<strong>IMPORTANT:</strong><br />
+Please do NOT check the "Automatically login" checkbox. This will produce issues together with the "remember me" checkbox in login web page from collab.cloud.
+Automatically login can be set with the "remember me" checkbox on login web page.
+
 Click OK to close the settings window.
 Important: Now restart Sametime client.
 
@@ -72,10 +76,5 @@ To enable mobile chat add a new Community and add the appropriate data there:
 Save the settings and login to chat.
 
 <img src="/assets/images/screen-shots/sametime/mobile-settings.png" alt="Mobile Settings" width=50% />
-
-### Known issues
-
-* Webchat window in Connections will not open on new incoming conversation.<br />
-Please check browser settings for popup blocking and add the site to exceptions
 
 Go to [HCL's Sametime Documentation site](https://help.hcltechsw.com/sametime/sametime_welcome.html) for more information.
