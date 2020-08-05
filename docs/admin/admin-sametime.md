@@ -24,7 +24,7 @@ To manually set up Sametime embedded client for Notes - configure the following 
 |-------|-------|
 |Name|Your email address (eg. `jroberts@collab.cloud`)|
 |Password|-leave blank-|
-|Automatically Log In|-check enabled-|
+|Automatically Log In|-check disabled-|
 |Use Token Based Single Sign On|-check enabled-|
 |Authentication Server|Depends where your service is located:<br/>`https://loginna.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime` (North America)<br/>`https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime` (Europe)|
 |Authentication Type|`SAML`|
@@ -68,7 +68,7 @@ To auto-configure settings for Sametime embedded client for all users using Marv
 |-------|-------|
 |User Name|`<notes:userdetails_internetaddress>`|
 |Password|-leave blank-|
-|Automatically Log In|-check enabled-|
+|Automatically Log In|-check disabled-|
 |Use Token Based Single Sign On|-check enabled-|
 |Authentication Server|Depends where your service is located:<br/>`https://loginna.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime` (North America)<br/>`https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients/sametime` (Europe)|
 |Authentication Type|`SAML`|
