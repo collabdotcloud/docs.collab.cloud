@@ -20,7 +20,7 @@ Internet Explorer 11 is not supported on our environment. While we realize it is
 
 ## Slowness on the platform
 
-We see a slowness on the platform, this is expected. We are transferring many customers and terabytes of data on the same disks Connections is using. At the same time search is indexing all new content we bulk add.
+Now that all the migrations are finished, we have started working on performance improvements, we gave priority to the EU datacenter as that one was suffering most, but our focus is now on US
 
 ## Slowness on Viewing Documents
 
