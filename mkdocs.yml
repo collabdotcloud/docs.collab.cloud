@@ -44,6 +44,7 @@ nav:
       - WebEx: admin/extension-webex.md
       - Connections AppReg: admin/appreg.md
       - Connections API: admin/api-clients.md
+      - Desktop Connector: admin/desktop-connector-windows.md
 
   - User Documentation:
     - Using Mail:
@@ -56,7 +57,7 @@ nav:
         - WebEx: users/using-webex-extension.md
         - Desktop Sync for Mac: users/desktop-plugins-mac.md
         - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
-      - Quotas and storage: users/quotas-storage.md  
+      - Quotas and storage: users/quotas-storage.md
       - Connections Mobile App: users/connections-mobile-app.md
       - External users: users/connections-external-users.md
     - Using Sametime:
