@@ -55,3 +55,7 @@ Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong 
 ### Files search results
 
 The searchresults for community files show an inaccessible link for communities.
+
+### Mobile Administration not available
+
+The mobile Administration does not work at the moment.
