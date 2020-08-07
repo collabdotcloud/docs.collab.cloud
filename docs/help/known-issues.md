@@ -56,6 +56,18 @@ Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong 
 
 The searchresults for community files show an inaccessible link for communities.
 
+### Header in xcc and Search
+
+The apps in the header for xcc and search point to the sorry page.
+
 ### Mobile Administration not available
 
 The mobile Administration does not work at the moment.
+
+### External Feeds in XCC
+
+External feeds don't show at the moment.
+
+### @Mention point to the wrong url
+
+Clicking on a @Mentions shows an access denied message, because it points to the wrong url. Hovering over the @Mention shows the correct profile.
