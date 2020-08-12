@@ -66,38 +66,38 @@ There is currently an issue with the Connections newsletter sent out by the plat
 
 For example, the links will point to organisation.organisation.collab.cloud instead of organisation.collab.cloud.
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 ## Wiki
 
 Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong links
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 
 ## Files search results
 
 The search results for community files show an inaccessible link for communities.
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 
 ## Header in XCC and Search
 
 The apps in the header for xcc and search point to the sorry page.
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 
 ## Mobile Administration not available
 
 The mobile Administration does not work at the moment.
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 
 ## External Feeds in XCC
 
 External feeds don't show at the moment.
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 ## @Mention point to the wrong url
 
 Clicking on a @Mentions shows an access denied message, because it points to the wrong url. Hovering over the @Mention shows the correct profile.
 
-We currently have an open case with HCL to resolve this issue.
+This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
