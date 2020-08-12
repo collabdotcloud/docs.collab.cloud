@@ -75,7 +75,7 @@ This is an issue with the HCL Connections for Multi-Tenant code. We currently ha
 
 ## Files search results
 
-The search results for community files show an inaccessible link for communities.
+Occasionally when searching for files in Community Files, there will be invalid links in the search results. Clicking the link will lead to an access denied error. 
 
 This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
 
@@ -96,8 +96,9 @@ This is an issue with the HCL Connections for Multi-Tenant code. We currently ha
 External feeds don't show at the moment.
 
 This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
-## @Mention point to the wrong url
+## @Mention Functionality Generating an Invalid URL
+When mentioning other people in your organisation via the @Mention feature, the generated link is invalid. Clicking on the link to the user will result in an access denied message.
 
-Clicking on a @Mentions shows an access denied message, because it points to the wrong url. Hovering over the @Mention shows the correct profile.
+Hovering over the link still shows the correct profile.
 
 This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.
