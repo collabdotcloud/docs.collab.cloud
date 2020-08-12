@@ -1,73 +1,103 @@
 # Known Issues
+This page documents the issues on the ThreeThirds collaboration platform that we are aware of, in the interest of providing transparency and maintaining communication with our customers. 
 
-Below are the current known platform issues within the ThreeThirds collaboration platform. Please email [support@collab.cloud](mailto:support@collab.cloud) to report defects within the platform.
+Please email [support@collab.cloud](mailto:support@collab.cloud) to report any defects that are not listed here. Please also feel welcome to email if you are unsure, or feel that the issue you are experiencing does not quite match up with a known issue documented on this page.
 
-Keep in mind that we are starting with a fresh empty environment where we import thousands of users and a massive amount of data into, very fast. This can during the migration period temporarily cause slowness and other minor hickups on the platform, before all users and all data is migrated.
+Please keep in mind that we have started with a fresh empty environment and have imported thousands of users and a massive amount of data into it in a very short time. During the migration period this temporarily caused slowness and other hiccups on the platform that should now be resolved.
 
-We kindly ask for your patience as we are working as fast as we can to get all customers migrated before the hard deadline.
-
-Thank you for your understanding!
+Thank you for your continued patience and understanding!
 
 ---
 
-## Spelling service is unavailable
 
-We discovered a potential performance problem due to a bug in the spelling service of the richtext editor. The spelling service will be unavailable from July 22. The vendor is currently working on a fix. We expect to get the fix during August.
+## Internet Explorer 11 is not Supported
+Internet Explorer 11 is not supported in our environment. While we realise it is supported in HCL Connections 6.5 on premise, it is not in HCL Connections 6.5 Multi-Tenant. 
 
-## Internet Explorer 11
+For now, customers must use a supported browser such as Google Chrome, Firefox, or Safari.
 
-Internet Explorer 11 is not supported on our environment. While we realize it is supported on HCL Connections 6.5 on premise, it is not on HCL Connections 6.5 Multi Tenant. We have filed a request to support this in future versions with HCL.
+We have filed a request with HCL to support this in future versions of the Connections application.
 
-## Slowness on the platform
+## The Survey Functionality is not Available 
+In the previous Connections Cloud platform, there was a survey feature. This is unfortunately not available in the HCL Connections 6.5 Multi-Tenant code. We understand that some customers made significant use of this feature and will want to know whether the functionality will be provided in the future. 
 
-Now that all the migrations are finished, we have started working on performance improvements, we gave priority to the EU datacenter as that one was suffering most, but our focus is now on US
+We have contacted HCL regarding this and will update customers as soon as we receive further information.
 
-## Slowness on Viewing Documents
+## Very Short Timeouts in the Connections Engagement Centre
+There is an issue with very short session timeouts in the Connections Engagement Centre which is affecting a number of customers in both the EU and US data centres. This results in a login box appearing which does not accept any credentials.
 
-Servers are in good shape and adequately sized. We see 2 issues, thumbnails are constantly being generated for the millions of files we are importing. We also think there is a bug or configuration issue on one of the servers. We are giving this topic our highest priority right now.
+We have taken a number of steps ourselves to resolve this issue and we have now opened a case with HCL. Updates will be provided as soon as the problem is resolved.
 
-## Search
+## Platform Performance Issues 
+Now that all the migrations are finished, we have started working on performance improvements as a priority to improve the customer experience. We initially prioritised the EU datacenter as that was suffering the most, and EU-based customers should now notice significantly improved performance across the platform. 
 
-The Search index is not up to date. It is being rebuilt as soon as possible. This is due to constant importing of data into the databases and file system, it is impossible to keep up until migrations are finished. New content is being indexed, migrated content will be indexed with a delay
+Our focus is now on improving the performance for our US-based customers.
 
-## Sametime
+## Performance Issues when Viewing Documents
+Our infrastructure has adequate capacity to support the document viewing and editing capabilities of Connections. However there are two issues causing noticable performance issues when working with documents:
 
-### Sametime Login
+1. File thumbnails are constantly being generated for the millions of files we are importing. 
+2. There may be a bug or configuration issue on one of the servers. 
 
-The "Remember me" function in login page is not working and will result in a indefinite reload on starting the app on next day. This issue will appear on embedded Sametime within Notes client as well as in Sametime standalone client.
-Please do not use this function until this issue is solved.
+We are prioritising this issue as we realise the importance of the document capabilities to our customers.
 
-### Sametime Connections Plugin
+## Issues with Search
+Platform content is not fully indexed which means some content will not appear in search results. The search index is constantly being rebuilt however due to the influx of data into the databases and the server file system, it was impossible to keep up until migrations were finished. Now that they are, the indexing process can begin catching up. 
 
-The Sametime Connections plugin (upper right corner) is not working as expected. Login is successful but no chat will be received if someone is ping you.
-Please use the webchat (webchatna.collab.cloud / webchateu.collab.cloud) instead until this issue is resolved
+New content is being indexed, however migrated content will be indexed with a delay.
 
-## Open Cases with HCL
+## The Spelling Service is Currently Unavailable
+We discovered a potential performance problem due to a bug in the spelling service of the richtext editor. As a result, the spelling service is unavailable from July 22. 
 
-### Newsletter
+The vendor is currently working on a fix. We expect to receive the fix during August.
 
-Wrong links in newsletters for example the invitation to communities duplicates the hostname.
+## Indefinite Reloads when Starting Sametime in both HCL Notes and the Standalone Client 
+The "Remember me" function in login page is not working and will result in a indefinite reload on starting the app on next day. This issue will appear in the embedded Sametime within the Notes client as well as in the Sametime standalone client.
 
-### Wiki
+Please do not use the "Remember me" function until this issue is resolved.
+
+## The Sametime Connections Plugin is Unavailable 
+The Sametime Connections plugin that provides instant messaging capabilities within your Connections site is currently not working as expected. You will be able to login, however you will not be able to receive messages.
+
+Please use Sametime webchat available at [webchatna.collab.cloud](https://webchatna.collab.cloud) (for US-based customers) or [webchateu.collab.cloud](https://webchateu.collab.cloud) (for EU-based customers) until this issue is resolved.
+
+## Invalid Links in the Connections Newsletter
+
+There is currently an issue with the Connections newsletter sent out by the platform. Links in the newsletter will duplicate the hostname leading to an invalid link.
+
+For example, the links will point to organisation.organisation.collab.cloud instead of organisation.collab.cloud.
+
+We currently have an open case with HCL to resolve this issue.
+## Wiki
 
 Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong links
 
-### Files search results
+We currently have an open case with HCL to resolve this issue.
 
-The searchresults for community files show an inaccessible link for communities.
+## Files search results
 
-### Header in xcc and Search
+The search results for community files show an inaccessible link for communities.
+
+We currently have an open case with HCL to resolve this issue.
+
+## Header in XCC and Search
 
 The apps in the header for xcc and search point to the sorry page.
 
-### Mobile Administration not available
+We currently have an open case with HCL to resolve this issue.
+
+## Mobile Administration not available
 
 The mobile Administration does not work at the moment.
 
-### External Feeds in XCC
+We currently have an open case with HCL to resolve this issue.
+
+## External Feeds in XCC
 
 External feeds don't show at the moment.
 
-### @Mention point to the wrong url
+We currently have an open case with HCL to resolve this issue.
+## @Mention point to the wrong url
 
 Clicking on a @Mentions shows an access denied message, because it points to the wrong url. Hovering over the @Mention shows the correct profile.
+
+We currently have an open case with HCL to resolve this issue.
