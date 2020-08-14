@@ -45,3 +45,9 @@ The maximum allowed upload size is 2000MB.
 **Q. Why is my Notes plugin for Connections not working?**
 
 **A.** Unfortunately the Notes plugin for Connections is not currently supported by HCL Connections Multi-Tenant.
+
+**Q. When creating new users in the admin app, strange IDs are shown for them. Is this correct?**
+
+![id-comparison](/assets/images/screen-shots/admin/id-comparison.png)
+
+**A.** Yes, this is correct. As you can see in the above screenshot, SmartCloud IDs weren't consistent regarding length. We decided to use a more technical but consistent pattern. As a side effect, you can easely distinguish between migrated and new users.
