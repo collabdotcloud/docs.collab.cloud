@@ -69,4 +69,14 @@ On the right hand side you will find a menu with lots of functionality. From the
 
 ###Assign tasks to users, filter tasks with colours
 
-An Activity can be a private activity where only the creator of the activity can view and work in it. You can also add colleagues to your  
+An Activity can be a private activity where only the creator of the activity can view and work in it. You can also add colleagues to your activity for easy team collaboration and accelerate your work.
+
+See all members in the Community on the right hand side
+
+<img src="/assets/images/screen-shots/aplus/aplus-members.png" alt="Members" />
+
+To add members to the Activity, open the members menu by clicking on **_Members_**
+
+<img src="/assets/images/screen-shots/aplus/aplus-members-menu.png" alt="Members menu" />
+
+Add members by searching for the name in the name field. Choose 
