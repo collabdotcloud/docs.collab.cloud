@@ -1,6 +1,6 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /><img src="/assets/images/HCL_Verse_Master.png" alt="VerseLogo" height="28" /> Hello!
+#Hello!
 
-Welcome to our user guides for the ThreeThirds Collaboration Cloud.
+##Welcome to our user guides for the ThreeThirds Collaboration Cloud.
 
 Here you will find useful information how to use Mail, Connections, Sametime, Activities Plus and more.
 
