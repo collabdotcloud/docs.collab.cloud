@@ -65,7 +65,3 @@ Once the new Activity is created you will see and be able to work in this Activi
 You can also work in this Activity if you go to the Activities Plus homepage. If you open the Member section of the Activiy, you will see that the Community now is a Member of this Activity.
 
 ___
-
-##For more information, tips and tricks on how to work with Activities in Activities Plus
-
-[Click here](https://docs.collab.cloud/users/aplus-tips-and-tricks/)

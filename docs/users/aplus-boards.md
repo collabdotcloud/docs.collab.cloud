@@ -8,7 +8,7 @@ Work in your existing activities but in a enhanced, more visual view. Experience
 
 Get your tasks done with Activities on steroids!
 
-Start a 30 day free test period by clicking on **_Board_**, **_Timeline_** or **_Mindmap_** in the right hand side in Activities Plus.
+Start a 30 day free test period by clicking on **_Board_**, **_Timeline_** or **_Mindmap_** in the right hand side in Activities Plus or contact us at [support@collab.cloud](mailto:support@collab.cloud)
 
 ##Boards view
 
@@ -56,4 +56,4 @@ We welcome you to test Kudos Boards today.
 
 Start your 30 days free today by clicking on **_Board_**, **_Timeline_** or **_Mindmap_** in the right hand side in Activities Plus.
 
-Or send us an email and we will contact you shortly! support@collab.cloud
+Or send us an email and we will contact you shortly! [support@collab.cloud](mailto:support@collab.cloud)
