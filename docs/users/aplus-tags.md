@@ -4,4 +4,6 @@ A good way of filtering and sorting tasks is to put colour tags or labels on the
 
 Click on **_Colours_** in the right hand side menu to name or edit them, then drag and drop them up on a task.
 
-Filter the tasks by clicking on one of the colours. 
+Filter the tasks by clicking on one of the colours.
+
+<img src="/assets/images/screen-shots/aplus/aplus-colotags.png" alt="Activities Plus start page"/>
