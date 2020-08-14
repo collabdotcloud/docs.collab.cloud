@@ -10,7 +10,7 @@ Both lists and tasks can be moved around up and down by drag and drop. A task ca
 
 ___
 
-###Several ways of working with an activity
+##Several ways of working with an activity
 
 <img src="/assets/images/screen-shots/aplus/aplus-right-menu.png" alt="Right menu" />
 
@@ -33,3 +33,15 @@ On the right hand side you will find a menu with lots of functionality. From the
 * **Members** Here are all members of this activity. Open the member menu by clicking on it.
 
 * **Colours** These are colour tags you can drag and drop onto the tasks. Click on the menu to edit the tags.
+
+___
+
+##Adding lists and tasks
+
+Add tasks to your activity by clicking **_Add a Card_** at the bottom of the lists.
+
+Add lists to your activity by clicing **_Add a List_** at the bottom of the activity.
+
+<img src="/assets/images/screen-shots/aplus/aplus-add.png" alt="Add cards and lists" />
+
+___

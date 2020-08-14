@@ -19,9 +19,3 @@ I am a user and want to learn how to **access my existing Activities** in Connec
 I am a Community Manager and I want to learn how to **add the Activities Plus widget** into a Community
 
 [Click here](https://docs.collab.cloud/users/aplus-for-comm-managers)
-
-### How To Work in Activities Plus
-
-I want to **learn how to use Activities Plus**. Tips, tricks and useful guides.
-
-[Click here](https://docs.collab.cloud/users/aplus-tips-and-tricks/)
