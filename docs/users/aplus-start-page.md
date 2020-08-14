@@ -2,7 +2,7 @@
 
 Once you have clicked on Activities Plus in the menu bar in HCL Connections you end up on Activities Plus Start Page.
 
-Her you can access all your existing activities or create new ones.
+Here you can access all your existing activities or create new ones.
 
 ___
 
@@ -22,7 +22,7 @@ The picture below shows a start page with colourful tiles. Each tile is one acti
 
 * Sort activities by **_Recent_** and **_Last accessed_**
 
-* Add colour labels to the activities for easy sorting and filtering. Click on **_Colours_** to name them, drag and drop them up on an activity tile. After that, filter by clicking on one of the colours.
+* **Colours** These are colour tags you can drag and drop onto the tiles. Click on the menu to edit the tags.
 
 * Add tags to the activities for easy sorting and filtering in the same way as with colours above.
 

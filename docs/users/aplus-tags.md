@@ -6,4 +6,4 @@ Click on **_Colours_** in the right hand side menu to name or edit them, then dr
 
 Filter the tasks by clicking on one of the colours.
 
-<img src="/assets/images/screen-shots/aplus/aplus-colotags.png" alt="Activities Plus start page"/>
+<img src="/assets/images/screen-shots/aplus/aplus-colotags.png" alt="Colour tags"/>
