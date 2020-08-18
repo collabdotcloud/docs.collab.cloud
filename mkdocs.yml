@@ -45,6 +45,7 @@ nav:
       - Connections AppReg: admin/appreg.md
       - Connections API: admin/api-clients.md
       - Desktop Connector: admin/desktop-connector-windows.md
+      - Engagement Center: admin/icec-feeds.md
 
   - User Documentation:
     - Hello: users/hello.md
@@ -79,7 +80,7 @@ nav:
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
-    #- Known Issues: help/known-issues.md
+    
   - Known Issues:
      - "": help/known-issues.md
   - Faq:

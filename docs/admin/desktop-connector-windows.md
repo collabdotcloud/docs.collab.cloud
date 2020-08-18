@@ -1,11 +1,12 @@
-##Removing the Previous Connections Cloud Configuration
-###An Important Note on Pinned Folders
+## Removing the Previous Connections Cloud Configuration
+
+### An Important Note on Pinned Folders
 
 Prior to removing the Connections Cloud site from your desktop plugin, please ensure that you have removed all pinned folders pointing to Connections Cloud. It is very difficult to remove these after the Connections Cloud site has been removed from the plugin.
 
 ### Standard Method
-There are some known issues removing the old Connections Cloud configuration from the desktop connector. The recommended procedure for disconnecting the old Connections Cloud configuration is the following:
 
+There are some known issues removing the old Connections Cloud configuration from the desktop connector. The recommended procedure for disconnecting the old Connections Cloud configuration is the following:
 
 1. Open Windows Explorer.
 2. In the left navigation pane, find and expand the Connections plugin item.
@@ -30,7 +31,7 @@ The default behaviour of the HCL Connections Desktop Plugin for Windows is to ma
 2. Uninstall the plugin.
 3. If there is still a node (e.g. "My Drive on &lt;Server Name&gt;") in the left navigation pane of Windows Explorer that cannot be deleted, then you must follow the process below. **Otherwise, proceed directly to step four.**
 
-    1. Identify the classid value for the node. This is found under the "RegCLSID" key in the registry at `HKEY_CURRENT_USER\SOFTWARE\IBM\Social Connectors\Servers\<Server Number>\SyncLibraries\1`. 
+    1. Identify the classid value for the node. This is found under the "RegCLSID" key in the registry at `HKEY_CURRENT_USER\SOFTWARE\IBM\Social Connectors\Servers\<Server Number>\SyncLibraries\1` .
 
         Alternatively you can find it at: `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace` under a subkey that will have String value data that matches the name of the node you are trying to remove. The name of that subkey is the classid value. Save it somewhere, as you will require it later.
 
@@ -42,26 +43,22 @@ The default behaviour of the HCL Connections Desktop Plugin for Windows is to ma
         2. `HKEY_CURRENT_USER\SOFTWARE\Classes\Wow6432Node\CLSID\<classid>`
         3. `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Namespace\<classid>`
         4. `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\<classid>`
-
     3. Restart Windows Explorer via the Task Manager, or restart the computer and verify that the node is now gone.
 
-4. Delete the LFFiles directory at `C:\Users\%USERNAME%\LFFiles`.
+4. Delete the LFFiles directory at `C:\Users\%USERNAME%\LFFiles` .
 
 5. Delete the contents of the Windows temp diretory: `C:\Users\%USERNAME%\AppData\Local\Temp`
-
-6. Delete the following registry keys and everything under them. 
+6. Delete the following registry keys and everything under them.
 
     1. `HKEY_CURRENT_USER\SOFTWARE\IBM\Social Connectors`
     2. `HKEY_CURRENT_USER\SOFTWARE\IBM\Social Document Management`
     3. `HKEY_LOCAL_MACHINE\SOFTWARE\IBM\Social Connectors`
     4. `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\IBM\Social Connectors`
-
 7. Delete the following folders if they exist:
     1. `C:\Users\%USERNAME%\AppData\Local\HCL\FileSync`
     2. `C:\Users\%USERNAME%\AppData\Local\IBM\FileSync`
     3. `C:\Users\%USERNAME%\HCL Connections Sync`
     4. `C:\Users\%USERNAME%\IBM Connections Sync`
-
 8. Restart the computer.
 
 9. Reinstall the plugin.
