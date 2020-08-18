@@ -17,7 +17,7 @@
         <meta name="author" content="Jared Roberts">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.1">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.3">
     
     
       
@@ -25,9 +25,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.71dfd922.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6e35a1a6.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.616af814.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a46bcfb3.min.css">
       
       
         
@@ -653,6 +653,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../icec-feeds/" title="Engagement Center" class="md-nav__link">
+      Engagement Center
+    </a>
   </li>
 
         
@@ -1367,7 +1379,7 @@
 <p>If there is still a node (e.g. "My Drive on &lt;Server Name&gt;") in the left navigation pane of Windows Explorer that cannot be deleted, then you must follow the process below. <strong>Otherwise, proceed directly to step four.</strong></p>
 <ol>
 <li>
-<p>Identify the classid value for the node. This is found under the "RegCLSID" key in the registry at <code>HKEY_CURRENT_USER\SOFTWARE\IBM\Social Connectors\Servers\&lt;Server Number&gt;\SyncLibraries\1</code>. </p>
+<p>Identify the classid value for the node. This is found under the "RegCLSID" key in the registry at <code>HKEY_CURRENT_USER\SOFTWARE\IBM\Social Connectors\Servers\&lt;Server Number&gt;\SyncLibraries\1</code> .</p>
 <p>Alternatively you can find it at: <code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace</code> under a subkey that will have String value data that matches the name of the node you are trying to remove. The name of that subkey is the classid value. Save it somewhere, as you will require it later.</p>
 <p>Note that there is a chance there will not be a subkey with a String value that matches the name of the node you are trying to remove. In this case, the subkey you are looking for is the one which has no default value, and you need to save the name of that subkey.</p>
 </li>
@@ -1377,40 +1389,34 @@
 <li><code>HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\&lt;classid&gt;</code></li>
 <li><code>HKEY_CURRENT_USER\SOFTWARE\Classes\Wow6432Node\CLSID\&lt;classid&gt;</code></li>
 <li><code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Namespace\&lt;classid&gt;</code></li>
-<li><code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\&lt;classid&gt;</code></li>
+<li><code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\&lt;classid&gt;</code><ol>
+<li>Restart Windows Explorer via the Task Manager, or restart the computer and verify that the node is now gone.</li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 </li>
 <li>
-<p>Restart Windows Explorer via the Task Manager, or restart the computer and verify that the node is now gone.</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Delete the LFFiles directory at <code>C:\Users\%USERNAME%\LFFiles</code>.</p>
+<p>Delete the LFFiles directory at <code>C:\Users\%USERNAME%\LFFiles</code> .</p>
 </li>
 <li>
 <p>Delete the contents of the Windows temp diretory: <code>C:\Users\%USERNAME%\AppData\Local\Temp</code></p>
 </li>
 <li>
-<p>Delete the following registry keys and everything under them. </p>
+<p>Delete the following registry keys and everything under them.</p>
 <ol>
 <li><code>HKEY_CURRENT_USER\SOFTWARE\IBM\Social Connectors</code></li>
 <li><code>HKEY_CURRENT_USER\SOFTWARE\IBM\Social Document Management</code></li>
 <li><code>HKEY_LOCAL_MACHINE\SOFTWARE\IBM\Social Connectors</code></li>
 <li><code>HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\IBM\Social Connectors</code></li>
-</ol>
-</li>
-<li>
-<p>Delete the following folders if they exist:</p>
-<ol>
+<li>Delete the following folders if they exist:</li>
 <li><code>C:\Users\%USERNAME%\AppData\Local\HCL\FileSync</code></li>
 <li><code>C:\Users\%USERNAME%\AppData\Local\IBM\FileSync</code></li>
 <li><code>C:\Users\%USERNAME%\HCL Connections Sync</code></li>
 <li><code>C:\Users\%USERNAME%\IBM Connections Sync</code></li>
+<li>Restart the computer.</li>
 </ol>
-</li>
-<li>
-<p>Restart the computer.</p>
 </li>
 <li>
 <p>Reinstall the plugin.</p>
@@ -1450,13 +1456,13 @@
           </a>
         
         
-          <a href="../../users/hello/" title="Hello" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../icec-feeds/" title="Engagement Center" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Hello
+                Engagement Center
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -1515,14 +1521,14 @@
     </div>
     
       <script src="../../assets/javascripts/vendor.d710d30a.min.js"></script>
-      <script src="../../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/bundle.a45f732b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: ["tabs"],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.27c6a5e6.min.js"
+            worker: "../../assets/javascripts/worker/search.c03f0417.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
