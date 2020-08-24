@@ -22,6 +22,9 @@ In the previous Connections Cloud platform, there was a survey feature. This is 
 
 *We have contacted HCL regarding this and will update customers as soon as we receive further information.*
 
+*UPDATE: Statement from HCL:
+Survey data was excluded from the beginning. I remember that we discussed the feasibility a couple of times but we decided not to pursue survey export with the approaching deadline. This has also been communicated in various calls. Our [documentation](https://www.cwpcollaboration.com/blogs/a-qa-about-moving-ahead-with-connections-cloud-practical-next-steps) also lists Surveys as out of scope.*
+
 ## Very Short Timeouts in the Connections Engagement Centre
 There is an issue with very short session timeouts in the Connections Engagement Centre which is affecting a number of customers in both the EU and US data centres. This results in a login box appearing which does not accept any credentials.
 
@@ -102,7 +105,4 @@ The "long description" field is not currently available in Activities Plus. Cust
  
 *This is an issue that is occurring with the HCL Connections API. We currently have an open case with HCL to resolve this issue.*
 
-## Surveys are Unavailable
-The Survey app as well as the Survey data are unavailable. See below statement from HCL.
 
-*Survey data was excluded from the beginning. I remmember that we discussed the feasibility a couple of times but we decided not to pursue survey export with the approaching deadline. This has also been communicated in various calls. Our [documentation](https://www.cwpcollaboration.com/blogs/a-qa-about-moving-ahead-with-connections-cloud-practical-next-steps) also lists Surveys as out of scope.*
