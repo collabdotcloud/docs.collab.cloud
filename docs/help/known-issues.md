@@ -101,3 +101,8 @@ Hovering over the link still shows the correct profile.
 The "long description" field is not currently available in Activities Plus. Customers may experience either missing data or an error 404 when trying to access the long description field of an Activity. This is due to a problem we are experiencing with the HCL Connections API which is preventing us from importing the long description data into Activities Plus.
  
 *This is an issue that is occurring with the HCL Connections API. We currently have an open case with HCL to resolve this issue.*
+
+## Surveys are Unavailable
+The Survey app as well as the Survey data are unavailable. See below statement from HCL.
+
+*Survey data was excluded from the beginning. I remmember that we discussed the feasibility a couple of times but we decided not to pursue survey export with the approaching deadline. This has also been communicated in various calls. Our [documentation](https://www.cwpcollaboration.com/blogs/a-qa-about-moving-ahead-with-connections-cloud-practical-next-steps) also lists Surveys as out of scope.*
