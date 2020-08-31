@@ -73,6 +73,7 @@ nav:
       - Working with an activity: users/aplus-view.md
       - Members and assigning of tasks: users/aplus-members.md
       - Colour tags and filtering: users/aplus-tags.md
+      - Member roles: users/aplus-roles.md
       - Activities Plus Mobile App: users/aplus-mobile-app.md
       - Activities Plus Free Onboarding session: users/aplus-learning.md
       - Kudos Boards (premium experience): users/aplus-boards.md
@@ -80,7 +81,7 @@ nav:
   - Help:
     - Troubleshooting & Support: help/troubleshooting-support.md
     - Downloads: help/downloads.md
-    
+
   - Known Issues:
      - "": help/known-issues.md
   - Faq:
