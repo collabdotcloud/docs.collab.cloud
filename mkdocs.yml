@@ -30,64 +30,63 @@ nav:
   - Migration from IBM SmartCloud: ibm-migration.md
 
   - Admin Documentation:
-    - Manage Organisation:
-      - Overview: admin/admin-org.md
-      - Organisation Info: admin/manage-org.md
-    - Manage Users:
-      - General: admin/manage-users.md
-      - For Hybrid Customers: admin/manage-users-hybrid.md
-#      - Mail/IM Only Customers: admin/manage-users-mailim.md
-    - Authentication:
-      - Federated Identity Authentication with SAML: admin/auth-saml.md
-      - Sametime Client Authentication: admin/admin-sametime.md
-    - Extensions:
-      - WebEx: admin/extension-webex.md
-      - Connections AppReg: admin/appreg.md
-      - Connections API: admin/api-clients.md
-      - Desktop Connector: admin/desktop-connector-windows.md
-      - Engagement Center: admin/icec-feeds.md
+      - Manage Organisation:
+          - Overview: admin/admin-org.md
+          - Organisation Info: admin/manage-org.md
+      - Manage Users:
+          - General: admin/manage-users.md
+          - For Hybrid Customers: admin/manage-users-hybrid.md
+      #      - Mail/IM Only Customers: admin/manage-users-mailim.md
+      - Authentication:
+          - Federated Identity Authentication with SAML: admin/auth-saml.md
+          - Sametime Client Authentication: admin/admin-sametime.md
+      - Extensions:
+          - WebEx: admin/extension-webex.md
+          - Connections AppReg: admin/appreg.md
+          - Connections API: admin/api-clients.md
+          - Desktop Connector: admin/desktop-connector-windows.md
+          - Engagement Center: admin/icec-feeds.md
+      # - Latest Changes: admin/admin-latest-changes.md
 
   - User Documentation:
-    - Hello: users/hello.md
-    - Using Mail:
-      - Getting Started: users/using-mail-gettingstarted.md
-      - Using Mail & Verse: users/using-mail-verse.md
-      - HCL Verse on your Smartphone or tablet: users/verse-traveler.md
-    - Using Connections:
-      - Getting Started: users/using-connections-gettingstarted.md
-      - Extensions:
-        - WebEx: users/using-webex-extension.md
-        - Desktop Sync for Mac: users/desktop-plugins-mac.md
-        - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
-      - Quotas and storage: users/quotas-storage.md
-      - Connections Mobile App: users/connections-mobile-app.md
-      - External users: users/connections-external-users.md
-    - Using Sametime:
-      - Getting Started: users/using-sametime-gettingstarted.md
-      - Using Sametime: users/using-sametime.md
-    - Using Activities Plus:
-      - Getting Started: users/aplus-gettingstarted.md
-      - Accessing Activities Plus: users/aplus-for-users.md
-      - For Community Managers: users/aplus-for-comm-managers.md
-      - Start page: users/aplus-start-page.md
-      - Working with an activity: users/aplus-view.md
-      - Members and assigning of tasks: users/aplus-members.md
-      - Colour tags and filtering: users/aplus-tags.md
-      - Member roles: users/aplus-roles.md
-      - Activities Plus Mobile App: users/aplus-mobile-app.md
-      - Activities Plus Free Onboarding session: users/aplus-learning.md
-      - Kudos Boards (premium experience): users/aplus-boards.md
+      - Hello: users/hello.md
+      - Using Mail:
+          - Getting Started: users/using-mail-gettingstarted.md
+          - Using Mail & Verse: users/using-mail-verse.md
+          - HCL Verse on your Smartphone or tablet: users/verse-traveler.md
+      - Using Connections:
+          - Getting Started: users/using-connections-gettingstarted.md
+          - Extensions:
+              - WebEx: users/using-webex-extension.md
+              - Desktop Sync for Mac: users/desktop-plugins-mac.md
+              - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
+          - Quotas and storage: users/quotas-storage.md
+          - Connections Mobile App: users/connections-mobile-app.md
+          - External users: users/connections-external-users.md
+      - Using Sametime:
+          - Getting Started: users/using-sametime-gettingstarted.md
+          - Using Sametime: users/using-sametime.md
+      - Using Activities Plus:
+          - Getting Started: users/aplus-gettingstarted.md
+          - Accessing Activities Plus: users/aplus-for-users.md
+          - For Community Managers: users/aplus-for-comm-managers.md
+          - Start page: users/aplus-start-page.md
+          - Working with an activity: users/aplus-view.md
+          - Members and assigning of tasks: users/aplus-members.md
+          - Colour tags and filtering: users/aplus-tags.md
+          - Member roles: users/aplus-roles.md
+          - Activities Plus Mobile App: users/aplus-mobile-app.md
+          - Activities Plus Free Onboarding session: users/aplus-learning.md
+          - Kudos Boards (premium experience): users/aplus-boards.md
 
   - Help:
-    - Troubleshooting & Support: help/troubleshooting-support.md
-    - Downloads: help/downloads.md
+      - Troubleshooting & Support: help/troubleshooting-support.md
+      - Downloads: help/downloads.md
 
   - Known Issues:
-     - "": help/known-issues.md
+      - "": help/known-issues.md
   - Faq:
-     - "": help/faq.md
-
-
+      - "": help/faq.md
 
 markdown_extensions:
   - admonition
@@ -98,7 +97,6 @@ markdown_extensions:
 
 extra_css:
   - "/assets/css/custom.css"
-
 #google_analytics:
 #  - "INSERT CODE FROM GOOGLE SITE ADMIN"
 #  - "auto"
