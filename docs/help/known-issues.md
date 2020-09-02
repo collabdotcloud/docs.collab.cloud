@@ -105,4 +105,19 @@ The "long description" field is not currently available in Activities Plus. Cust
  
 *This is an issue that is occurring with the HCL Connections API. We currently have an open case with HCL to resolve this issue.*
 
+## Error 500 in Desktop plugin when trying to connect
+Delete cache in Internet Options
 
+Open "Internet Options" either via Internet Explorer - Tools, or via searching for it in Windows
+
+Click "Delete..."
+
+![id-comparison](/assets/images/screen-shots/desktopplugin/inet-options2.png)
+
+Make sure you select at least "Temporary Internet files and website files" and "Cookies and website data"
+
+Click "Delete
+
+![id-comparison](/assets/images/screen-shots/desktopplugin/inet-options3.png)
+
+Try again to connect

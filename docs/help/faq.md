@@ -51,3 +51,4 @@ The maximum allowed upload size is 2000MB.
 ![id-comparison](/assets/images/screen-shots/admin/id-comparison.png)
 
 **A.** Yes, this is correct. As you can see in the above screenshot, SmartCloud IDs weren't consistent regarding length. We decided to use a more technical but consistent pattern. As a side effect, you can easely distinguish between migrated and new users.
+
