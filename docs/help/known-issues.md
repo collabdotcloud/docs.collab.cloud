@@ -105,6 +105,11 @@ The "long description" field is not currently available in Activities Plus. Cust
  
 *This is an issue that is occurring with the HCL Connections API. We currently have an open case with HCL to resolve this issue.*
 
+## Activities Plus Community Widget doesn't work in Safari
+There is a limitation imposed by Apple which stops the Kudos Boards Community Widget from getting users cookies and therefore is stopping Authentication between Kudos Boards Cloud and HCL Connections.
+The only solution is to disable the "Prevent cross-site tracking" option on the user's computer under Safari => Preferences => Privacy.
+![Safari Privacy](/assets/images/screen-shots/aplus/safari_cookies.png)
+
 ## Error 500 in Desktop plugin when trying to connect
 Delete cache in Internet Options
 
