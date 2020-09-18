@@ -1,11 +1,19 @@
 # Administration Console - Latest Changes
 
-#### 2020-09-??
+#### 2020-09-TBD
 
 ###### Added
 
 - Latest Changes Documentation
 - Links to Admin Console and Latest Documentation
+
+---
+
+#### 2020-09-11
+
+###### Added
+
+- Revoke subscriptions from users has been restored
 
 ---
 
