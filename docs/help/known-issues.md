@@ -111,18 +111,18 @@ The only solution is to disable the "Prevent cross-site tracking" option on the 
 ![Safari Privacy](/assets/images/screen-shots/aplus/safari_cookies.png)
 
 ## Error 500 in Desktop plugin when trying to connect
-Delete cache in Internet Options
+**Delete cache in Internet Options**
 
-Open "Internet Options" either via Internet Explorer - Tools, or via searching for it in Windows
+- Open "Internet Options" either via Internet Explorer - Tools, or via searching for it in Windows
 
-Click "Delete..."
+- Click "Delete..."
 
 ![id-comparison](/assets/images/screen-shots/desktopplugin/inet-options2.png)
 
-Make sure you select at least "Temporary Internet files and website files" and "Cookies and website data"
+- Make sure you select at least "Temporary Internet files and website files" and "Cookies and website data"
 
-Click "Delete
+- Click "Delete
 
 ![id-comparison](/assets/images/screen-shots/desktopplugin/inet-options3.png)
 
-Try again to connect
+- Try again to connect
