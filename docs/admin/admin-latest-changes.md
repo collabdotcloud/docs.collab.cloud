@@ -9,6 +9,14 @@
 
 ---
 
+#### 2020-09-23
+
+###### Added
+
+- Add and remove guest subscriptions on visitors
+
+---
+
 #### 2020-09-11
 
 ###### Added
