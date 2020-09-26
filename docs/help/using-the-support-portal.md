@@ -4,9 +4,9 @@ Welcome to our new Support Portal!
 
 In order to help our customers in an efficient and fast way, we have started working in a support portal which all organisations in the ThreeThirds environment has access to. The goal is to make it easy for you to log issues with us, to get clearer updates, and ultimately to present solutions to you in a better way.
 
-## All organisations has access to the Support Portal
+## All organisations have access to the Support Portal
 
-All Organisation Admins has access to this portal and your account has been created already. You log in with the same username and password as for the ThreeThirds environment. If you log in with SSO you will have to click the "Forgot Password" button on the login page, and you will receive an email with instructions.
+All Organisation Admins have access to this portal and your account has been created already. You log in with the same username and password as for the ThreeThirds environment. If you log in with SSO you will have to click the "Forgot Password" button on the login page, and you will receive an email with instructions.
 
 If you experience a problem with any of our services, and want to open a support case, please go to
 
@@ -32,7 +32,7 @@ For example:
 - any screenshots of the issue that can help describe the issue
 - when does the issue occur
 
-Screenshots can be uploaded under **_Attachments_**.
+Screenshots can be pasted in the description field. Other files can be uploaded under **_Attachments_**.
 
 You can also add another contact under **_Contacts_** if you want another person to receive updates in this matter. This person needs to be another Org Admin.
 
