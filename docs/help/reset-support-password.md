@@ -1,1 +1,20 @@
-#How to reset you Support Portal password
+#How to reset your Support Portal password
+
+Your support Portal password and your password on your collab.cloud environment are the same. So resetting your password is done on your dedicated collab.cloud url. See the following[link](https://docs.collab.cloud/users/using-connections-gettingstarted/) for instructions.
+If you are in an organisation that uses Single Sign on we do not have a password in our system for you and you will need to set it. Please see the instructions below.
+
+
+### Connect to your dedicated URL
+
+You should have received a dedicated URL from us for your organization.
+The format is <strong>https://customername.collab.cloud</strong>
+
+### Open the Admin App App
+
+Using the link in the header, go to the Admin application as explained on [this page](https://docs.collab.cloud/admin/admin-org/). In the menu on the left select **_"My Users"_** and find your own user. Then hit the **_"Reset Password"_** button and then **_"Set Password"_**
+
+<img src="/assets/images/screen-shots/help/UserDetail.png" alt="update_detail" width=50%/>
+
+<img src="/assets/images/screen-shots/help/PasswordReset.png" alt="update_detail" width=50%/>
+
+<img src="/assets/images/screen-shots/help/PasswordResetButton.png" alt="update_detail" width=50%/>
