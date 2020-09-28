@@ -43,15 +43,15 @@ You can also add another contact under **_Contacts_** if you want another person
 
 In the field **_Impact_** you indicate how critical the downtime is for the business. Usually, it is measured by the number of affected users:
 
-- Low - one or two users affected
+- Low - one or two users affected
 - Medium - multiple users affected or a particular service/function affected
-- High - Affecting all users or preventing access to the system
+- High - Affecting all users or preventing access to the system
 
 The field **_Urgency_** is a measure of the time until there is a significant impact on your business. For example a high impact incident may have low urgency if the impact will not affect the business until the end of the financial year.
 
 - Critical - impacting business now 
 - High - imminent impact to business
-- Medium - will have a business impact in the near term 
+- Medium - will have a business impact in the near term 
 - Low - will not have an impact for some time
 
 <img src="/assets/images/screen-shots/help/support-portal-new-incident.png" alt="New Incident" />
