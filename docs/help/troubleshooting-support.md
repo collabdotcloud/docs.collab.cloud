@@ -6,7 +6,7 @@ Welcome to our new Support Portal!
 
 In order to help our customers in an efficient and fast way, we have started working in a support portal which all organisations in the ThreeThirds environment has access to. The goal is to make it easy for you to log issues with us, to get clearer updates, and ultimately to present solutions to you in a better way.
 
-You will in the Support Portal be able to see all ongoing cases.
+In the Support Portal you will be able to see all your ongoing cases.
 
 ### All organisations have access to the Support Portal
 

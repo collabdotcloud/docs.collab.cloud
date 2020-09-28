@@ -27,8 +27,9 @@ Start a new request by clicking **_New Request_** in the left side menu.
 Choose which product you want to log an issue with in the menu that opens.
 
 <img src="/assets/images/screen-shots/help/support-portal-new-request.png" alt="New Request" />
+___
 
-Fill in the form as detailed as possible. It is very important that we receive as much information as you have, so please include anything you can think of that will help us in the case. Otherwise we might need to come back to you with requests for more information and that will pro long the process on getting the issue solved.
+Fill in the form as detailed as possible. It is very important that we receive as much information as you have, so please include anything you can think of that will help us in the case. Otherwise we might need to come back to you with requests for more information and that will prolong the process on getting the issue solved.
 
 Information that helps us is for example:
 
@@ -39,6 +40,19 @@ Information that helps us is for example:
 Screenshots can be pasted in the description field together with the text. Copy/Paste works great. Other files can be uploaded under **_Attachments_**.
 
 You can also add another contact under **_Contacts_** if you want another person to receive updates in this matter. This person needs to be another Org Admin.
+
+In the field **_Impact_** you indicate how critical the downtime is for the business. Usually, it is measured by the number of affected users:
+
+- Low - one or two users affected
+- Medium - multiple users affected or a particular service/function affected
+- High - Affecting all users or preventing access to the system
+
+The field **_Urgency_** is a measure of the time until there is a significant impact on your business. For example a high impact incident may have low urgency if the impact will not affect the business until the end of the financial year.
+
+- Critical - impacting business now 
+- High - imminent impact to business
+- Medium - will have a business impact in the near term 
+- Low - will not have an impact for some time
 
 <img src="/assets/images/screen-shots/help/support-portal-new-incident.png" alt="New Incident" />
 
