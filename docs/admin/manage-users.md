@@ -1,4 +1,5 @@
 # Manage your Users
+
 How you manage your Users depends on your Organization Account Type. Follow the steps below to create a new User in your Organization account. If you are a Hybrid customer (you have both an on-premise Domino environment and Mail in _collab.cloud_) you will need to follow the steps for [Hybrid Customers](https://docs.collab.cloud/admin/manage-users-hybrid/)
 
 ---
@@ -21,12 +22,15 @@ How you manage your Users depends on your Organization Account Type. Follow the 
 
 Locate the new user in your Users list and click them. If you have available subscriptions you will be presented with an option to assign a subscription to the user, click the menu and choose the appropriate subscription then click add.
 
+To remove subscriptions see: [Removing a subscription](#removing-a-subscription)
+
 ### Connections
 
 Connections subscriptions that are assigned to your Organization will be presented in the menu. Usually these options will be either: _Connections Engagement Suite_, _Connections Social_ or _Connections Docs_. Assigning a Connections license to a new User will create a new Profile in Connections. </br></br>
     ![add subscription](/assets/images/screen-shots/admin/add-sub.png)
 
 ### Mail
+
 <strong>NOTE</strong>: Clustered Mail Cloud subscriptions can not yet be added via the _collab.cloud_ Admin App. For Clustered Mail Cloud subscriptions to be added to your User, please send a request to [support@collab.cloud](mailto:support@collab.cloud). </br>
 For Hybrid customers - please follow the steps in the [Hybrid Customers](https://docs.collab.cloud/admin/manage-users-hybrid/) doc.
 
@@ -60,8 +64,23 @@ When editing a user you may make them an organisation admin by changing their ro
 
 ## Controlling user access
 
-To disable access to all _collab.cloud_ services you may make a user Inactive when editing their details, this will _immediately_ remove them from all relevant groups and block access to logging in, it does not however remove any subscriptions from the user, if you wish to recover and reuse any connections subscriptions, you may also remove those by clicking the `x` on each subscription.
+To disable access to all _collab.cloud_ services you may make a user **Inactive** when editing their details, this will _immediately_ remove them from all relevant groups and block access to logging in, it does not however remove any subscriptions from the user. If you wish to recover and reuse any connections subscriptions, you may also remove their subscriptions. (See: [Removing a subscription](#removing-a-subscription))
 
 You may also update an "Inactive" user by setting them to "Active", this will reinstate any relevant groups and access as required.
 
   ![user status](/assets/images/screen-shots/admin/user-status.png)
+
+## Removing a subscription
+
+To remove a subscription, click the "x" on the subscription. 
+
+  ![Click the x on the subscription you would like to remove](/assets/images/screen-shots/admin/remove-sub.png)
+
+Important: This will **not** delete any data of this user. Everything the user had and did will persist and still be around. However, you will need to make sure that all the important data of the user is still accessible.
+
+### Transfer file ownership
+
+For files, the easiest thing is to transfer ownership to another user. Ideally, a user transfers the ownership of his files before his subscription is removed.
+
+If this person is not around anymore, you (as an admin) will need to reset his password, log in and do it for them. Make sure the user account is still active and has a subscription, otherwise the user does not have access to Connections. 
+
