@@ -72,15 +72,33 @@ You may also update an "Inactive" user by setting them to "Active", this will re
 
 ## Removing a subscription
 
-To remove a subscription, click the "x" on the subscription. 
+To remove a subscription, click the "x" on the subscription.
 
   ![Click the x on the subscription you would like to remove](/assets/images/screen-shots/admin/remove-sub.png)
 
-Important: This will **not** delete any data of this user. Everything the user had and did will persist and still be around. However, you will need to make sure that all the important data of the user is still accessible.
+This will **not** delete any data of this user. Everything the user had and did will persist and still be around. The following behaviour can be observed
+
+1. The user will no longer show up in the Directory search and type ahead for mentions
+
+2. The user will still show up in Community membership and on content that they created. However, the profile picture will be greyed out and the user will have an indication in text they are no longer an active user.
+
+![Inactive user](/assets/images/screen-shots/admin/inactive-user-profile.png)
+
+3. All personal files in the person's file library will still be there. This goes for private files, files shared with other users and files shared with a community. No content from the user will be deleted. If you want somebody else to be the owner of the users personal files, please use the [Transfer file ownership](#transfer-file-ownership) functionality.
+
+4. This will **not** keep the user from being able to logon to our systems. To block a user from logging on to our systems see [Controlling user access](#controlling-user-access)
+
+5. The user can be re assigned a Connections subscription through the admin app and will be reconnected to its data.
+
+A way of removing a user in a more permanent manner is on our roadmap!
+
 
 ### Transfer file ownership
 
+The functionality to transfer content of a user to a new user as it existed in IBM Smartcloud does not exist in this version of Connections. The only efficient way of transferring files to another user is the below procedure.
+
 For files, the easiest thing is to transfer ownership to another user. Ideally, a user transfers the ownership of his files before his subscription is removed.
 
-If this person is not around anymore, you (as an admin) will need to reset his password, log in and do it for them. Make sure the user account is still active and has a subscription, otherwise the user does not have access to Connections. 
+The user that is leaving and has files to transfer to a new user needs to logon to Connections and go to **"Files - My Files"**. Once there, select all files you want to transfer ( please note this page loads content on scroll, so you need to scroll down to make sure you have all of them) and click the **"Transfer Ownership"** button. Search for the user you want to transfer the files to.
 
+![Transfer files](/assets/images/screen-shots/admin/transfer-files.png)
