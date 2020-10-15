@@ -1,11 +1,17 @@
 # Administration Console - Latest Changes
 
-#### 2020-09-TBD
+#### 2020-10-15
 
 ###### Added
 
 - Latest Changes Documentation
 - Links to Admin Console and Latest Documentation
+
+###### Changed
+
+- Better field validation on user creation
+- Inactive Users are filtered out by default on the users page
+- User ids moved from list to the user page
 
 ---
 
