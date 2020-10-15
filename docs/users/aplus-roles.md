@@ -17,8 +17,7 @@ A member with Author permissions, has the ability to create new cards, edit thei
 An Editor has the ability to edit existing content, and create new content.
 
 ##Owner
-T
-he Owner of a board has the ability to invite members to the board, and edit all cards and lists in the board.
+The Owner of a board has the ability to invite members to the board, and edit all cards and lists in the board.
 
 [Find out more about how to add members to an activity](https://docs.collab.cloud/users/aplus-members)
 

@@ -1,5 +1,5 @@
 # Known Issues
-This page documents the issues on the ThreeThirds collaboration platform that we are aware of, in the interest of providing transparency and maintaining communication with our customers. 
+This page documents the issues on the ThreeThirds collaboration platform that we are aware of, in the interest of providing transparency and maintaining communication with our customers.
 
 Please email [support@collab.cloud](mailto:support@collab.cloud) to report any defects that are not listed here. Please also feel welcome to email if you are unsure, or feel that the issue you are experiencing does not quite match up with a known issue documented on this page.
 
@@ -11,14 +11,14 @@ Thank you for your continued patience and understanding!
 
 
 ## Internet Explorer 11 is not Supported
-Internet Explorer 11 is not supported in our environment. While we realise it is supported in HCL Connections 6.5 on premise, it is not in HCL Connections 6.5 Multi-Tenant. 
+Internet Explorer 11 is not supported in our environment. While we realise it is supported in HCL Connections 6.5 on premise, it is not in HCL Connections 6.5 Multi-Tenant.
 
 For now, customers must use a supported browser such as Google Chrome, Firefox, or Safari.
 
 *We have filed a request with HCL to support this in future versions of the Connections application.*
 
-## The Survey Functionality is not Available 
-In the previous Connections Cloud platform, there was a survey feature. This is unfortunately not available in the HCL Connections 6.5 Multi-Tenant code. We understand that some customers made significant use of this feature and will want to know whether the functionality will be provided in the future. 
+## The Survey Functionality is not Available
+In the previous Connections Cloud platform, there was a survey feature. This is unfortunately not available in the HCL Connections 6.5 Multi-Tenant code. We understand that some customers made significant use of this feature and will want to know whether the functionality will be provided in the future.
 
 *We have contacted HCL regarding this and will update customers as soon as we receive further information.*
 
@@ -30,35 +30,30 @@ There is an issue with very short session timeouts in the Connections Engagement
 
 *We have taken a number of steps ourselves to resolve this issue and we have now opened a case with HCL. Updates will be provided as soon as the problem is resolved.*
 
-## Platform Performance Issues 
-Now that all the migrations are finished, we have started working on performance improvements as a priority to improve the customer experience. We initially prioritised the EU datacenter as that was suffering the most, and EU-based customers should now notice significantly improved performance across the platform. 
+## Platform Performance Issues
+Now that all the migrations are finished, we have started working on performance improvements as a priority to improve the customer experience. We initially prioritised the EU datacenter as that was suffering the most, and EU-based customers should now notice significantly improved performance across the platform.
 
 Our focus is now on improving the performance for our US-based customers.
 
 ## Performance Issues when Viewing Documents
 Our infrastructure has adequate capacity to support the document viewing and editing capabilities of Connections. However there are two issues causing noticable performance issues when working with documents:
 
-1. File thumbnails are constantly being generated for the millions of files we are importing. 
-2. There may be a bug or configuration issue on one of the servers. 
+1. File thumbnails are constantly being generated for the millions of files we are importing.
+2. There may be a bug or configuration issue on one of the servers.
 
 We are prioritising this issue as we realise the importance of the document capabilities to our customers.
 
-## Issues with Search
-Platform content is not fully indexed which means some content will not appear in search results. The search index is constantly being rebuilt however due to the influx of data into the databases and the server file system, it was impossible to keep up until migrations were finished. Now that they are, the indexing process can begin catching up. 
-
-New content is being indexed, however migrated content will be indexed with a delay.
-
 ## The Spelling Service is Currently Unavailable
-We discovered a potential performance problem due to a bug in the spelling service of the richtext editor. As a result, the spelling service is unavailable from July 22. 
+We discovered a potential performance problem due to a bug in the spelling service of the richtext editor. As a result, the spelling service is unavailable from July 22.
 
 *HCL is currently working on a fix for this issue. We expect to receive the fix during August.*
 
-## Indefinite Reloads when Starting Sametime in both HCL Notes and the Standalone Client 
+## Indefinite Reloads when Starting Sametime in both HCL Notes and the Standalone Client
 The "Remember me" function in login page is not working and will result in a indefinite reload on starting the app on next day. This issue will appear in the embedded Sametime within the Notes client as well as in the Sametime standalone client.
 
 Please do not use the "Remember me" function until this issue is resolved.
 
-## The Sametime Connections Plugin is Unavailable 
+## The Sametime Connections Plugin is Unavailable
 The Sametime Connections plugin that provides instant messaging capabilities within your Connections site is currently not working as expected. You will be able to login, however you will not be able to receive messages.
 
 Please use Sametime webchat available at [webchatna.collab.cloud](https://webchatna.collab.cloud) (for US-based customers) or [webchateu.collab.cloud](https://webchateu.collab.cloud) (for EU-based customers) until this issue is resolved.
@@ -69,13 +64,14 @@ There is currently an issue with the Connections newsletter sent out by the plat
 For example, the links will point to organisation.organisation.collab.cloud instead of organisation.collab.cloud.
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+
 ## Wiki
 Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong links
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
 
 ## Files search results
-Occasionally when searching for files in Community Files, there will be invalid links in the search results. Clicking the link will lead to an access denied error. 
+Occasionally when searching for files in Community Files, there will be invalid links in the search results. Clicking the link will lead to an access denied error.
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
 
@@ -93,16 +89,10 @@ The mobile Administration does not work at the moment.
 External feeds don't show at the moment.
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
-## @Mention Functionality Generating an Invalid URL
-When mentioning other people in your organisation via the @Mention feature, the generated link is invalid. Clicking on the link to the user will result in an access denied message.
-
-Hovering over the link still shows the correct profile.
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
 
 ## Long Descriptions in Activities Plus are Unavailable
 The "long description" field is not currently available in Activities Plus. Customers may experience either missing data or an error 404 when trying to access the long description field of an Activity. This is due to a problem we are experiencing with the HCL Connections API which is preventing us from importing the long description data into Activities Plus.
- 
+
 *This is an issue that is occurring with the HCL Connections API. We currently have an open case with HCL to resolve this issue.*
 
 ## Activities Plus Community Widget doesn't work in Safari
