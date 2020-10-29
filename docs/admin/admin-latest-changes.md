@@ -1,5 +1,19 @@
 # Administration Console - Latest Changes
 
+#### 2020-10-29
+
+###### Added
+
+- Warning messages in user page outlining inactive or active with no Connections or run out of subscription licenses
+- Get Admin News Field
+
+###### Changed
+
+- Updates to users list after edits/subscription changes
+- Redirect to user page after creation
+- Improved error handling
+- Subscription selector permanently on user page, disabled if cannot add subscriptions with info box explaining reason
+
 #### 2020-10-15
 
 ###### Added
