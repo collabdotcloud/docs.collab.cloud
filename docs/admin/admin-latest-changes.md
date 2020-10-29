@@ -14,6 +14,8 @@
 - Improved error handling
 - Subscription selector permanently on user page, disabled if cannot add subscriptions with info box explaining reason
 
+---
+
 #### 2020-10-15
 
 ###### Added
