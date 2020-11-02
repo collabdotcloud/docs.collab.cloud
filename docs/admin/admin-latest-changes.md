@@ -21,7 +21,7 @@
 ###### Added
 
 - Latest Changes Documentation
-- Links to Admin Console and Latest Documentation
+- Links to the Admin Console Documentation and Latest Changes page
 
 ###### Changed
 
