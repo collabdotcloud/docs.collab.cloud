@@ -4,10 +4,7 @@
 
 ###### Added
 
-- User pages include last login details for the following services
-  - Connections Web
-  - Connections Mobile
-  - Connections Desktop Connector
+- User pages include last login details for the following services: Connections Web, Connections Mobile, Connections Desktop Connector
 
 ---
 
