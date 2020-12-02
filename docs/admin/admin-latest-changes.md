@@ -1,5 +1,16 @@
 # Administration Console - Latest Changes
 
+#### 2020-12-03
+
+###### Added
+
+- User pages include last login details for the following services
+  - Connections Web
+  - Connections Mobile
+  - Connections Desktop Connector
+
+---
+
 #### 2020-10-29
 
 ###### Added
