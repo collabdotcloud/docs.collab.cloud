@@ -37,6 +37,7 @@ nav:
           - General: admin/manage-users.md
           - For Hybrid Customers: admin/manage-users-hybrid.md
       #      - Mail/IM Only Customers: admin/manage-users-mailim.md
+          - Last Login: admin/last-login.md
       - Authentication:
           - Federated Identity Authentication with SAML: admin/auth-saml.md
           - Sametime Client Authentication: admin/admin-sametime.md
