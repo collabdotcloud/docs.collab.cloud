@@ -1,17 +1,17 @@
-# Conections API
+# Connections API
 
 This documentation describes how you can access the Connections API using our environment.
 
 ## How do I get access to the API?
 
-Currently you have to get in touch and ask us to create an API client for your tenant. You need an API client to be able to use the API. Every API client has a different Client-ID and Client-Secret, which you need to access the Connections API.
+Currently, you have to get in touch and ask us to create an API client for your tenant. You need an API client to be able to use the API. Every API client has a different Client-ID and Client-Secret, which you need to access the Connections API.
 You will then be provided with the Client-ID and Client-Secret.
 
 **Important:** Please keep your Client-Secret a secret and only give it to people that need it and store it safely.
 
-To reach us, please use [support.collab.cloud](https://support.collab.cloud) and open a new ticket. Open a request with a subject and description that let's us know that you need access to the API.
+To reach us, please use [support.collab.cloud](https://support.collab.cloud) and open a new ticket. Open a request with a subject and description that lets us know that you need access to the API.
 
-We will then provide you your **Client-ID** and **Client-Secret**.
+We will then provide you with your **Client-ID** and **Client-Secret**.
 
 ### "The future is now, old man"
 
@@ -21,13 +21,13 @@ See our roadmap for more information.
 
 ## Service Accounts
 
-We currently don't have dedicated service accounts. However, every normal user can function as a service account and authenticate programmatically. Meaning, you can create a new seperate user, dedicated to call the Connections APIs. It needs the same subscriptions like a normal Connections user.
+We currently don't have dedicated service accounts. However, every normal user can function as a service account and authenticate programmatically. Meaning, you can create a new separate user, dedicated to call the Connections APIs. It needs the same subscriptions as a normal Connections user.
 
 ## Authentication & Usage
 
 The [Connections API](https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf) is the same as on every Connections environment. However, the authentication to Connection is different. We use OAuth 2.0 which is more modern and secure.
 
-After a successfull authentication, the API calls are exactly as on an On-Prem environment.
+After successful authentication, the API calls are exactly as in an On-Prem environment.
 
 ### Using OAuth 2.0 for Connections APIs
 
@@ -49,7 +49,7 @@ Basic only API endpoints need to be called with the Ltpa2Token Cookie. If you ha
 
 #### 1. Make an authentication request to the OIDC Endpoint
 
-Call our Open-ID Connect **token enpoint**. Please, use the correct one for your datacenter. [Which one?](#open-id-connect-endpoints)
+Call our Open-ID Connect **token endpoint**. Please, use the correct one for your data centre. [Which one?](#open-id-connect-endpoints)
 
 Use the following OAuth 2.0 config:
 
@@ -100,7 +100,7 @@ This step is only needed if you want to call a Basic API afterwards. To be able 
 
 And to get this cookie you need to call an OAuth 2.0 capable endpoint. 
 
-Perform a GET requst to `/files/oauth/api/nonce` with the Access token from the previous request as the bearer token in the Authorization header.
+Perform a GET request to `/files/oauth/api/nonce` with the Access token from the previous request as the bearer token in the Authorization header.
 
 We are not interested in the body that is returned. It will be an arbitrary Connections ID. We only want the cookie. 
 
@@ -140,9 +140,9 @@ As long as your session is active and the cookie is set in the request, you will
 
 **Example:**
 
-In this example we are searching for users named Bob.
+In this example, we are searching for users named Bob.
 
-We use the Profiles search API, as documented [here](https://ds_infolib.hcltechsw.com/ldd/lcwiki.nsf/xpAPIViewer.xsp?lookupName=HCL+Connections+6.5+API+Documentation#action=openDocument&res_title=Searching_Profiles_programmatically_65&content=apicontent)
+We use the Profiles search API, as documented [here](https://ds_infolib.hcltechsw.com/ldd/lcwiki.nsf/xpAPIViewer.xsp?lookupName=HCL+Connections+6.5+API+Documentation#action=openDocument&res_title=Searching_Profiles_programmatically_65&content=apicontent).
 
 - Request
 
