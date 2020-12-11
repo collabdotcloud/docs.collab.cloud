@@ -10,7 +10,7 @@ theme:
   features:
     - tabs
   palette:
-    primary: cyan
+    primary: cyan #2ABDEA
     accent: grey
   favicon: assets/images/favicon.png
 #  logo: assets/images/logo.svg
@@ -44,7 +44,7 @@ nav:
       - Extensions:
           - WebEx: admin/extension-webex.md
           - Connections AppReg: admin/appreg.md
-          - Connections API: admin/api-clients.md
+          - Connections API: admin/connections-api.md
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
       # - Latest Changes: admin/admin-latest-changes.md
@@ -103,3 +103,8 @@ extra_css:
 #google_analytics:
 #  - "INSERT CODE FROM GOOGLE SITE ADMIN"
 #  - "auto"
+
+plugins:
+  - redirects:
+      redirect_maps:
+        'admin/api-clients.md': 'admin/connections-api.md'

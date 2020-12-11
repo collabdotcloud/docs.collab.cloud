@@ -8,8 +8,9 @@ The static files for the website are served out from the `gh-pages` branch.
 
 1. Clone this repo or issue `git pull` to get the latest
 2. Install mkdocs & mkdocs-material as per [these instructions](https://squidfunk.github.io/mkdocs-material/getting-started/#installation) (Please make sure use pip3 to install both of mkdocs & mkdocs-material instead of pip)
-3. Directly commit any changes to the master branch to publish a new version of the website. This includes editing md files or config in `mkdocs.yml` and adding new pages and assets.
-4. Then the site must be generated and committed by issuing:
+3. Install [mkdocs-redirects](https://pypi.org/project/mkdocs-redirects/)
+4. Directly commit any changes to the master branch to publish a new version of the website. This includes editing md files or config in `mkdocs.yml` and adding new pages and assets.
+5. Then the site must be generated and committed by issuing:
 
 ```sh
 mkdocs gh-deploy
