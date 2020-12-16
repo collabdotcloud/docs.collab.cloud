@@ -2,6 +2,12 @@
 
 This documentation describes how you can access the Connections API using our environment.
 
+For the documentation for the Connections API please refer to the official Connections API documentation:
+
+[HCL Connections API Documentation](https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf))
+
+We currently use version 6.5 on our Multi-Tenant environment.
+
 ## How do I get access to the API?
 
 Currently, you have to get in touch and ask us to create an API client for your tenant. You need an API client to be able to use the API. Every API client has a different Client-ID and Client-Secret, which you need to access the Connections API.
@@ -15,7 +21,7 @@ We will then provide you with your **Client-ID** and **Client-Secret**.
 
 ### "The future is now, old man"
 
-We know this work-flow isn't convenient or efficient, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App. How cool is that?
+We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App. How cool is that?
 
 See our roadmap for more information.
 
@@ -173,6 +179,14 @@ There are different endpoint URLs for every data center.
 
         https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 
+- Endpoint Configuration: 
+
+    [EU Open-ID configuration](https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration)
+
+        https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
+
+    To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.
+
 #### North America
 
 - Authentication endpoint: 
@@ -182,3 +196,16 @@ There are different endpoint URLs for every data center.
 - Token endpoint: 
 
         https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
+
+- Endpoint Configuration: 
+
+    [US Open-ID configuration](https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration)
+
+        https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
+
+    To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.
+
+### Supported
+
+
+
