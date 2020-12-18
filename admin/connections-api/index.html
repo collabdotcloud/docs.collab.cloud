@@ -11,7 +11,7 @@
         <meta name="description" content="ThreeThirds Collaboration Documentation">
       
       
-        <link rel="canonical" href="https://docs.collab.cloud/users/aplus-for-comm-managers/">
+        <link rel="canonical" href="https://docs.collab.cloud/admin/connections-api/">
       
       
         <meta name="author" content="Jared Roberts">
@@ -21,7 +21,7 @@
     
     
       
-        <title>For Community Managers - ThreeThirds Collaboration Docs</title>
+        <title>Connections API - ThreeThirds Collaboration Docs</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-add-activities-to-a-connections-community" class="md-skip">
+        <a href="#connections-api" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              For Community Managers
+              Connections API
             
           </span>
         </div>
@@ -154,7 +154,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../admin/admin-org/" class="md-tabs__link">
+        <a href="../admin-org/" class="md-tabs__link">
           Admin Documentation
         </a>
       
@@ -169,7 +169,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../hello/" class="md-tabs__link md-tabs__link--active">
+        <a href="../../users/hello/" class="md-tabs__link">
           User Documentation
         </a>
       
@@ -294,10 +294,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       Admin Documentation
@@ -346,7 +348,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/admin-org/" title="Overview" class="md-nav__link">
+    <a href="../admin-org/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -358,7 +360,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/manage-org/" title="Organisation Info" class="md-nav__link">
+    <a href="../manage-org/" title="Organisation Info" class="md-nav__link">
       Organisation Info
     </a>
   </li>
@@ -400,7 +402,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/manage-users/" title="General" class="md-nav__link">
+    <a href="../manage-users/" title="General" class="md-nav__link">
       General
     </a>
   </li>
@@ -412,7 +414,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/manage-users-hybrid/" title="For Hybrid Customers" class="md-nav__link">
+    <a href="../manage-users-hybrid/" title="For Hybrid Customers" class="md-nav__link">
       For Hybrid Customers
     </a>
   </li>
@@ -424,7 +426,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/last-login/" title="Last Login" class="md-nav__link">
+    <a href="../last-login/" title="Last Login" class="md-nav__link">
       Last Login
     </a>
   </li>
@@ -466,7 +468,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/auth-saml/" title="Federated Identity Authentication with SAML" class="md-nav__link">
+    <a href="../auth-saml/" title="Federated Identity Authentication with SAML" class="md-nav__link">
       Federated Identity Authentication with SAML
     </a>
   </li>
@@ -478,7 +480,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/admin-sametime/" title="Sametime Client Authentication" class="md-nav__link">
+    <a href="../admin-sametime/" title="Sametime Client Authentication" class="md-nav__link">
       Sametime Client Authentication
     </a>
   </li>
@@ -493,10 +495,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4" checked>
     
     <label class="md-nav__link" for="nav-4-4">
       Extensions
@@ -520,7 +524,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/extension-webex/" title="WebEx" class="md-nav__link">
+    <a href="../extension-webex/" title="WebEx" class="md-nav__link">
       WebEx
     </a>
   </li>
@@ -532,7 +536,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/appreg/" title="Connections AppReg" class="md-nav__link">
+    <a href="../appreg/" title="Connections AppReg" class="md-nav__link">
       Connections AppReg
     </a>
   </li>
@@ -542,11 +546,161 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../admin/connections-api/" title="Connections API" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Connections API
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Connections API" class="md-nav__link md-nav__link--active">
       Connections API
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-get-access-to-the-api" class="md-nav__link">
+    How do I get access to the API?
+  </a>
+  
+    <nav class="md-nav" aria-label="How do I get access to the API?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#future-plans" class="md-nav__link">
+    Future plans
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-accounts" class="md-nav__link">
+    Service Accounts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-usage" class="md-nav__link">
+    Authentication &amp; Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication &amp; Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-oauth-20-for-connections-apis" class="md-nav__link">
+    Using OAuth 2.0 for Connections APIs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication-manual" class="md-nav__link">
+    Authentication Manual
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication Manual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-make-an-authentication-request-to-the-oidc-endpoint" class="md-nav__link">
+    1. Make an authentication request to the OIDC Endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-call-connections-oauth-endpoint-for-the-ltpa-token" class="md-nav__link">
+    2. Call Connections OAuth Endpoint for the LTPA Token
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-use-the-connections-api-with-the-ltpa-token" class="md-nav__link">
+    3. Use the Connections API with the LTPA token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-id-connect-endpoints" class="md-nav__link">
+    Open-ID Connect Endpoints
+  </a>
+  
+    <nav class="md-nav" aria-label="Open-ID Connect Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#europe" class="md-nav__link">
+    Europe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#north-america" class="md-nav__link">
+    North America
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported" class="md-nav__link">
+    Supported
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -556,7 +710,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/desktop-connector-windows/" title="Desktop Connector" class="md-nav__link">
+    <a href="../desktop-connector-windows/" title="Desktop Connector" class="md-nav__link">
       Desktop Connector
     </a>
   </li>
@@ -568,7 +722,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../admin/icec-feeds/" title="Engagement Center" class="md-nav__link">
+    <a href="../icec-feeds/" title="Engagement Center" class="md-nav__link">
       Engagement Center
     </a>
   </li>
@@ -588,12 +742,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
     <label class="md-nav__link" for="nav-5">
       User Documentation
@@ -617,7 +769,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../hello/" title="Hello" class="md-nav__link">
+    <a href="../../users/hello/" title="Hello" class="md-nav__link">
       Hello
     </a>
   </li>
@@ -654,7 +806,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../using-mail-gettingstarted/" title="Getting Started" class="md-nav__link">
+    <a href="../../users/using-mail-gettingstarted/" title="Getting Started" class="md-nav__link">
       Getting Started
     </a>
   </li>
@@ -666,7 +818,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../using-mail-verse/" title="Using Mail & Verse" class="md-nav__link">
+    <a href="../../users/using-mail-verse/" title="Using Mail & Verse" class="md-nav__link">
       Using Mail & Verse
     </a>
   </li>
@@ -678,7 +830,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../verse-traveler/" title="HCL Verse on your Smartphone or tablet" class="md-nav__link">
+    <a href="../../users/verse-traveler/" title="HCL Verse on your Smartphone or tablet" class="md-nav__link">
       HCL Verse on your Smartphone or tablet
     </a>
   </li>
@@ -720,7 +872,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../using-connections-gettingstarted/" title="Getting Started" class="md-nav__link">
+    <a href="../../users/using-connections-gettingstarted/" title="Getting Started" class="md-nav__link">
       Getting Started
     </a>
   </li>
@@ -757,7 +909,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../using-webex-extension/" title="WebEx" class="md-nav__link">
+    <a href="../../users/using-webex-extension/" title="WebEx" class="md-nav__link">
       WebEx
     </a>
   </li>
@@ -769,7 +921,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../desktop-plugins-mac/" title="Desktop Sync for Mac" class="md-nav__link">
+    <a href="../../users/desktop-plugins-mac/" title="Desktop Sync for Mac" class="md-nav__link">
       Desktop Sync for Mac
     </a>
   </li>
@@ -781,7 +933,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../desktop-plugins-windows/" title="Desktop Plug-ins for Windows" class="md-nav__link">
+    <a href="../../users/desktop-plugins-windows/" title="Desktop Plug-ins for Windows" class="md-nav__link">
       Desktop Plug-ins for Windows
     </a>
   </li>
@@ -798,7 +950,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../quotas-storage/" title="Quotas and storage" class="md-nav__link">
+    <a href="../../users/quotas-storage/" title="Quotas and storage" class="md-nav__link">
       Quotas and storage
     </a>
   </li>
@@ -810,7 +962,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../connections-mobile-app/" title="Connections Mobile App" class="md-nav__link">
+    <a href="../../users/connections-mobile-app/" title="Connections Mobile App" class="md-nav__link">
       Connections Mobile App
     </a>
   </li>
@@ -822,7 +974,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../connections-external-users/" title="External users" class="md-nav__link">
+    <a href="../../users/connections-external-users/" title="External users" class="md-nav__link">
       External users
     </a>
   </li>
@@ -864,7 +1016,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../using-sametime-gettingstarted/" title="Getting Started" class="md-nav__link">
+    <a href="../../users/using-sametime-gettingstarted/" title="Getting Started" class="md-nav__link">
       Getting Started
     </a>
   </li>
@@ -876,7 +1028,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../using-sametime/" title="Using Sametime" class="md-nav__link">
+    <a href="../../users/using-sametime/" title="Using Sametime" class="md-nav__link">
       Using Sametime
     </a>
   </li>
@@ -891,12 +1043,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-5" type="checkbox" id="nav-5-5" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-5" type="checkbox" id="nav-5-5">
     
     <label class="md-nav__link" for="nav-5-5">
       Using Activities Plus
@@ -920,7 +1070,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-gettingstarted/" title="Getting Started" class="md-nav__link">
+    <a href="../../users/aplus-gettingstarted/" title="Getting Started" class="md-nav__link">
       Getting Started
     </a>
   </li>
@@ -932,7 +1082,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-for-users/" title="Accessing Activities Plus" class="md-nav__link">
+    <a href="../../users/aplus-for-users/" title="Accessing Activities Plus" class="md-nav__link">
       Accessing Activities Plus
     </a>
   </li>
@@ -942,60 +1092,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        For Community Managers
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="For Community Managers" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../users/aplus-for-comm-managers/" title="For Community Managers" class="md-nav__link">
       For Community Managers
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#add-an-existing-activity-into-the-widget" class="md-nav__link">
-    Add an existing Activity into the widget
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-new-activity-in-the-community-widget" class="md-nav__link">
-    Create a new Activity in the Community Widget
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1005,7 +1106,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-start-page/" title="Start page" class="md-nav__link">
+    <a href="../../users/aplus-start-page/" title="Start page" class="md-nav__link">
       Start page
     </a>
   </li>
@@ -1017,7 +1118,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-view/" title="Working with an activity" class="md-nav__link">
+    <a href="../../users/aplus-view/" title="Working with an activity" class="md-nav__link">
       Working with an activity
     </a>
   </li>
@@ -1029,7 +1130,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-members/" title="Members and assigning of tasks" class="md-nav__link">
+    <a href="../../users/aplus-members/" title="Members and assigning of tasks" class="md-nav__link">
       Members and assigning of tasks
     </a>
   </li>
@@ -1041,7 +1142,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-tags/" title="Colour tags and filtering" class="md-nav__link">
+    <a href="../../users/aplus-tags/" title="Colour tags and filtering" class="md-nav__link">
       Colour tags and filtering
     </a>
   </li>
@@ -1053,7 +1154,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-roles/" title="Member roles" class="md-nav__link">
+    <a href="../../users/aplus-roles/" title="Member roles" class="md-nav__link">
       Member roles
     </a>
   </li>
@@ -1065,7 +1166,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-mobile-app/" title="Activities Plus Mobile App" class="md-nav__link">
+    <a href="../../users/aplus-mobile-app/" title="Activities Plus Mobile App" class="md-nav__link">
       Activities Plus Mobile App
     </a>
   </li>
@@ -1077,7 +1178,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-learning/" title="Activities Plus Free Onboarding session" class="md-nav__link">
+    <a href="../../users/aplus-learning/" title="Activities Plus Free Onboarding session" class="md-nav__link">
       Activities Plus Free Onboarding session
     </a>
   </li>
@@ -1089,7 +1190,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../aplus-boards/" title="Kudos Boards (premium experience)" class="md-nav__link">
+    <a href="../../users/aplus-boards/" title="Kudos Boards (premium experience)" class="md-nav__link">
       Kudos Boards (premium experience)
     </a>
   </li>
@@ -1293,16 +1394,117 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#add-an-existing-activity-into-the-widget" class="md-nav__link">
-    Add an existing Activity into the widget
+  <a href="#how-do-i-get-access-to-the-api" class="md-nav__link">
+    How do I get access to the API?
+  </a>
+  
+    <nav class="md-nav" aria-label="How do I get access to the API?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#future-plans" class="md-nav__link">
+    Future plans
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#service-accounts" class="md-nav__link">
+    Service Accounts
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-a-new-activity-in-the-community-widget" class="md-nav__link">
-    Create a new Activity in the Community Widget
+  <a href="#authentication-usage" class="md-nav__link">
+    Authentication &amp; Usage
   </a>
+  
+    <nav class="md-nav" aria-label="Authentication &amp; Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-oauth-20-for-connections-apis" class="md-nav__link">
+    Using OAuth 2.0 for Connections APIs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication-manual" class="md-nav__link">
+    Authentication Manual
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication Manual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-make-an-authentication-request-to-the-oidc-endpoint" class="md-nav__link">
+    1. Make an authentication request to the OIDC Endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-call-connections-oauth-endpoint-for-the-ltpa-token" class="md-nav__link">
+    2. Call Connections OAuth Endpoint for the LTPA Token
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-use-the-connections-api-with-the-ltpa-token" class="md-nav__link">
+    3. Use the Connections API with the LTPA token
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-id-connect-endpoints" class="md-nav__link">
+    Open-ID Connect Endpoints
+  </a>
+  
+    <nav class="md-nav" aria-label="Open-ID Connect Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#europe" class="md-nav__link">
+    Europe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#north-america" class="md-nav__link">
+    North America
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported" class="md-nav__link">
+    Supported
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1322,40 +1524,221 @@
                   
                 
                 
-                <h1 id="how-to-add-activities-to-a-connections-community">How To Add Activities to a Connections Community<a class="headerlink" href="#how-to-add-activities-to-a-connections-community" title="Permanent link">&para;</a></h1>
-<p>In order to access and work in a Community Activity the Activities Plus widget needs to be added to the Community. A Community Owner/Manager has access rights to do that.</p>
-<p>To add the Activities Plus widget, go to:</p>
-<p><strong><em>Community Actions – Add Apps - Activities Plus</em></strong> in the right hand side of the Community</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png" alt="Community Actions Add Apps" /></p>
-<p>Select <strong><em>Activities Plus</em></strong> in the list</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-add-apps.png" alt="Add Apps" width="50%"/></p>
-<p>Once the widget is added you have the option to show all Community Activities/Boards that belongs to this Community, or a specific Activity/Board. If you want to change these settings after saving, click on the settings wheel inside the widget.</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-widget-settings.png" alt="Widget Settings" width="50%"/></p>
-<p>The new widget in the Community can be moved by dragging and dropping, or by clicking on the three dots in the upper right corner.</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-move-widget.png" alt="Move Widget" width="50%"/></p>
-<p>A great tip is to move the Activities Plus widget so it covers the whole page, by dragging and dropping. When the widget is larger you get a better overview of your work.</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-widget-in-community.png" alt="Activities Plus Widget in Community" /></p>
-<p>If the Community already is a member of an Activity you will directly see that Activity in the widget. Start working immediately!</p>
-<p>If you do not see any Activities you can add Activities now.</p>
+                <h1 id="connections-api">Connections API<a class="headerlink" href="#connections-api" title="Permanent link">&para;</a></h1>
+<p>This documentation describes how you can access the Connections API using our environment.</p>
+<p>For the documentation for the Connections API please refer to the official Connections API documentation:</p>
+<p><a href="https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf">HCL Connections API Documentation</a>)</p>
+<p>We currently use version 6.5 on our Multi-Tenant environment.</p>
+<h2 id="how-do-i-get-access-to-the-api">How do I get access to the API?<a class="headerlink" href="#how-do-i-get-access-to-the-api" title="Permanent link">&para;</a></h2>
+<p>Currently, you have to get in touch and ask us to create an API client for your tenant. You need an API client to be able to use the API. Every API client has a different Client-ID and Client-Secret, which you need to access the Connections API.
+You will then be provided with the Client-ID and Client-Secret.</p>
+<p><strong>Important:</strong> Please keep your Client-Secret a secret and only give it to people that need it and store it safely.</p>
+<p>To reach us, please use <a href="https://support.collab.cloud">support.collab.cloud</a> and open a new ticket. Open a request with a subject and description that lets us know that you need access to the API.</p>
+<p>We will then provide you with your <strong>Client-ID</strong> and <strong>Client-Secret</strong>.</p>
+<h3 id="future-plans">Future plans<a class="headerlink" href="#future-plans" title="Permanent link">&para;</a></h3>
+<p>We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App. How cool is that?</p>
+<p>See our roadmap for more information.</p>
+<h2 id="service-accounts">Service Accounts<a class="headerlink" href="#service-accounts" title="Permanent link">&para;</a></h2>
+<p>We currently don't have dedicated service accounts. However, every normal user can function as a service account and authenticate programmatically. Meaning, you can create a new separate user, dedicated to call the Connections APIs. It needs the same subscriptions as a normal Connections user.</p>
+<h2 id="authentication-usage">Authentication &amp; Usage<a class="headerlink" href="#authentication-usage" title="Permanent link">&para;</a></h2>
+<p>The <a href="https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf">Connections API</a> is the same as on every Connections environment. However, the authentication to Connection is different. We use OAuth 2.0 which is more modern and secure.</p>
+<p>After successful authentication, the API calls are exactly as in an On-Prem environment.</p>
+<h3 id="using-oauth-20-for-connections-apis">Using OAuth 2.0 for Connections APIs<a class="headerlink" href="#using-oauth-20-for-connections-apis" title="Permanent link">&para;</a></h3>
+<p>HCL Connections has APIs that support OAuth 2.0 but also some that don't and only support "Basic Authentication".</p>
+<p>We use OAuth 2.0 for all authentication, and basic authentication is not supported.</p>
+<p>You can still use the Basic-Auth APIs on our Connections environment like this:</p>
+<p><img alt="API Authentication flow" src="/assets/images/extensions/api_auth_flow.png" /></p>
+<p>This flow explains how to authenticate to call any API from Connections. If you want to perform calls to HCL Connections API endpoints that require basic authentication, you will need to follow this authentication flow. </p>
+<p>If you instead only want to use an OAuth 2.0 capable API endpoints, you can skip step 2 in this flow and simply provide the bearer token.</p>
+<p>Basic only API endpoints need to be called with the Ltpa2Token Cookie. If you have the Cookie in your request headers, you won't need to supply credentials in your request. The token in the cookie proves your identity.</p>
+<h3 id="authentication-manual">Authentication Manual<a class="headerlink" href="#authentication-manual" title="Permanent link">&para;</a></h3>
+<h4 id="1-make-an-authentication-request-to-the-oidc-endpoint">1. Make an authentication request to the OIDC Endpoint<a class="headerlink" href="#1-make-an-authentication-request-to-the-oidc-endpoint" title="Permanent link">&para;</a></h4>
+<p>Call our Open-ID Connect <strong>token endpoint</strong>. Please, use the correct one for your data centre. <a href="#open-id-connect-endpoints">Which one?</a></p>
+<p>Use the following OAuth 2.0 config:</p>
+<ul>
+<li>Grant-Type: Client-Credentials</li>
+<li>Username: <em>Your users' username (E-mail)</em></li>
+<li>Password: <em>Your users' password</em></li>
+<li>Client-ID: <em>Your client ID</em> - <a href="#how-do-i-get-access-to-the-api">What is that?</a></li>
+<li>Client-Secret: <em>Your client secret</em> - <a href="#how-do-i-get-access-to-the-api">Where do I find it?</a></li>
+</ul>
 <hr />
-<h2 id="add-an-existing-activity-into-the-widget">Add an existing Activity into the widget<a class="headerlink" href="#add-an-existing-activity-into-the-widget" title="Permanent link">&para;</a></h2>
-<p>Go to the Activities Plus page by clicking</p>
-<p><strong><em>Apps – Activities Plus</em></strong> in the Menu Bar</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-homepage.png" alt="Activities Plus homepage" /></p>
-<p>Open the Activity of your choice by clicking on it.</p>
-<p>Open the Members section of the Activity by clicking on <strong><em>Members</em></strong> in the right hand side</p>
-<p>In the field <strong><em>Add individuals or groups</em></strong> type the first letters of the Community name you want to add the Activity to, and select it.</p>
-<p>All members of this Community will now be added as members into the Activity. The Activity will also be added into the Community, and be visible in the widget.</p>
-<p>Before you click <strong><em>Add Members</em></strong> and close the dialogue box you have the option to set access rights for the members who will be added to the Activity.</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-add-members.png" alt="Add The Community Members" /></p>
-<p>Go back to the Community and have a look in the Activity Plus widget. Now you will see your Community Activity.</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-activities-in-widget.png" alt="Activities In Widget" width="50%"/></p>
-<h2 id="create-a-new-activity-in-the-community-widget">Create a new Activity in the Community Widget<a class="headerlink" href="#create-a-new-activity-in-the-community-widget" title="Permanent link">&para;</a></h2>
-<p>In the Activities Plus widget, click the <strong><em>Orange plus</em></strong> in the bottom right hand side corner. A dialogue box will open with options for your new Activity.</p>
-<p><img src="/assets/images/screen-shots/aplus/aplus-new-activity.png" alt="New Activity" width="50%"/></p>
-<p>Once the new Activity is created you will see and be able to work in this Activity directly in the Community.</p>
-<p>You can also work in this Activity if you go to the Activities Plus homepage. If you open the Member section of the Activiy, you will see that the Community now is a Member of this Activity.</p>
+<p><strong>Example:</strong></p>
+<p>We will use the <em>EU endpoint</em> in this example.</p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span><code>POST https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
+</code></pre></div>
+
+
+<p>Body: (Content-Type: <code>application/x-www-form-urlencoded</code>)</p>
+<div class="codehilite"><pre><span></span><code>grant_type:client_credentials
+username:*Your username (E-mail)*
+password:*Your user&#39;s password*
+client_id:*Your Client-ID*
+client_secret:*Your Client-Secret*
+scope:profile
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Response: (Content-Type: <code>application/json</code>)</p>
+<div class="codehilite"><pre><span></span><code>{
+    &quot;access_token&quot;: &quot;... your access token ...&quot;,
+    &quot;expires_in&quot;: 42900,
+    &quot;refresh_expires_in&quot;: 43200,
+    &quot;refresh_token&quot;: &quot;... your refresh token ...&quot;,
+    &quot;token_type&quot;: &quot;bearer&quot;,
+    &quot;not-before-policy&quot;: 0,
+    &quot;session_state&quot;: &quot;... you session state ...&quot;,
+    &quot;scope&quot;: &quot;email connectionsmt profile&quot;
+}
+</code></pre></div>
+
+
+</li>
+</ul>
+<p>You will then be able to use the access token as a bearer token in the next requests until it expires. When it expires, you will need to perform this request again and get a new token.</p>
+<h4 id="2-call-connections-oauth-endpoint-for-the-ltpa-token">2. Call Connections OAuth Endpoint for the LTPA Token<a class="headerlink" href="#2-call-connections-oauth-endpoint-for-the-ltpa-token" title="Permanent link">&para;</a></h4>
+<p>This step is only needed if you want to call a Basic API afterwards. To be able to use the Basic APIs you need the LTPA Token from Connections in its Cookie.</p>
+<p>And to get this cookie you need to call an OAuth 2.0 capable endpoint. </p>
+<p>Perform a GET request to <code>/files/oauth/api/nonce</code> with the Access token from the previous request as the bearer token in the Authorization header.</p>
+<p>We are not interested in the body that is returned. It will be an arbitrary Connections ID. We only want the cookie. </p>
 <hr />
+<p><strong>Example:</strong></p>
+<p>Please make sure to put your tenant into the subdomain.</p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span><code>GET https://YOUR_TENANT.collab.cloud/files/oauth/api/nonce
+</code></pre></div>
+
+
+<p>Headers:</p>
+<div class="codehilite"><pre><span></span><code>&quot;Authorization&quot;: &quot;Bearer &lt;Your token&gt;&quot;
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<p>Cookies:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Value</th>
+<th align="left">Domain</th>
+<th align="left">Path</th>
+<th align="left">Expires</th>
+<th align="left">HttpOnly</th>
+<th align="left">Secure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">LtpaToken2</td>
+<td align="left"><strong><em>*Your LTPA Token*</em></strong></td>
+<td align="left">collab.cloud</td>
+<td align="left">/</td>
+<td align="left">Session</td>
+<td align="left">true</td>
+<td align="left">true</td>
+</tr>
+</tbody>
+</table>
+<p>The response will be an ID from Connections which we are not interested in. We are only making this request to get the Cookie with the Ltpa2Token.</p>
+<p>The Cookie will be in the response header.</p>
+</li>
+</ul>
+<h4 id="3-use-the-connections-api-with-the-ltpa-token">3. Use the Connections API with the LTPA token<a class="headerlink" href="#3-use-the-connections-api-with-the-ltpa-token" title="Permanent link">&para;</a></h4>
+<p>If you are using a proper application or library that can handle cookies, the cookie will now automatically be set for the following request to that domain.</p>
+<p>As long as your session is active and the cookie is set in the request, you will now be able to call any Connections API you want to.</p>
+<hr />
+<p><strong>Example:</strong></p>
+<p>In this example, we are searching for users named Bob.</p>
+<p>We use the Profiles search API, as documented <a href="https://ds_infolib.hcltechsw.com/ldd/lcwiki.nsf/xpAPIViewer.xsp?lookupName=HCL+Connections+6.5+API+Documentation#action=openDocument&amp;res_title=Searching_Profiles_programmatically_65&amp;content=apicontent">here</a>.</p>
+<ul>
+<li>
+<p>Request</p>
+<div class="codehilite"><pre><span></span><code>GET https://YOUR_TENANT.collab.cloud/profiles/atom/search.do?name=Bob
+</code></pre></div>
+
+
+<p>Headers:</p>
+<div class="codehilite"><pre><span></span><code>&quot;Cookie&quot;: &quot;LtpaToken2=&lt;Your LTPA token&gt;&quot;
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Response (Content-Type: <code>application/xml</code>)</p>
+<div class="codehilite"><pre><span></span><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+...
+Here come the Bob&#39;s
+...
+</code></pre></div>
+
+
+</li>
+</ul>
+<h3 id="open-id-connect-endpoints">Open-ID Connect Endpoints<a class="headerlink" href="#open-id-connect-endpoints" title="Permanent link">&para;</a></h3>
+<p>There are different endpoint URLs for every data center.</p>
+<h4 id="europe">Europe<a class="headerlink" href="#europe" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Authentication endpoint: </p>
+<div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Token endpoint:</p>
+<div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Endpoint Configuration: </p>
+<p><a href="https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration">EU Open-ID configuration</a></p>
+<div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
+</code></pre></div>
+
+
+<p>To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.</p>
+</li>
+</ul>
+<h4 id="north-america">North America<a class="headerlink" href="#north-america" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Authentication endpoint: </p>
+<div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Token endpoint: </p>
+<div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
+</code></pre></div>
+
+
+</li>
+<li>
+<p>Endpoint Configuration: </p>
+<p><a href="https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration">US Open-ID configuration</a></p>
+<div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
+</code></pre></div>
+
+
+<p>To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.</p>
+</li>
+</ul>
+<h3 id="supported">Supported<a class="headerlink" href="#supported" title="Permanent link">&para;</a></h3>
                 
               
               
@@ -1374,7 +1757,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../aplus-for-users/" title="Accessing Activities Plus" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../appreg/" title="Connections AppReg" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1383,19 +1766,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Accessing Activities Plus
+                Connections AppReg
               </div>
             </div>
           </a>
         
         
-          <a href="../aplus-start-page/" title="Start page" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../desktop-connector-windows/" title="Desktop Connector" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Start page
+                Desktop Connector
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
