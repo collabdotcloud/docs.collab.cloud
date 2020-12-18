@@ -19,7 +19,7 @@ To reach us, please use [support.collab.cloud](https://support.collab.cloud) and
 
 We will then provide you with your **Client-ID** and **Client-Secret**.
 
-### "The future is now, old man"
+### Future plans
 
 We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App. How cool is that?
 
