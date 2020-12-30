@@ -119,21 +119,3 @@ The only solution is to disable the "Prevent cross-site tracking" option on the 
 There is an issue with very short session timeouts in the Connections Engagement Center which is affecting a number of customers in both the EU and US data centres. This results in a login box appearing which does not accept any credentials.
 
 *We have taken a number of steps ourselves to resolve this issue and we have now opened a case with HCL. Updates will be provided as soon as the problem is resolved.*
-
-## Platform Performance Issues
-
-Now that all the migrations are finished, we have started working on performance improvements as a priority to improve the customer experience. We initially prioritised the EU datacenter as that was suffering the most, and EU-based customers should now notice significantly improved performance across the platform.
-
-Our focus is now on improving the performance for our US-based customers.
-
-## Header in ICEC and Search
-
-The apps in the header for icec and search point to the sorry page.
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
-
-## Mobile Administration not available
-
-The mobile Administration does not work at the moment.
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
