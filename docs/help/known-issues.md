@@ -27,18 +27,6 @@ In the previous Connections Cloud platform, there was a survey feature. This is 
 *UPDATE: Statement from HCL:
 Survey data was excluded from the beginning. I remember that we discussed the feasibility a couple of times but we decided not to pursue survey export with the approaching deadline. This has also been communicated in various calls. Our [documentation](https://www.cwpcollaboration.com/blogs/a-qa-about-moving-ahead-with-connections-cloud-practical-next-steps) also lists Surveys as out of scope.*
 
-## Very Short Timeouts in the Connections Engagement Center
-
-There is an issue with very short session timeouts in the Connections Engagement Center which is affecting a number of customers in both the EU and US data centres. This results in a login box appearing which does not accept any credentials.
-
-*We have taken a number of steps ourselves to resolve this issue and we have now opened a case with HCL. Updates will be provided as soon as the problem is resolved.*
-
-## Platform Performance Issues
-
-Now that all the migrations are finished, we have started working on performance improvements as a priority to improve the customer experience. We initially prioritised the EU datacenter as that was suffering the most, and EU-based customers should now notice significantly improved performance across the platform.
-
-Our focus is now on improving the performance for our US-based customers.
-
 ## Performance Issues when Viewing Documents
 
 Our infrastructure has adequate capacity to support the document viewing and editing capabilities of Connections. However there are two issues causing noticable performance issues when working with documents:
@@ -60,6 +48,18 @@ The Sametime Connections plugin that provides instant messaging capabilities wit
 
 Please use Sametime webchat available at [webchatna.collab.cloud](https://webchatna.collab.cloud) (for US-based customers) or [webchateu.collab.cloud](https://webchateu.collab.cloud) (for EU-based customers) until this issue is resolved.
 
+## Sametime does not show profile pictures
+
+Sametime standalone and Notes Plugin does not show the profile pictures.
+
+*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+
+## Verse integration
+
+For customers who have Verse and Connections, the Connections integration in Verse fails if a user starts with Verse.
+
+*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+
 ## Invalid Links in the Connections Newsletter
 
 There is currently an issue with the Connections newsletter sent out by the platform.
@@ -77,18 +77,6 @@ Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong 
 ## Files search results
 
 Occasionally when searching for files in Community Files, there will be invalid links in the search results. Clicking the link will lead to an access denied error.
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
-
-## Header in ICEC and Search
-
-The apps in the header for icec and search point to the sorry page.
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
-
-## Mobile Administration not available
-
-The mobile Administration does not work at the moment.
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
 
@@ -125,3 +113,27 @@ The only solution is to disable the "Prevent cross-site tracking" option on the 
 ![id-comparison](/assets/images/screen-shots/desktopplugin/inet-options3.png)
 
 - Try again to connect
+
+## Very Short Timeouts in the Connections Engagement Center
+
+There is an issue with very short session timeouts in the Connections Engagement Center which is affecting a number of customers in both the EU and US data centres. This results in a login box appearing which does not accept any credentials.
+
+*We have taken a number of steps ourselves to resolve this issue and we have now opened a case with HCL. Updates will be provided as soon as the problem is resolved.*
+
+## Platform Performance Issues
+
+Now that all the migrations are finished, we have started working on performance improvements as a priority to improve the customer experience. We initially prioritised the EU datacenter as that was suffering the most, and EU-based customers should now notice significantly improved performance across the platform.
+
+Our focus is now on improving the performance for our US-based customers.
+
+## Header in ICEC and Search
+
+The apps in the header for icec and search point to the sorry page.
+
+*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+
+## Mobile Administration not available
+
+The mobile Administration does not work at the moment.
+
+*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
