@@ -1,5 +1,13 @@
 # Administration Console - Latest Changes
 
+#### 2021-01-04
+
+###### Added
+
+- Added access to App Registration and Mobile Administration to the console
+
+---
+
 #### 2020-12-03
 
 ###### Added
