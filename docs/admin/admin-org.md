@@ -3,6 +3,7 @@
 ## Logging into the Administration Console
 
 Administrators can log into the _ThreeThirds Collaboration Admin_ app by clicking the Cog icon in the top right of the screen in the Header Banner.
+In some browsers the icon does not show up on initial load, this is a bug we are workign on with HCL. A refresh brings it back.
 
 <img src="/assets/images/screen-shots/admin/admin-cog.png" alt="Admin Link" />
 
