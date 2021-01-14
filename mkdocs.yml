@@ -47,6 +47,7 @@ nav:
           - Connections API: admin/connections-api.md
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
+          - Mobile App: admin/connections-mobile-app.md
       # - Latest Changes: admin/admin-latest-changes.md
 
   - User Documentation:
