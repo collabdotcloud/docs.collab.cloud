@@ -17,7 +17,7 @@
         <meta name="author" content="Jared Roberts">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.1">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.3">
     
     
       
@@ -25,9 +25,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.71dfd922.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6e35a1a6.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.616af814.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a46bcfb3.min.css">
       
       
         
@@ -682,13 +682,6 @@
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#supported" class="md-nav__link">
-    Supported
-  </a>
   
 </li>
         
@@ -1508,13 +1501,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#supported" class="md-nav__link">
-    Supported
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1539,7 +1525,7 @@
                 <h1 id="connections-api">Connections API<a class="headerlink" href="#connections-api" title="Permanent link">&para;</a></h1>
 <p>This documentation describes how you can access the Connections API using our environment.</p>
 <p>For the documentation for the Connections API please refer to the official Connections API documentation:</p>
-<p><a href="https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf">HCL Connections API Documentation</a>)</p>
+<p><a href="https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf">HCL Connections API Documentation</a></p>
 <p>We currently use version 6.5 on our Multi-Tenant environment.</p>
 <h2 id="how-do-i-get-access-to-the-api">How do I get access to the API?<a class="headerlink" href="#how-do-i-get-access-to-the-api" title="Permanent link">&para;</a></h2>
 <p>Currently, you have to get in touch and ask us to create an API client for your tenant. You need an API client to be able to use the API. Every API client has a different Client-ID and Client-Secret, which you need to access the Connections API.
@@ -1560,7 +1546,7 @@ You will then be provided with the Client-ID and Client-Secret.</p>
 <p>We use OAuth 2.0 for all authentication, and basic authentication is not supported.</p>
 <p>You can still use the Basic-Auth APIs on our Connections environment like this:</p>
 <p><img alt="API Authentication flow" src="/assets/images/extensions/api_auth_flow.png" /></p>
-<p>This flow explains how to authenticate to call any API from Connections. If you want to perform calls to HCL Connections API endpoints that require basic authentication, you will need to follow this authentication flow. </p>
+<p>This flow explains how to authenticate to call any API from Connections. If you want to perform calls to HCL Connections API endpoints that require basic authentication, you will need to follow this authentication flow.</p>
 <p>If you instead only want to use an OAuth 2.0 capable API endpoints, you can skip step 2 in this flow and simply provide the bearer token.</p>
 <p>Basic only API endpoints need to be called with the Ltpa2Token Cookie. If you have the Cookie in your request headers, you won't need to supply credentials in your request. The token in the cookie proves your identity.</p>
 <h3 id="authentication-manual">Authentication Manual<a class="headerlink" href="#authentication-manual" title="Permanent link">&para;</a></h3>
@@ -1615,9 +1601,9 @@ scope:profile
 <p>You will then be able to use the access token as a bearer token in the next requests until it expires. When it expires, you will need to perform this request again and get a new token.</p>
 <h4 id="2-call-connections-oauth-endpoint-for-the-ltpa-token">2. Call Connections OAuth Endpoint for the LTPA Token<a class="headerlink" href="#2-call-connections-oauth-endpoint-for-the-ltpa-token" title="Permanent link">&para;</a></h4>
 <p>This step is only needed if you want to call a Basic API afterwards. To be able to use the Basic APIs you need the LTPA Token from Connections in its Cookie.</p>
-<p>And to get this cookie you need to call an OAuth 2.0 capable endpoint. </p>
+<p>And to get this cookie you need to call an OAuth 2.0 capable endpoint.</p>
 <p>Perform a GET request to <code>/files/oauth/api/nonce</code> with the Access token from the previous request as the bearer token in the Authorization header.</p>
-<p>We are not interested in the body that is returned. It will be an arbitrary Connections ID. We only want the cookie. </p>
+<p>We are not interested in the body that is returned. It will be an arbitrary Connections ID. We only want the cookie.</p>
 <hr />
 <p><strong>Example:</strong></p>
 <p>Please make sure to put your tenant into the subdomain.</p>
@@ -1701,7 +1687,7 @@ Here come the Bob&#39;s
 <h4 id="europe">Europe<a class="headerlink" href="#europe" title="Permanent link">&para;</a></h4>
 <ul>
 <li>
-<p>Authentication endpoint: </p>
+<p>Authentication endpoint:</p>
 <div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
 </code></pre></div>
 
@@ -1715,7 +1701,7 @@ Here come the Bob&#39;s
 
 </li>
 <li>
-<p>Endpoint Configuration: </p>
+<p>Endpoint Configuration:</p>
 <p><a href="https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration">EU Open-ID configuration</a></p>
 <div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
 </code></pre></div>
@@ -1727,21 +1713,21 @@ Here come the Bob&#39;s
 <h4 id="north-america">North America<a class="headerlink" href="#north-america" title="Permanent link">&para;</a></h4>
 <ul>
 <li>
-<p>Authentication endpoint: </p>
+<p>Authentication endpoint:</p>
 <div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
 </code></pre></div>
 
 
 </li>
 <li>
-<p>Token endpoint: </p>
+<p>Token endpoint:</p>
 <div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 </code></pre></div>
 
 
 </li>
 <li>
-<p>Endpoint Configuration: </p>
+<p>Endpoint Configuration:</p>
 <p><a href="https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration">US Open-ID configuration</a></p>
 <div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
 </code></pre></div>
@@ -1750,7 +1736,6 @@ Here come the Bob&#39;s
 <p>To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.</p>
 </li>
 </ul>
-<h3 id="supported">Supported<a class="headerlink" href="#supported" title="Permanent link">&para;</a></h3>
                 
               
               
@@ -1849,14 +1834,14 @@ Here come the Bob&#39;s
     </div>
     
       <script src="../../assets/javascripts/vendor.d710d30a.min.js"></script>
-      <script src="../../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/bundle.a45f732b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: ["tabs"],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.27c6a5e6.min.js"
+            worker: "../../assets/javascripts/worker/search.c03f0417.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
