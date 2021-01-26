@@ -4,7 +4,7 @@ This documentation describes how you can access the Connections API using our en
 
 For the documentation for the Connections API please refer to the official Connections API documentation:
 
-[HCL Connections API Documentation](https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf))
+[HCL Connections API Documentation](https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf)
 
 We currently use version 6.5 on our Multi-Tenant environment.
 
@@ -45,7 +45,7 @@ You can still use the Basic-Auth APIs on our Connections environment like this:
 
 ![API Authentication flow](/assets/images/extensions/api_auth_flow.png)
 
-This flow explains how to authenticate to call any API from Connections. If you want to perform calls to HCL Connections API endpoints that require basic authentication, you will need to follow this authentication flow. 
+This flow explains how to authenticate to call any API from Connections. If you want to perform calls to HCL Connections API endpoints that require basic authentication, you will need to follow this authentication flow.
 
 If you instead only want to use an OAuth 2.0 capable API endpoints, you can skip step 2 in this flow and simply provide the bearer token.
 
@@ -74,7 +74,6 @@ We will use the *EU endpoint* in this example.
 - Request:
 
         POST https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
-    
 
     Body: (Content-Type: `application/x-www-form-urlencoded`)
 
@@ -104,11 +103,11 @@ You will then be able to use the access token as a bearer token in the next requ
 
 This step is only needed if you want to call a Basic API afterwards. To be able to use the Basic APIs you need the LTPA Token from Connections in its Cookie.
 
-And to get this cookie you need to call an OAuth 2.0 capable endpoint. 
+And to get this cookie you need to call an OAuth 2.0 capable endpoint.
 
 Perform a GET request to `/files/oauth/api/nonce` with the Access token from the previous request as the bearer token in the Authorization header.
 
-We are not interested in the body that is returned. It will be an arbitrary Connections ID. We only want the cookie. 
+We are not interested in the body that is returned. It will be an arbitrary Connections ID. We only want the cookie.
 
 ---
 
@@ -171,7 +170,7 @@ There are different endpoint URLs for every data center.
 
 #### Europe
 
-- Authentication endpoint: 
+- Authentication endpoint:
 
         https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
 
@@ -179,7 +178,7 @@ There are different endpoint URLs for every data center.
 
         https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 
-- Endpoint Configuration: 
+- Endpoint Configuration:
 
     [EU Open-ID configuration](https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration)
 
@@ -189,23 +188,18 @@ There are different endpoint URLs for every data center.
 
 #### North America
 
-- Authentication endpoint: 
+- Authentication endpoint:
 
         https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
 
-- Token endpoint: 
+- Token endpoint:
 
         https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 
-- Endpoint Configuration: 
+- Endpoint Configuration:
 
     [US Open-ID configuration](https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration)
 
         https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
 
     To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.
-
-### Supported
-
-
-
