@@ -1,5 +1,13 @@
 # Administration Console - Latest Changes
 
+#### 2021-01-28
+
+###### Added
+
+- Add Sametime subscriptions to Organisation Users
+
+---
+
 #### 2021-01-04
 
 ###### Added
