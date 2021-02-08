@@ -203,3 +203,9 @@ There are different endpoint URLs for every data center.
         https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
 
     To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.
+
+## Samples
+
+### Lotusscript
+
+Sample Implementation using Lotusscript can be found [here](/assets/files/api-connect-3t.nsf).
