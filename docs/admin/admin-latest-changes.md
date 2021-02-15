@@ -1,5 +1,18 @@
 # Administration Console - Latest Changes
 
+#### 2021-02-16
+
+###### Added
+
+- Last logins details of users added to export list
+
+###### Changed
+
+- User exports process changed to accommodate last logins
+- Improvements to table styling within the app
+
+---
+
 #### 2021-01-28
 
 ###### Added
