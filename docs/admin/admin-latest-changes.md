@@ -9,6 +9,7 @@
 ###### Changed
 
 - User exports process changed to accommodate last logins
+- Subscription IDs in user export replaced with subscription names
 - Improvements to table styling within the app
 
 ---
