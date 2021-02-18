@@ -1,5 +1,14 @@
 # Administration Console - Latest Changes
 
+#### 2021-02-18
+
+###### Added
+
+- Show/Hide Inactive Users button on My Users page
+- Count of users on My Users page
+
+---
+
 #### 2021-02-16
 
 ###### Added
