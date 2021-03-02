@@ -27,7 +27,7 @@ extra:
 nav:
   - Home: index.md
   - Getting Started: getting-started-new.md
-  - Migration from IBM SmartCloud: ibm-migration.md
+#  - Migration from IBM SmartCloud: ibm-migration.md
 
   - Admin Documentation:
       - Manage Organisation:
