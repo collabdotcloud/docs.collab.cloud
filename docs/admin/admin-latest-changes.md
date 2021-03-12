@@ -1,5 +1,14 @@
 # Administration Console - Latest Changes
 
+#### 2021-03-12
+
+###### Added
+
+- Open Support Tickets displayed in Admin App
+- Set who receives admin news
+
+---
+
 #### 2021-02-18
 
 ###### Added
