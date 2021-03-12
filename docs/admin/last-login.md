@@ -1,6 +1,6 @@
 You can see information about a users last login in the user details view in the admin app. You can find it under the name and user type.
 
-![Last login](/assets/images/screen-shots/admin/last-login.png)
+![Export User List](/assets/images/screen-shots/admin/last-login.png)
 
 It will display the service that was logged in to as well as the date and time.
 
