@@ -21,7 +21,7 @@ We will then provide you with your **Client-ID** and **Client-Secret**.
 
 ### Future plans
 
-We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App. How cool is that?
+We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App.
 
 See our roadmap for more information.
 
@@ -206,6 +206,41 @@ There are different endpoint URLs for every data center.
 
 ## Samples
 
+Both examples use the password grant flow. This flow is used, as both examples run directly on server/client.
+
+### CURL
+
+This example uses CURL to access the Connections Files API. It will get 10 latest files and stores it in myuserlibrary.xml
+Replace the URL with your connections collab cloud url.
+
+```sh
+#!/bin/sh
+# Tested on UBUNTU 20.04
+CLIENT_SECRET=<CLIENT-SECRET>
+CLIENT_ID=<CLIENT-ID>
+USERNAME=<EMAIL-ADDRESS>
+# Make sure that the password is properly encoded
+# + -> %2B
+PASSWORD=<PASSWORD>
+
+URL=https://threethirdseu.collab.cloud
+TOKEN_ENDPOINT=https://logineu.collab.cloud
+
+DATA="grant_type=password&client_id=$CLIENT_ID&client_secret=$CLIENT_SECRET&password=$PASSWORD&username=$USERNAME"
+curl -o req1.json -k -H "Content-Type: application/x-www-form-urlencoded" --data $DATA $TOKEN_ENDPOINT/auth/realms/connections-mt/protocol/openid-connect/token -X POST
+
+TOKEN=`jq '.access_token' req1.json`
+TOKEN2=${TOKEN%\"}
+TOKEN2=${TOKEN2#\"}
+NONCE=`curl -k -H "Authorization: Bearer $TOKEN2" $URL/files/oauth/api/nonce -X GET -c cookies.txt`
+curl -o myuserlibrary.xml -b cookies.txt -k $URL/files/basic/api/myuserlibrary/feed?includePath=true&includeQuota=true&ps=10&sortBy=updated 
+
+```
+
 ### Lotusscript
 
 Sample Implementation using Lotusscript can be found [here](/assets/files/api-connect-3t.nsf).
+There's the getProfileAgent which needs to be adjusted to your environment.
+In the sub sessionInfo.new set your client-id, client-secret, username and password. Adjust the values for endpoint and user_info endpoint to one of our datacenters.
+
+Make sure that the password is properly encoded ( + -> %2B, Space %20)
