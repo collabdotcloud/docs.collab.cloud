@@ -27,7 +27,7 @@ extra:
 nav:
   - Home: index.md
   - Getting Started: getting-started-new.md
-  - Migration from IBM SmartCloud: ibm-migration.md
+#  - Migration from IBM SmartCloud: ibm-migration.md
 
   - Admin Documentation:
       - Manage Organisation:
@@ -38,6 +38,7 @@ nav:
           - For Hybrid Customers: admin/manage-users-hybrid.md
       #      - Mail/IM Only Customers: admin/manage-users-mailim.md
           - Last Login: admin/last-login.md
+          - Export User List: admin/export-user-list.md
       - Authentication:
           - Federated Identity Authentication with SAML: admin/auth-saml.md
           - Sametime Client Authentication: admin/admin-sametime.md

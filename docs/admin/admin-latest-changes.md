@@ -1,5 +1,37 @@
 # Administration Console - Latest Changes
 
+#### 2021-03-12
+
+###### Added
+
+- Open Support Tickets displayed in Admin App
+- Set who receives admin news
+
+---
+
+#### 2021-02-18
+
+###### Added
+
+- Show/Hide Inactive Users button on My Users page
+- Count of users on My Users page
+
+---
+
+#### 2021-02-16
+
+###### Added
+
+- Last logins details of users added to export list
+
+###### Changed
+
+- User exports process changed to accommodate last logins
+- Subscription IDs in user export replaced with subscription names
+- Improvements to table styling within the app
+
+---
+
 #### 2021-01-28
 
 ###### Added
