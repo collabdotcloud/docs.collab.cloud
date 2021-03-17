@@ -17,7 +17,7 @@
         <meta name="author" content="Jared Roberts">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.3">
     
     
       
@@ -25,9 +25,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.63b94e9e.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6e35a1a6.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.7f672a1f.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a46bcfb3.min.css">
       
       
         
@@ -59,7 +59,6 @@
     
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="cyan" data-md-color-accent="grey">
   
-    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -681,6 +680,33 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samples" class="md-nav__link">
+    Samples
+  </a>
+  
+    <nav class="md-nav" aria-label="Samples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#curl" class="md-nav__link">
+    CURL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lotusscript" class="md-nav__link">
+    Lotusscript
+  </a>
   
 </li>
         
@@ -1505,6 +1531,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#samples" class="md-nav__link">
+    Samples
+  </a>
+  
+    <nav class="md-nav" aria-label="Samples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#curl" class="md-nav__link">
+    CURL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lotusscript" class="md-nav__link">
+    Lotusscript
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1533,7 +1586,7 @@ You will then be provided with the Client-ID and Client-Secret.</p>
 <p>To reach us, please use <a href="https://support.collab.cloud">support.collab.cloud</a> and open a new ticket. Open a request with a subject and description that lets us know that you need access to the API.</p>
 <p>We will then provide you with your <strong>Client-ID</strong> and <strong>Client-Secret</strong>.</p>
 <h3 id="future-plans">Future plans<a class="headerlink" href="#future-plans" title="Permanent link">&para;</a></h3>
-<p>We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App. How cool is that?</p>
+<p>We know this work-flow isn't ideal, and we are building a better system to manage your API clients and client-secrets right inside the Admin-App.</p>
 <p>See our roadmap for more information.</p>
 <h2 id="service-accounts">Service Accounts<a class="headerlink" href="#service-accounts" title="Permanent link">&para;</a></h2>
 <p>We currently don't have dedicated service accounts. However, every normal user can function as a service account and authenticate programmatically. Meaning, you can create a new separate user, dedicated to call the Connections APIs. It needs the same subscriptions as a normal Connections user.</p>
@@ -1735,6 +1788,39 @@ Here come the Bob&#39;s
 <p>To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.</p>
 </li>
 </ul>
+<h2 id="samples">Samples<a class="headerlink" href="#samples" title="Permanent link">&para;</a></h2>
+<p>Both examples use the password grant flow. This flow is used, as both examples run directly on server/client.</p>
+<h3 id="curl">CURL<a class="headerlink" href="#curl" title="Permanent link">&para;</a></h3>
+<p>This example uses CURL to access the Connections Files API. It will get 10 latest files and stores it in myuserlibrary.xml
+Replace the URL with your connections collab cloud url.</p>
+<div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/sh</span>
+<span class="c1"># Tested on UBUNTU 20.04</span>
+<span class="nv">CLIENT_SECRET</span><span class="o">=</span>&lt;CLIENT-SECRET&gt;
+<span class="nv">CLIENT_ID</span><span class="o">=</span>&lt;CLIENT-ID&gt;
+<span class="nv">USERNAME</span><span class="o">=</span>&lt;EMAIL-ADDRESS&gt;
+<span class="c1"># Make sure that the password is properly encoded</span>
+<span class="c1"># + -&gt; %2B</span>
+<span class="nv">PASSWORD</span><span class="o">=</span>&lt;PASSWORD&gt;
+
+<span class="nv">URL</span><span class="o">=</span>https://threethirdseu.collab.cloud
+<span class="nv">TOKEN_ENDPOINT</span><span class="o">=</span>https://logineu.collab.cloud
+
+<span class="nv">DATA</span><span class="o">=</span><span class="s2">&quot;grant_type=password&amp;client_id=</span><span class="nv">$CLIENT_ID</span><span class="s2">&amp;client_secret=</span><span class="nv">$CLIENT_SECRET</span><span class="s2">&amp;password=</span><span class="nv">$PASSWORD</span><span class="s2">&amp;username=</span><span class="nv">$USERNAME</span><span class="s2">&quot;</span>
+curl -o req1.json -k -H <span class="s2">&quot;Content-Type: application/x-www-form-urlencoded&quot;</span> --data <span class="nv">$DATA</span> <span class="nv">$TOKEN_ENDPOINT</span>/auth/realms/connections-mt/protocol/openid-connect/token -X POST
+
+<span class="nv">TOKEN</span><span class="o">=</span><span class="sb">`</span>jq <span class="s1">&#39;.access_token&#39;</span> req1.json<span class="sb">`</span>
+<span class="nv">TOKEN2</span><span class="o">=</span><span class="si">${</span><span class="nv">TOKEN</span><span class="p">%</span><span class="se">\&quot;</span><span class="si">}</span>
+<span class="nv">TOKEN2</span><span class="o">=</span><span class="si">${</span><span class="nv">TOKEN2</span><span class="p">#</span><span class="se">\&quot;</span><span class="si">}</span>
+<span class="nv">NONCE</span><span class="o">=</span><span class="sb">`</span>curl -k -H <span class="s2">&quot;Authorization: Bearer </span><span class="nv">$TOKEN2</span><span class="s2">&quot;</span> <span class="nv">$URL</span>/files/oauth/api/nonce -X GET -c cookies.txt<span class="sb">`</span>
+curl -o myuserlibrary.xml -b cookies.txt -k <span class="nv">$URL</span>/files/basic/api/myuserlibrary/feed?includePath<span class="o">=</span>true<span class="p">&amp;</span><span class="nv">includeQuota</span><span class="o">=</span>true<span class="p">&amp;</span><span class="nv">ps</span><span class="o">=</span><span class="m">10</span><span class="p">&amp;</span><span class="nv">sortBy</span><span class="o">=</span>updated 
+</code></pre></div>
+
+
+<h3 id="lotusscript">Lotusscript<a class="headerlink" href="#lotusscript" title="Permanent link">&para;</a></h3>
+<p>Sample Implementation using Lotusscript can be found <a href="/assets/files/api-connect-3t.nsf">here</a>.
+There's the getProfileAgent which needs to be adjusted to your environment.
+In the sub sessionInfo.new set your client-id, client-secret, username and password. Adjust the values for endpoint and user_info endpoint to one of our datacenters.</p>
+<p>Make sure that the password is properly encoded ( + -&gt; %2B, Space %20)</p>
                 
               
               
@@ -1832,15 +1918,15 @@ Here come the Bob&#39;s
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.d1f5a259.min.js"></script>
-      <script src="../../assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a45f732b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: ["tabs"],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
+            worker: "../../assets/javascripts/worker/search.c03f0417.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
