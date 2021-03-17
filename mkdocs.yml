@@ -33,8 +33,12 @@ nav:
       - Manage Organisation:
           - Overview: admin/admin-org.md
           - Organisation Info: admin/manage-org.md
+          - Open Support Tickets: admin/open-support-tickets.md
       - Manage Users:
           - General: admin/manage-users.md
+          - Additional Roles:
+              - Get Admin News: admin/get-admin-news.md
+            #  - Support Role: admin/support-role.md
           - For Hybrid Customers: admin/manage-users-hybrid.md
       #      - Mail/IM Only Customers: admin/manage-users-mailim.md
           - Last Login: admin/last-login.md
