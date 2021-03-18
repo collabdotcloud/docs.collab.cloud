@@ -42,3 +42,7 @@ The static files for the website are served out from the `gh-pages` branch.
 
 1. See the file `mkdocs.yml` for site config
 2. Check out the docs for [mkdocs](https://www.mkdocs.org) and [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
+
+## Latest Updates
+
+The Search plugin is enabled since March 18 2021
