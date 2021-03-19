@@ -119,3 +119,21 @@ The only solution is to disable the "Prevent cross-site tracking" option on the 
 There is an issue with very short session timeouts in the Connections Engagement Center which is affecting a number of customers in both the EU and US data centres. This results in a login box appearing which does not accept any credentials.
 
 *We have taken a number of steps ourselves to resolve this issue and we have now opened a case with HCL. Updates will be provided as soon as the problem is resolved.*
+
+## Activities Plus (Huddo Boards) not shown correctly
+
+If you are using Chrome (or Brave) browser you might have faced the following issues with Activities Plus:
+
+- Doesn't open in the widget
+- Connections header not shown while in the app itself
+
+![id-comparison](/assets/images/screen-shots/aplus/aplus-third-party-cookie.png)
+
+Solution:
+
+- Go to Settings - Privacy and security - Cookies and other site data
+- Add the following URLs in the section "Sites that can always use cookies":
+
+![id-comparison](/assets/images/screen-shots/aplus/aplus-sites-that-can-always-use-cookies.png)
+
+- Please note: You have to enable "Including third-party cookies on this site"
