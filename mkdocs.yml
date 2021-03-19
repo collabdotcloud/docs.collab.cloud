@@ -111,6 +111,8 @@ extra_css:
 #  - "auto"
 
 plugins:
+  - search:
+      lang: en
   - redirects:
       redirect_maps:
         'admin/api-clients.md': 'admin/connections-api.md'
