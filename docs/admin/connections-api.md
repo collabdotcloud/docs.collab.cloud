@@ -10,8 +10,9 @@ We currently use version 6.5 on our Multi-Tenant environment.
 
 ## How do I get access to the API?
 
-Currently, you have to get in touch and ask us to create an API client for your tenant. You need an API client to be able to use the API. Every API client has a different Client-ID and Client-Secret, which you need to access the Connections API.
-You will then be provided with the Client-ID and Client-Secret.
+The APIs support only Oauth/OIDC access.
+Please open a support ticket if you want to use the API's.
+You will then be provided with your Client-ID and Client-Secret.
 
 **Important:** Please keep your Client-Secret a secret and only give it to people that need it and store it safely.
 
