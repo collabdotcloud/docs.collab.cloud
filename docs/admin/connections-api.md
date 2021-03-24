@@ -205,6 +205,14 @@ There are different endpoint URLs for every data center.
 
     To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.
 
+### Customers with SSO
+
+If your tenant is enabled for Single Sign On (SSO) with your tenant's own IDP and you need to do scheduled updates - not in the users browser session - then you need an admin user and it's credentials need to be set in our directory.
+
+1. create a user in our admin portal and assing him the admin role
+2. test the login to your tenants connections site with this admin user
+3. goto [EU](https://logineu.collab.cloud) or [US](https://loginna.collab.cloud) page and reset the password there.
+
 ## Samples
 
 Both examples use the password grant flow. This flow is used, as both examples run directly on server/client.
