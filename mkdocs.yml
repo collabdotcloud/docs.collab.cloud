@@ -34,6 +34,7 @@ nav:
           - Overview: admin/admin-org.md
           - Organisation Info: admin/manage-org.md
           - Open Support Tickets: admin/open-support-tickets.md
+          - My Communities: admin/my-communities.md
       - Manage Users:
           - General: admin/manage-users.md
           - Additional Roles:
