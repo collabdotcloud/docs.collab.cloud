@@ -54,8 +54,8 @@ nav:
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
           - Mobile App: admin/connections-mobile-app.md
-      - Business Partner Options:
-          - Manage your Customer's Organisation: admin/bp-customer-orgs.md
+      #- Business Partner Options:
+      #    - Manage your Customer's Organisation: admin/bp-customer-orgs.md
       # - Latest Changes: admin/admin-latest-changes.md
 
   - User Documentation:
