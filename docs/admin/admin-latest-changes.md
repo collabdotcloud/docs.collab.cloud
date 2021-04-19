@@ -1,5 +1,38 @@
 # Administration Console - Latest Changes
 
+#### 2021-03-30
+
+###### Added
+
+- Add Support Role attribute to users
+
+###### Bugs Fixed
+
+- Internal communities links configured incorrectly
+
+---
+
+#### 2021-03-19
+
+###### Added
+
+- My communities
+- Community Details
+- Community Members
+- Community Owners
+- Parent Community
+- Sub Communities
+
+---
+
+#### 2021-03-17
+
+###### Changed
+
+- Sidebar includes Connections profile pictures where applicable
+
+---
+
 #### 2021-03-12
 
 ###### Added
