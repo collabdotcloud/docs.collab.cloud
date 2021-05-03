@@ -16,4 +16,4 @@ Select the new Subscription and click "SWITCH".
 
 ![Last login](/assets/images/screen-shots/admin/subscription-switch-dialog3.png)
 
-You should now see tbe changed Subscription for the user.
+You should now see the changed Subscription for the user.
