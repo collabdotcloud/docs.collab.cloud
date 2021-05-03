@@ -46,6 +46,11 @@ nav:
       #      - Mail/IM Only Customers: admin/manage-users-mailim.md
           - Last Login: admin/last-login.md
           - Export User List: admin/export-user-list.md
+          - Switch Subscriptions: admin/subscriptions-switch.md
+          - Bulk Actions:
+              - Select Users: admin/bulk-actions-select-user.md
+              - Remove Connections Subscriptions: admin/bulk-actions-remove-subscription.md
+              - Deactivate Users: admin/bulk-actions-deactivate-user.md
       - Authentication:
           - Federated Identity Authentication with SAML: admin/auth-saml.md
           - Sametime Client Authentication: admin/admin-sametime.md
