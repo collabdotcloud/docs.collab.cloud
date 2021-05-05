@@ -34,7 +34,9 @@ nav:
           - Overview: admin/admin-org.md
           - Organisation Info: admin/manage-org.md
           - Open Support Tickets: admin/open-support-tickets.md
-          - My Communities: admin/my-communities.md
+          - Communities:
+              - My Communities: admin/my-communities.md
+              - Member of: admin/communities-member-of.md
       - Manage Users:
           - General: admin/manage-users.md
           - Additional Roles:
@@ -44,6 +46,11 @@ nav:
       #      - Mail/IM Only Customers: admin/manage-users-mailim.md
           - Last Login: admin/last-login.md
           - Export User List: admin/export-user-list.md
+          - Switch Subscription: admin/subscription-switch.md
+          - Bulk Actions:
+              - Select Users: admin/bulk-actions-select-user.md
+              - Remove Connections Subscriptions: admin/bulk-actions-remove-subscription.md
+              - Deactivate Users: admin/bulk-actions-deactivate-user.md
       - Authentication:
           - Federated Identity Authentication with SAML: admin/auth-saml.md
           - Sametime Client Authentication: admin/admin-sametime.md
@@ -54,6 +61,8 @@ nav:
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
           - Mobile App: admin/connections-mobile-app.md
+      #- Business Partner Options:
+      #    - Manage your Customer's Organisation: admin/bp-customer-orgs.md
       # - Latest Changes: admin/admin-latest-changes.md
 
   - User Documentation:
