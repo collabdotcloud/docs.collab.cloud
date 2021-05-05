@@ -1,5 +1,21 @@
 # Administration Console - Latest Changes
 
+#### 2021-05-05
+
+###### Added
+
+- Ability to switch between different subscriptions for a user, such as between Connections Guest and Conenection Guest Paid
+
+---
+
+#### 2021-05-03
+
+###### Added
+
+- Section in User Page that shows which communities they belong to, and whether an owner or a members
+
+---
+
 #### 2021-03-30
 
 ###### Added
