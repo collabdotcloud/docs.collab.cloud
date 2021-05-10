@@ -5,7 +5,7 @@ The following is for Administrators to consider:
 
 * You will need to register your new user in the Domino Directory, and set a password for the Notes ID if your user is to use Notes client.
 * Notes ID/Internet passwords are not used to authenticate to Connections/Verse mail via browser and/or apps, plugins or other.
-* If you are registering an on-premise Mail or Apps user - this user is completely independent of the _collab.cloud_ environment and this procedure does not apply.
+* If you are registering an on-premise Mail or Apps user - this procedure may still apply, as you can assign a Connections license to the user in _collab.cloud_ if your Organization is licensed. The Directory Sync will create this user in the _collab.cloud_ Admin App unless you place the NOSYNC string in the Person Document
 
 ---
 
@@ -19,7 +19,7 @@ Register the user as per your normal process, ensure that your nominated _collab
 
 ## Directory Sync
 
-Your Mail cluster is configured to synchronize your Domino Directory with the _collab.cloud_ identity management system and the Admin App approximately every <strong>4 hours</strong>\** </br></br>
+Your Mail cluster is configured to synchronize your Domino Directory with the _collab.cloud_ identity management system and the Admin App approximately every <strong>3 minutes</strong>\** </br></br>
     ![domreg-sync](/assets/images/screen-shots/admin/domreg-sync.png)
 
 The Directory Sync process will detect changes in the Domino Directory and perform the following:
@@ -28,12 +28,13 @@ The Directory Sync process will detect changes in the Domino Directory and perfo
 * Assign a _Clustered Mail Cloud_ license to any new users who are registered against your nominated _collab.cloud_ Mail Servers and mailboxes created
 * Assign a _Clustered Mail Cloud_ license to any existing users who have been moved/updated to _collab.cloud_ Mail Servers and mailboxes transferred via Domino (adminP) process
 * Assign a _Clustered Mail Cloud_ license to any existing Connections users in _collab.cloud_ who have been registered in the Domino Directory for mail
+* Modify basic name information for a user such as First/Last name, email address
 * Remove all licenses from any users who have been deleted from the Domino Directory and set the user status to Inactive
 
-> ** The 4-hour sync process is temporary while migrations from IBM Connections Cloud are being completed and the User management processes are being finalised.
+> ** The 3 minute Sync heartbeat is being rolled out during May 2021. This will be the default setting but may differ in your Organiztion. Please log a support ticket via [support@collab.cloud](mailto:support@collab.cloud) for more information.
 
 </br>
-After the sync process has created/updated the user in the Admin App - you can then set a password and (if required) assign a Connections license. </br></br>
+After the sync process has created/updated the user in the Admin App - you can then set a password and (if required) assign a Connections or other license. </br></br>
     ![domreg-adminapp](/assets/images/screen-shots/admin/domreg-adminapp.png)
 
 You may also notice that the _Shortname/UserID_ field in the Person Document is updated with a unique number or univeral ID value.
@@ -65,14 +66,20 @@ Clicking the reset password button gives you 2 options as follows
 
 ## Updating user info
 
-Name changes performed via the Domino (adminP) process will be synchronized with the _collab.cloud_ Admin App - however <strong>email addresses are not changed automatically</strong>.</br></br>
-Please send a request to [support@collab.cloud](mailto:support@collab.cloud) for email address changes for _Clustered Mail Cloud_ users.
+Name changes performed via the Domino (adminP) process will be synchronized with the _collab.cloud_ Admin App.</br>
+Please note that <strong>email addresses may also be changed automatically</strong>.</br></br>
+For a Mail & Connections user, you may need to log into the Admin App to perform a re-save to update the Connection Profile:
+
+* Step 1.
+* Step 2.
+
+Please send a request to [support@collab.cloud](mailto:support@collab.cloud) if you need assistance.
 
 ---
 
 ## Deleting Users from Domino Directory
 
-When a user is deleted from the Domino directory. The _Clustered Mail Cloud_ license is removed from the user in the Admin App via the sync process. The user remains Active until your administrator logs into the Admin App and performs further actions such as:
+When a user is deleted from the Domino directory. The _Clustered Mail Cloud_ license is removed from the user in the Admin App via the Directory Sync process. The user will also be marked Inactive. Your administrator can log into the Admin App and perform further actions such as:
 
-* Add/Remove other licenses for the user if required
-* Set the user to `Inactive` if the user is intended to be deleted
+* Set the user to `Active` if the user is intended to be retained for Connections use.
+* Add/Remove other licenses for the user if required.
