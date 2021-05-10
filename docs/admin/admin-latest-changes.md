@@ -1,5 +1,14 @@
 # Administration Console - Latest Changes
 
+#### 2021-05-10
+
+###### Added
+
+- Remove Connections subscriptions from one or more users
+- Deactivate one or more users
+
+---
+
 #### 2021-05-05
 
 ###### Added
