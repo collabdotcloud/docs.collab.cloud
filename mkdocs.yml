@@ -8,7 +8,7 @@ repo_name: collab.cloud
 theme:
   name: material
   features:
-    - tabs
+    - navigation.tabs
   palette:
     primary: cyan #2ABDEA
     accent: grey
