@@ -51,6 +51,9 @@ nav:
               - Select Users: admin/bulk-actions-select-user.md
               - Remove Connections Subscriptions: admin/bulk-actions-remove-subscription.md
               - Deactivate Users: admin/bulk-actions-deactivate-user.md
+      - Manage Communities:
+          - List Communities per User: admin/communities-list-per-user.md
+          - Change Owner of a Community: admin/communities-change-owner.md
       - Authentication:
           - Federated Identity Authentication with SAML: admin/auth-saml.md
           - Sametime Client Authentication: admin/admin-sametime.md
