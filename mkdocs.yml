@@ -76,6 +76,7 @@ nav:
           - HCL Verse on your Smartphone or tablet: users/verse-traveler.md
       - Using Connections:
           - Getting Started: users/using-connections-gettingstarted.md
+          - Social Homepage: users/connections-orientme.md
           - Extensions:
               - WebEx: users/using-webex-extension.md
               - Desktop Sync for Mac: users/desktop-plugins-mac.md
