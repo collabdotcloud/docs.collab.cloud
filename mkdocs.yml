@@ -9,6 +9,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.sticky
   palette:
     primary: cyan #2ABDEA
     accent: grey
