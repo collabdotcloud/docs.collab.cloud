@@ -157,13 +157,15 @@ Personal Data
 
 -   Email address
 
-    -   First name and last name
+-   First name and last name
 
-        -   Phone number
+-   Phone number
 
-            -   Address
+-   Address
 
-                -   Usage Data
+-   Usage Data
+
+-   Geographic location (subject to you expressly opting-in to provide such data)
 
 Usage Data
 
