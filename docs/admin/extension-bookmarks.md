@@ -1,4 +1,4 @@
-# Open all Bookmarks in new Window extension
+# Open all Bookmarks in new Tab extension
 
 If you or your users use the bookmark app and community widget, you might want to change the default behaviour when you open a link.
 
