@@ -62,6 +62,7 @@ nav:
           - Connections AppReg: admin/appreg.md
           - WebEx: admin/extension-webex.md
           - Bookmarks in new Tab: admin/extension-bookmarks.md
+          - Search in new Tab: admin/extension-search.md
           - Connections API: admin/connections-api.md
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md

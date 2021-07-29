@@ -1,20 +1,10 @@
-# Open all Bookmarks in new Tab extension
+# Searchresults extension
 
-If you or your users use the bookmark app and community widget, you might want to change the default behaviour when you open a link.
+Tired of loosing your searchresults when you click on one?
+The connections default is to open the search result in the current window.
+This extensions changes the default target for links in the search app:
 
-## Changes
-
-In your private bookmark page:
-
-![Bookmark app](../assets/images/extensions/bookmark-app.png)
-
-In the community overview for bookmarks and important bookmarks
-
-![Community Widget](../assets/images/extensions/bookmark-community.png)
-
-In the community bookmarks:
-
-![Community App](../assets/images/extensions/bookmark-community-app.png)
+![Search Results](../assets/images/extensions/search-overview.png)
 
 ## Installation
 
@@ -32,20 +22,20 @@ Remove the default content and paste the JSON below into the editor.
 
 ```json
 {
-    "name": "ttt.bookmarks",
-    "title": "Bookmark",
-    "description": "Open Bookmarks in new Window",
+    "name": "ttt.searchresults",
+    "title": "Searchresults",
+    "description": "Open Searchresults in new Tab",
     "services": [
         "Customizer"
     ],
     "state": "enabled",
     "extensions": [
         {
-            "name": "100-ttt.bookmarks",
+            "name": "101-ttt.searchresults",
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "extensions/ttt.bookmarks/js/bookmarks.js"
+                    "extensions/ttt.searchresults/js/searchresults.js"
                 ],
                 "cache-headers": {
                     "cache-control": "max-age=30"
@@ -68,4 +58,4 @@ Ensure that all the braces are there and are closed. The code editor validates t
 
 ![Save](../assets/images/extensions/appreg-success.png)
 
-Once the app is enabled, bookmarks should now open in new tabs.
+Once the app is enabled, searchresults should now open in new tabs.
