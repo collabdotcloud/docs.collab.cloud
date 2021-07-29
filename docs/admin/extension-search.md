@@ -1,7 +1,7 @@
 # Searchresults extension
 
 Tired of loosing your searchresults when you click on one?
-The connections default is to open the search result in the current window.
+Connections default is to open the search result in the current window. So your users need to right-click or CTRL-click on the links.
 This extensions changes the default target for links in the search app:
 
 ![Search Results](../assets/images/extensions/search-overview.png)
