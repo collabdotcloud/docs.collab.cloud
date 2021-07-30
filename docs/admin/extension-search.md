@@ -48,14 +48,4 @@ Remove the default content and paste the JSON below into the editor.
 }
 ```
 
-![Code](../assets/images/extensions/appreg-paste-extension.png)
-
-Ensure that all the braces are there and are closed. The code editor validates the JSON. It shows any syntax errors.
-
-![Syntax error](../assets/images/extensions/appreg-code-error.png)
-
-## Save
-
-![Save](../assets/images/extensions/appreg-success.png)
-
 Once the app is enabled, searchresults should now open in new tabs.
