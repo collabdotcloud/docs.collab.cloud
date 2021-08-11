@@ -30,8 +30,7 @@ This is an axample of such an extension for your reference.
                         "defaultPath": "welcome,editProfile,findColleagues,followCommunities,profileTags",
                         "icExternalPath": "welcome,editProfile,profileTags",
                         "pagStandalone": "pagStandalone"
-                    },
-                    "order": "welcome,profileTags,findColleagues,followCommunities,editProfile"
+                    }
                 },
                 "privacyAndGuidelines": {
                     "enabled": true,
