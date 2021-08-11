@@ -11,7 +11,7 @@
         <meta name="description" content="ThreeThirds Collaboration Documentation">
       
       
-        <link rel="canonical" href="https://docs.collab.cloud/admin/touchpoint/">
+        <link rel="canonical" href="https://docs.collab.cloud/admin/highlights/">
       
       
         <meta name="author" content="Jared Roberts">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Touchpoint - ThreeThirds Collaboration Docs</title>
+        <title>Highlights - ThreeThirds Collaboration Docs</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-touchpoint" class="md-skip">
+        <a href="#what-are-highlights" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Touchpoint
+              Highlights
             
           </span>
         </div>
@@ -1490,111 +1490,24 @@
                   
                 
                 
-                <h1 id="what-is-touchpoint">What is Touchpoint<a class="headerlink" href="#what-is-touchpoint" title="Permanent link">&para;</a></h1>
-<p>Onboarding new employees is a challenge many organizations face. With Connections Touchpoint new users are welcomed to Connections and guided through a few simple steps to prepopulate their profiles, select from a few topics they might be interested in. In return, Touchpoint presents the new user with useful communities and colleagues to follow making the first day at work an engaging experience. </p>
-<p>Watch <a href="https://www.youtube.com/watch?v=W3U4nkSGoDQ">this</a> video for more information</p>
-<h1 id="how-to-enable-touchpoint-for-your-organisation">How to enable Touchpoint for your organisation<a class="headerlink" href="#how-to-enable-touchpoint-for-your-organisation" title="Permanent link">&para;</a></h1>
-<p>To enable Touchpoint for your organisation, you will need to add a new Appregistry extension. For more information on Appregistry, see <a href="https://docs.collab.cloud/admin/appreg/">here</a>.</p>
-<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<p>This is an axample of such an extension for your reference.</p>
-<p><code>{
-    "name": "Touchpoint",
-    "title": "Touchpoint",
-    "description": "Enable Touchpoint for Organisation Y",
-    "services": [
-        "Connections"
-    ],
-    "extensions": [
-        {
-            "name": "Touchpoint",
-            "type": "com.ibm.social.apps.touchpoint.config",
-            "payload": {
-                "uiEnabled": true,
-                "steps": {
-                    "paths": {
-                        "defaultPath": "welcome,editProfile,findColleagues,followCommunities,profileTags",
-                        "icExternalPath": "welcome,editProfile,profileTags",
-                        "pagStandalone": "pagStandalone"
-                    }
-                },
-                "privacyAndGuidelines": {
-                    "enabled": true,
-                    "version": "1.0",
-                    "externalLink": "https://somesite.com/yourprivacyguidelines",
-                    "internalLink": "https://somesite.local/yourprivacyguidelines"
-                },
-                "maxPromotedExperts": 3,
-                "promotedExperts": "",
-                "maxPromotedCommunities": 3,
-                "promotedCommunities": "",
-                "welcomeVideoUrl": "https://collab.cloud/about"
-            },
-            "path": "touchpoint"
-        }
-    ]
-}</code></p>
-<h2 id="fields-to-modify">Fields to modify<a class="headerlink" href="#fields-to-modify" title="Permanent link">&para;</a></h2>
-<p>The following fields are configurable</p>
-<ul>
-<li>
-<p>uiEnabled
-Determines whether the Touchpoint onboarding feature is displayed to users when they first log in to Connections. </p>
-</li>
-<li>
-<p>defaultPath
-Defines the views that internal users are guided through in the onboarding experience. The default value is welcome,editProfile,profileTags,findColleagues,followCommunities.
-You can choose to leave pages out of the experience by removing them.</p>
-</li>
-<li>
-<p>icExternalPath
-Defines the views that external users are guided through in the onboarding experience. The default value is welcome,editProfile,profileTags.
-You can choose to leave pages out of the experience by removing them</p>
-</li>
-<li>
-<p>pagStandalone
-Defines the view that users are directed to during a privacy policy and guidelines update. The default value is pagStandalone.</p>
-</li>
-<li>
-<p>privacyAndGuidelines.enabled
-Prompts user to accept the privacy policy and guidelines as defined by the following properties in this section.</p>
-</li>
-<li>
-<p>privacyAndGuidelines.version
-The version of the privacy policy and guidelines that the user will accept. The default value is 1.0. When the document is updated, increasing this value requires the user to accept again.</p>
-</li>
-<li>
-<p>privacyAndGuidelines.externalLink
-The link to the document that contains the privacy policy and guidelines for external users.</p>
-</li>
-<li>
-<p>privacyAndGuidelines.internalLink
-The link to the document that contains the privacy policy and guidelines for internal users.</p>
-</li>
-<li>
-<p>maxPromotedExperts
-The maximum number of colleagues to be suggested to a user as network contacts. The default value is 3.</p>
-</li>
-<li>
-<p>promotedExperts
-A comma-separated list of colleagues within your Connections organization, identified by their user-id.
-You can find the users you want to promote user-id in the Admin App by selecting a user in "My Users"</p>
-<p><img alt="My Users" src="../../assets/images/admin/touchpoint/user-id.png" /></p>
-</li>
-<li>
-<p>maxPromotedCommunities
-The maximum number of communities to be suggested to a user. The default value is 3.</p>
-</li>
-<li>
-<p>promotedCommunitiesItem
-A comma-separated list of communities, identified by their community-id.
-You can find the Communities you want to promote in the Admin App by selecting a Community in "My Communities"</p>
-<p><img alt="My Communities" src="../../assets/images/admin/touchpoint/community-id.png" /></p>
-</li>
-<li>
-<p>welcomeVideoUrl
-Link to a welcome video that is displayed to users.</p>
-</li>
-</ul>
+                <h1 id="what-are-highlights">What are highlights<a class="headerlink" href="#what-are-highlights" title="Permanent link">&para;</a></h1>
+<p>Higlights is a new feature for a better and smoother community experience. It contains widgets that allow you to design your community. This is the new default for all new communities, Highlights will be set as your default landing page for your new community.</p>
+<p><img alt="Highlight-Community" src="../../assets/images/admin/highlights/highlights-community.png" /></p>
+<h1 id="configure">Configure<a class="headerlink" href="#configure" title="Permanent link">&para;</a></h1>
+<p>When you create a new Community, Highlights is configured by default and will be the default landing page for your community, it will contain all widgets of the default applications for a new community. You can then add applications to your community and then the highlihts widget or pick widgets that are unrelated to a community feature.
+As you can see in the image, the newly created community contains Blogs, Wikis and Rich Content by default and the Highlights app is added as well, the widgets on the highlights app by default on new community creation are: Blog, Members, Community Description, Wiki, Rich Content and Tag Cloud.</p>
+<p><img alt="Highlight-New-Community" src="../../assets/images/admin/highlights/highlights-new-community.png" /></p>
+<p>As a Community owner you will see a <strong>Customize</strong> button on the community landing page.
+That will give you access to a set of Community applications on tab 1 and additional widgets on tab 2</p>
+<p><img alt="Highlight-Widgets" src="../../assets/images/admin/highlights/highlights-widgets.png" /></p>
+<p>On tab 3 you can also alter the layout of the landing page</p>
+<p><img alt="Highlight-Layout" src="../../assets/images/admin/highlights/highlights-layout.png" /></p>
+<h1 id="add-to-existing-community">Add to existing Community<a class="headerlink" href="#add-to-existing-community" title="Permanent link">&para;</a></h1>
+<p>If you have an existing pre Connections 7 community, you can still add Highlights to it. As a community owner go to <strong>Community Actions</strong> <strong>Add Apps</strong> and add the <strong>Highlights</strong> App.</p>
+<p><img alt="Highlight-Add-Apps" src="../../assets/images/admin/highlights/highlights-add-apps.png" /></p>
+<p>Then go to <strong>Community Actions</strong> <strong>Add Apps</strong> and select <strong>Edit Community</strong>. At the bottom of the settings make Highlights the landing page for your community</p>
+<p><img alt="Highlight-Default" src="../../assets/images/admin/highlights/highlights-default.png" /></p>
+<p>This will add all existing community widgets into the highlights app and you are ready to customize the Highlights application</p>
                 
               
               
