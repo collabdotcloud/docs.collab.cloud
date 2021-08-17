@@ -22,6 +22,6 @@ The new widget in the Community can be moved by dragging and dropping, or by cli
 
 A great tip is to move the widget so it covers the whole page, by dragging and dropping. When the widget is larger you get a better overview of your work.
 
-<img src="/assets/images/screen-shots/businessapps/businessapps-widget-in-community.png" alt="Business Apps Plus Widget in Community" />
+<img src="/assets/images/screen-shots/businessapps/businessapps-widget-in-community.png" alt="Business Apps Widget in Community" />
 
 Now you can start working immediately!
