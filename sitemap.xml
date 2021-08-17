@@ -231,11 +231,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.collab.cloud/users/accessing-businessapps/</loc>
-         <lastmod>2021-08-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.collab.cloud/users/aplus-boards/</loc>
          <lastmod>2021-08-17</lastmod>
          <changefreq>daily</changefreq>
@@ -291,6 +286,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.collab.cloud/users/businessapps-access/</loc>
+         <lastmod>2021-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.collab.cloud/users/businessapps-create/</loc>
+         <lastmod>2021-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.collab.cloud/users/businessapps-gettingstarted/</loc>
+         <lastmod>2021-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.collab.cloud/users/buzzy-mobile-policy/</loc>
          <lastmod>2021-08-17</lastmod>
          <changefreq>daily</changefreq>
@@ -332,11 +342,6 @@
     </url>
     <url>
          <loc>https://docs.collab.cloud/users/quotas-storage/</loc>
-         <lastmod>2021-08-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.collab.cloud/users/using-businessapps-gettingstarted/</loc>
          <lastmod>2021-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
