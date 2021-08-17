@@ -231,6 +231,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.collab.cloud/users/accessing-businessapps/</loc>
+         <lastmod>2021-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.collab.cloud/users/aplus-boards/</loc>
          <lastmod>2021-08-17</lastmod>
          <changefreq>daily</changefreq>
