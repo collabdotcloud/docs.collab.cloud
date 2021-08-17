@@ -10,7 +10,7 @@ To add the Business Apps widget, go to:
 
 Select **_Business Apps_** in the list
 
-<img src="/assets/images/screen-shots/businessapps/add-businessapps.png" alt="Community Actions Add Apps" />
+<img src="/assets/images/screen-shots/businessapps/add-businessapps.png" alt="Community Actions Add Apps" width="50%/>
 
 Once the widget is added you have the option to show all Community Apps that belongs to this Community, or a specific Community App. If you want to change these settings after saving, simply delete the widget and start over by adding it again to the Community.
 
