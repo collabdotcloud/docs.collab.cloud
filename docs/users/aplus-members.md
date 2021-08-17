@@ -1,6 +1,6 @@
-#Members and assign tasks to users
+# Members and assign tasks to users
 
-##Adding members
+## Adding members
 
 An activity can be private where only the creator of the activity can view and work in it. You can also add colleagues to your activity for easy team collaboration and to accelerate your work.
 
@@ -28,7 +28,7 @@ In this dialogue box you can:
 
 ___
 
-##Assigning tasks to members
+## Assigning tasks to members
 
 Assign a task to a member by taking the profile picture of that member drag and drop it upon the task. That user then get a notification email saying they have a task assigned to them.
 

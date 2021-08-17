@@ -1,4 +1,4 @@
-#Kudos Boards (Premium experience)
+# Kudos Boards (Premium experience)
 
 Try out our premium experience Kudos Boards! Activities Plus users can quickly and easily enable the full Kudos Boards experience from within Activities Plus.
 
@@ -10,17 +10,17 @@ Get your tasks done with Activities on steroids!
 
 Start a 30 day free test period by clicking on **_Board_**, **_Timeline_** or **_Mindmap_** in the right hand side in Activities Plus or contact us at [support@collab.cloud](mailto:support@collab.cloud)
 
-##Boards view
+## Boards view
 
 Kudos Boards lets you organise your tasks and teamwork any way you like.
 
 Create lists based on tasks at hand, to-do and completed? Per project or per day, week or month? The choice is entirely up to you.
 
-###Create Boards for just about anything
+### Create Boards for just about anything
 
 Sales Tracking, Event Management, Customer Support, Agile Projects, Employee Onboarding, Billing Cycles and other Admin processes, the list is endless.
 
-###Real time cross-team updates
+### Real time cross-team updates
 
 Kudos Boards updates in real time across multiple users. You can literally see the information update from another user on your screen, including when they drag and drop items from one list to another.
 
@@ -28,7 +28,7 @@ Kudos Boards updates in real time across multiple users. You can literally see t
 
 ___
 
-##Timeline view
+## Timeline view
 
 In our Timeline view you get the perfect overview of your tasks.
 
@@ -40,7 +40,7 @@ Drag and drop tasks, tags and people directly in the swim lanes of the timeline.
 
 ___
 
-##MindMap view
+## MindMap view
 
 In our MindMap view you get the perfect overview of your tasks. Great for brainstorming sessions or that helicopter view of your project.
 
@@ -50,7 +50,7 @@ Start on a blank canvas and build up your project as if you had post-it notes on
 
 ___
 
-#Start today!
+# Start today!
 
 We welcome you to test Kudos Boards today.
 

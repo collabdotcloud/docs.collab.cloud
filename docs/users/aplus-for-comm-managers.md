@@ -1,4 +1,4 @@
-#How To Add Activities to a Connections Community
+# How To Add Activities to a Connections Community
 
 In order to access and work in a Community Activity the Activities Plus widget needs to be added to the Community. A Community Owner/Manager has access rights to do that.
 
@@ -30,7 +30,7 @@ If you do not see any Activities you can add Activities now.
 
 ___
 
-##Add an existing Activity into the widget
+## Add an existing Activity into the widget
 
 Go to the Activities Plus page by clicking
 
@@ -54,7 +54,7 @@ Go back to the Community and have a look in the Activity Plus widget. Now you wi
 
 <img src="/assets/images/screen-shots/aplus/aplus-activities-in-widget.png" alt="Activities In Widget" width="50%"/>
 
-##Create a new Activity in the Community Widget
+## Create a new Activity in the Community Widget
 
 In the Activities Plus widget, click the **_Orange plus_** in the bottom right hand side corner. A dialogue box will open with options for your new Activity.
 
@@ -63,5 +63,3 @@ In the Activities Plus widget, click the **_Orange plus_** in the bottom right h
 Once the new Activity is created you will see and be able to work in this Activity directly in the Community.
 
 You can also work in this Activity if you go to the Activities Plus homepage. If you open the Member section of the Activiy, you will see that the Community now is a Member of this Activity.
-
-___
