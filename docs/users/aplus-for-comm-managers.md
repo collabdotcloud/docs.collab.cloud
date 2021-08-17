@@ -4,7 +4,7 @@ In order to access and work in a Community Activity the Activities Plus widget n
 
 To add the Activities Plus widget, go to:
 
-**_Community Actions – Add Apps - Activities Plus_** in the right hand side of the Community
+**_Community Actions – Add Apps_** in the right hand side of the Community
 
 <img src="/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png" alt="Community Actions Add Apps" />
 
