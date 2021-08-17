@@ -306,6 +306,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.collab.cloud/users/connections-social-homepage/</loc>
+         <lastmod>2021-08-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.collab.cloud/users/desktop-plugins-mac/</loc>
          <lastmod>2021-08-17</lastmod>
          <changefreq>daily</changefreq>
