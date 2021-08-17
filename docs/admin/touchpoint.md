@@ -57,7 +57,7 @@ The following fields are configurable
 
 - uiEnabled
 
-    Determines whether the Touchpoint onboarding feature is displayed to users when they first log in to Connections. 
+    Determines whether the Touchpoint onboarding feature is displayed to users when they first log in to Connections.
 
 - defaultPath
 
