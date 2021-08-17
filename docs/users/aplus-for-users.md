@@ -1,10 +1,10 @@
-#Activities Plus Tips and Tricks
+# Activities Plus Tips and Tricks
 
 Welcome to Activities Plus! The new enhanced way of working with your activities. Activities Plus will increase your productivity and give you a better overview of your tasks, your team's tasks, status of a project, follow-ups, and more!
 
 Activities can be private for personal work and task management, or shared for collaborative work with colleagues in your organisation.
 
-##Where Are the Activities?
+## Where Are the Activities?
 
 Your existing activities are moved to Activities Plus. The previous, older version of HCL Connections Activities is not available in Connections Cloud any longer. When you create a new activity, it will be created in Activities Plus.
 

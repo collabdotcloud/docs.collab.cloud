@@ -12,7 +12,7 @@ To enable Touchpoint for your organisation, you will need to add a new Appregist
 
 This is an axample of such an extension for your reference.
 
-```js
+```json
 {
     "name": "Touchpoint",
     "title": "Touchpoint",
@@ -48,7 +48,8 @@ This is an axample of such an extension for your reference.
             "path": "touchpoint"
         }
     ]
-}```
+}
+```
 
 ## Fields to modify
 

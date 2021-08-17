@@ -1,4 +1,4 @@
-#Colour tags and filtering
+# Colour tags and filtering
 
 A good way of filtering and sorting tasks is to put colour tags or labels on them.
 

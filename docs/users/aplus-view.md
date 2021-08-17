@@ -1,4 +1,4 @@
-#Accessing and working with an existing activity
+# Accessing and working with an existing activity
 
 Open an existing activity by clicking on one of the Activity tiles on the Activities Plus Start Page.
 
@@ -10,7 +10,7 @@ Both lists and tasks can be moved around up and down by drag and drop. A task ca
 
 ___
 
-##Several ways of working with an activity
+## Several ways of working with an activity
 
 <img src="/assets/images/screen-shots/aplus/aplus-right-menu.png" alt="Right menu" />
 
@@ -36,7 +36,7 @@ On the right hand side you will find a menu with lots of functionality. From the
 
 ___
 
-##Adding lists and tasks
+## Adding lists and tasks
 
 Add tasks to your activity by clicking **_Add a Card_** at the bottom of the lists.
 

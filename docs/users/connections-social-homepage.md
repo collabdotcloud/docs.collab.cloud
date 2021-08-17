@@ -1,9 +1,12 @@
 # HCL Connections Social Homepage
 
-We have now activated the homepage switcher. It can be accessed on your profile picture:
+For Connections 7, the Social Homepage (also known as orient-me) is set as the default landing page.
+
+The previous activity stream based homepage can be activated with the homepage switcher:
 ![Homepage Switcher](/assets/images/screen-shots/connections/homepage-switcher.png)
 
-[Official HCL Documentation](https://help.hcltechsw.com/connections/v65/user/homepage/hframe.html)
+
+[Official HCL Documentation](https://help.hcltechsw.com/connections/v7/user/homepage/hframe.html)
 
 ## Caveats
 

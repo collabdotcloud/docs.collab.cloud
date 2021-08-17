@@ -1,4 +1,4 @@
-#Activities Plus Start Page
+# Activities Plus Start Page
 
 Once you have clicked on Activities Plus in the menu bar in HCL Connections you end up on Activities Plus Start Page.
 
@@ -10,7 +10,7 @@ The picture below shows a start page with colourful tiles. Each tile is one acti
 
 <img src="/assets/images/screen-shots/aplus/aplus-start-page.png" alt="Activities Plus start page"/>
 
-##On this start page you can:
+## On this start page you can:
 
 * Create a new activity by clicking on the **_Plus sign and Create_**
 

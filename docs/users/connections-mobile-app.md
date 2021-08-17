@@ -1,6 +1,6 @@
 # <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections Mobile Apps
 
-##Download the app to your device
+## Download the app to your device
 
 Download the HCL Connections Mobile App from either Apple AppStore or Google Play Store
 
@@ -8,7 +8,7 @@ For iPhone: [HCL Connections Mobile App](https://apps.apple.com/us/app/hcl-conne
 
 For Android: [HCL Connections Mobile App](https://play.google.com/store/apps/details?id=com.ibm.lotus.connections.mobile&hl=en)
 
-##Login to the HCL Connections Mobile App
+## Login to the HCL Connections Mobile App
 
 On the first login screen choose **_My company's server_**
 
