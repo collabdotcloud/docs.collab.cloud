@@ -108,6 +108,7 @@ nav:
       - Using Business Apps:
           - Getting Started: users/businessapps-gettingstarted.md
           - Accessing Business Apps: users/businessapps-access.md
+          - Creating an App: users/businessapps-create.md
 
   - Help:
       - Troubleshooting & Support: help/troubleshooting-support.md
