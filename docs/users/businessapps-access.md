@@ -1,6 +1,6 @@
 #How To Access Business Apps and add an app to a Connections Community
 
-In order to access and work in ThreeThirds Business Apps, the Business Apps widget needs to be added to the Community. A Community Owner/Manager has access rights to do this.
+Before you start working in ThreeThirds Business Apps an account needs to be created. In order to create an account and access and work in ThreeThirds Business Apps, the Business Apps widget needs to be added to the Community. A Community Owner/Manager has access rights to do this.
 
 To add the Business Apps widget, go to:
 
