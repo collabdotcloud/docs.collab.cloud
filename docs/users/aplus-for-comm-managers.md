@@ -62,4 +62,4 @@ In the Activities Plus widget, click the **_Orange plus_** in the bottom right h
 
 Once the new Activity is created you will see and be able to work in this Activity directly in the Community.
 
-You can also work in this Activity if you go to the Activities Plus homepage. If you open the Member section of the Activiy, you will see that the Community now is a Member of this Activity.
+You can also work in this Activity if you go to the Activities Plus homepage. If you open the Member section of the Activity, you will see that the Community now is a Member of this Activity.
