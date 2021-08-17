@@ -9,3 +9,7 @@ To add the Business Apps widget, go to:
 <img src="/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png" alt="Community Actions Add Apps" />
 
 Select **_Business Apps_** in the list
+
+<img src="/assets/images/screen-shots/businessapps/add-businessapps.png" alt="Community Actions Add Apps" />
+
+.
