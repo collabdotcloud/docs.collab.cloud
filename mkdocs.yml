@@ -68,8 +68,10 @@ nav:
           - Engagement Center: admin/icec-feeds.md
           - Mobile App: admin/connections-mobile-app.md
       - Connections 7:
-          - Touchpoint: admin/touchpoint.md
-          - Social Homepage: users/connections-orientme.md
+          - Touchpoint: admin/hc7/touchpoint.md
+          - Social Homepage: admin/hc7/connections-social-homepage.md
+          - Highlights: admin/hc7/highlights.md
+          
       #- Business Partner Options:
       #    - Manage your Customer's Organisation: admin/bp-customer-orgs.md
       # - Latest Changes: admin/admin-latest-changes.md

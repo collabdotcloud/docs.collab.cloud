@@ -5,8 +5,7 @@ For Connections 7, the Social Homepage (also known as orient-me) is set as the d
 The previous activity stream based homepage can be activated with the homepage switcher:
 ![Homepage Switcher](/assets/images/screen-shots/connections/homepage-switcher.png)
 
-
-[Official HCL Documentation](https://help.hcltechsw.com/connections/v7/user/homepage/hframe.html)
+[Official HCL Documentation](https://help.hcltechsw.com/connections/v7/user/homepage/Tile_homepage_using.html)
 
 ## Caveats
 

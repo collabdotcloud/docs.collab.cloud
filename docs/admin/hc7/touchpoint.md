@@ -98,7 +98,7 @@ The following fields are configurable
     A comma-separated list of colleagues within your Connections organization, identified by their user-id.
     You can find the users you want to promote user-id in the Admin App by selecting a user in "My Users"
 
-    ![My Users](../assets/images/admin/touchpoint/user-id.png)
+    ![My Users](../../assets/images/admin/touchpoint/user-id.png)
 
 - maxPromotedCommunities
 
@@ -109,7 +109,7 @@ The following fields are configurable
     A comma-separated list of communities, identified by their community-id.
     You can find the Communities you want to promote in the Admin App by selecting a Community in "My Communities"
 
-    ![My Communities](../assets/images/admin/touchpoint/community-id.png)
+    ![My Communities](../../assets/images/admin/touchpoint/community-id.png)
 
 - welcomeVideoUrl
 
