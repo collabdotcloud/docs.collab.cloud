@@ -1,4 +1,4 @@
-##Intelligent instant apps for HCL Connections
+#Intelligent instant apps for HCL Connections
 
 ThreeThirds Business Apps is an intelligent instant business app creator that integrates into HCL Connections.
 
