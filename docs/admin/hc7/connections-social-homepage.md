@@ -1,14 +1,14 @@
 # HCL Connections Social Homepage
 
+[Official HCL Documentation](https://help.hcltechsw.com/connections/v7/user/homepage/Tile_homepage_using.html)
+
 For Connections 7, the Social Homepage (also known as orient-me) is set as the default landing page.
 
 The previous activity stream based homepage can be activated with the homepage switcher:
-![Homepage Switcher](/assets/images/screen-shots/connections/homepage-switcher.png)
+![Homepage Switcher](/assets/images/admin/orientme/switcher.png)
 
-[Official HCL Documentation](https://help.hcltechsw.com/connections/v7/user/homepage/Tile_homepage_using.html)
+## Known issues
 
-## Caveats
+The Homepage Switcher setting is stored in the browser's storage. If you switch the browser or clear the local browser storage, the Social Homepage will be your default Homepage.
 
-The setting is stored in the browser. If you have to clear the browser cache, the switch needs to be re-applied. If you use multiple browsers, you need to set it per browser.
-
-The social homepage can't be set as the default homepage for your environment at the moment.
+The language switcher does not work.

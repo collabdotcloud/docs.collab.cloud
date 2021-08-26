@@ -2,9 +2,9 @@
 
 Requirements:
 
-- Windows only
+- Windows
 - Microsoft Word
-- latest HCL Connections Desktop Plugin installed
+- latest Windows HCL Connections Desktop Plugin
 
 Link to the [Official Documenation](https://help.hcltechsw.com/connections/v7/user/files/t_files_edit_file_local_refresh.html).
 
@@ -18,7 +18,7 @@ Depending on your licence and your document access, you'll see these buttons on 
 
 ## Edit on Desktop
 
-This allows you to edit a document in Word, directly from a community, without adding the community in the desktop connector first.
+This allows you to edit a document in Word from your browser. No need to manually download and re-upload the file.
 
 Edit on Desktop will open this dialog:
 ![Open on Desktop](/assets/images/admin/roundtrip/dialog1.png)
@@ -31,16 +31,15 @@ If you save the document, it will be stored as a draft. Indicated by the updated
 
 ![Draft Icon](/assets/images/admin/roundtrip/draft.png)
 
-If you close Word the publish dialog will open:
+If you close Word, the publish dialog will open:
 
 ![Publish dialog](/assets/images/admin/roundtrip/publish-dialog.png)
 
+If you edit a Community File this way, the Community will be automatically added to your Desktop Connector.
 
 ## Problems
 
 - If you start the *Edit on Desktop* and you don't have the Desktop Connector installed, you'll get the default Windows Application selector dialog:
 ![Windows Application Selector](/asssets/images/admin/roundtrip/no-connector.png)
 
-- If the connector is installed but not activated in Word or you are using a different Word processor, then the file will not automatically be synched back to connections. It will stay in the draft Monitor and needs to be published manually.
-
-
+- If the connector is installed but not activated in Word or you are using a different Word processor, then the file will not automatically be synched back to connections. It will stay in the draft Monitor and needs to be published manually. Check if the HCL Connections Add-In is listed under active Application-Add-Ins.
