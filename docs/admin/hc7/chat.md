@@ -4,7 +4,12 @@ With the new Chat integration it is possible to add your own chat systems into t
 
 [HCL Documentation on Github](https://github.com/hclcnx/global-samples/tree/master/microsoft-teams/Chat%20Integration)
 
-## Example 1 : MS Teams in the social Homepage
+The integration is also possible if your chat system does not use your business email address as the id. Please open a ticket in our support system if you need assistance.
+
+## Examples
+
+The following examples show, how to integrate the MS Teams 1:1 chat into our collab.cloud.
+### Example 1 : MS Teams in the social Homepage
 
 The first example is the MS Teams integration into the Interesting To Me part of the new Social Homepage.
 Hovering over a profile picture, reveals the new chat icon.
@@ -89,9 +94,7 @@ It's possible to change or add labels or change the icon if needed.
 Enable only one type. In the example above it's *msteamsweb*. Which will generate weblinks for the icons.
 If you want to open the teams app directly, just enable the type *msteams* instead.
 
-It's also possible to add other chat system, as long as there is a direct link based on the email address available.
-
-## Example 2: MS Teams in the Business Card
+### Example 2: MS Teams in the Business Card
 
 Similar to the Interesting to Me integration from Example 1, it is also possible to add the chat integration to the businesscard.
 
