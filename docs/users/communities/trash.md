@@ -2,7 +2,9 @@
 
 The Community File Trash only works for community files. These are the files which have been uploaded or created in the community.
 
-Files Shared with a community cannot be moved to the trash.
+Files Shared with a community cannot be moved to the trash. The only way to remove those files from a community is by stop shareing them with the community.
+
+**Folders are not supported.** Folders are being deleted immediatly and can't be restored. The files in a folder are still accessible in the community file list. These files are not deleted.
 
 ## Move files to the trash
 
