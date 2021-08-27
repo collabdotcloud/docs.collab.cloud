@@ -81,7 +81,7 @@ nav:
       # - Latest Changes: admin/admin-latest-changes.md
 
   - User Documentation:
-      - Hello: users/hello.md
+      - Introduction: users/hello.md
       - Using Mail:
           - Getting Started: users/using-mail-gettingstarted.md
           - Using Mail & Verse: users/using-mail-verse.md
