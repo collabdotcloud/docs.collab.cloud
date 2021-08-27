@@ -31,3 +31,8 @@ Then go to **Community Actions** **Add Apps** and select **Edit Community**. At 
 ![Highlight-Default](/assets/images/admin/highlights/highlights-default.png)
 
 This will add all existing community widgets into the Highlights app and you are ready to customize the Highlights application
+
+## Limitations for Organisation Admins
+
+As an Organisation Admin you are able to access and edit all communities.
+The only exception is Highlights. The customize button is only available to community owners.
