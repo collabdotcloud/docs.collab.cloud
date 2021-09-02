@@ -10,3 +10,4 @@ There are some differences between [Connections 7 on premises](https://help.hclt
 - [Highlights](highlights.md) - New community startpage
 - [Custom Chat integration](chat.md) - Integrate your own chat service
 - [Social Homepage](connections-social-homepage.md) - new Homepage
+- [Social Homepage: Announcements](announcements.md)
