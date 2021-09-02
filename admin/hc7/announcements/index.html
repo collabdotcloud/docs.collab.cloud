@@ -13,14 +13,14 @@
         <meta name="author" content="Jared Roberts">
       
       
-        <link rel="canonical" href="https://docs.collab.cloud/admin/hc7/whats-new/">
+        <link rel="canonical" href="https://docs.collab.cloud/admin/hc7/announcements/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.1.11">
     
     
       
-        <title>Whats new? - ThreeThirds Collaboration Docs</title>
+        <title>Orient Me Announcements - ThreeThirds Collaboration Docs</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#whats-new-in-connections-7-multitenant" class="md-skip">
+        <a href="#orient-me-announcements" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Whats new?
+              Orient Me Announcements
             
           </span>
         </div>
@@ -195,8 +195,6 @@
         
   
   
-    
-  
 
 
   
@@ -208,7 +206,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../admin-org/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../admin-org/" class="md-tabs__link">
         Admin Documentation
       </a>
     </li>
@@ -361,14 +359,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       <label class="md-nav__link" for="__nav_3">
         Admin Documentation
@@ -924,14 +920,12 @@
             
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
       
       <label class="md-nav__link" for="__nav_3_6">
         Connections 7
@@ -947,21 +941,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../whats-new/" class="md-nav__link">
         Whats new?
       </a>
-      
     </li>
   
 
@@ -1822,6 +1806,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1833,18 +1832,64 @@
               
                 
                 
-                <h1 id="whats-new-in-connections-7-multitenant">What's new in Connections 7 Multitenant<a class="headerlink" href="#whats-new-in-connections-7-multitenant" title="Permanent link">&para;</a></h1>
-<p>There are some differences between <a href="https://help.hcltechsw.com/connections/v7/user/eucommon/r_eucommon_whats_new.html">Connections 7 on premises</a> and Connections 7 multitenant/cloud.</p>
-<p><strong><em> Connections 7 multitenant will have these new features:</em></strong></p>
-<ul>
-<li><a href="../touchpoint/">Touchpoint</a> - On boarding application</li>
-<li><a href="../sharepoint/">Sharepoint Widget</a> - integrate your sharepoint site into communities</li>
-<li><a href="../round-trip-edit/">Round trip editing for Connections Files</a> - edit your documents in Word</li>
-<li><a href="../highlights/">Highlights</a> - New community startpage</li>
-<li><a href="../chat/">Custom Chat integration</a> - Integrate your own chat service</li>
-<li><a href="../connections-social-homepage/">Social Homepage</a> - new Homepage</li>
-<li><a href="../announcements/">Social Homepage: Announcements</a></li>
-</ul>
+                <h1 id="orient-me-announcements">Orient Me Announcements<a class="headerlink" href="#orient-me-announcements" title="Permanent link">&para;</a></h1>
+<p>Organisation Admins are now able to show announcements in our Connections environment. </p>
+<p>That's how it looks like:</p>
+<p><img alt="Header" src="/assets/images/admin/announcement/header.png" /></p>
+<p>It will open a dialog, when you click on <em>More</em></p>
+<p><img alt="dialog" src="/assets/images/admin/announcement/dialog.png" /></p>
+<p>These announcements can be created in the <a href="/admin/appreg.md">appregistry</a>.</p>
+<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;com.ibm.orientme.defaults&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;com.ibm.orientme.defaults&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Global Defaults for OrientMe Service&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;services&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;OrientMe&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;state&quot;</span><span class="p">:</span> <span class="s2">&quot;enabled&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;extensions&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Announcements override&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;com.ibm.announcements&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;payload&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;cache-headers&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="nt">&quot;cache-control&quot;</span><span class="p">:</span> <span class="s2">&quot;max-age=0&quot;</span>
+                <span class="p">},</span>
+                <span class="nt">&quot;announcements&quot;</span><span class="p">:</span> <span class="p">[</span>
+                    <span class="p">{</span>
+                        <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Collab Cloud Connections 7 Update&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;We have updated our Collab.cloud to HCL Connections 7&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://docs.collab.cloud/admin/hc7/whats-new/&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;linkTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;HCL Connections 7&quot;</span>
+                    <span class="p">}</span>
+                <span class="p">]</span>
+            <span class="p">},</span>
+            <span class="nt">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;orientme&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p><strong><em>Restrictions:</em></strong> There can only be one app active in the appregistry. If you have multiple messages just add it in the payload</p>
+<div class="codehilite"><pre><span></span><code><span class="s2">&quot;payload&quot;</span><span class="err">:</span> <span class="p">{</span>
+                <span class="nt">&quot;announcements&quot;</span><span class="p">:</span> <span class="p">[</span>
+                    <span class="p">{</span>
+                        <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Collab Cloud Connections 7 Update&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;We have updated our Collab.cloud to HCL Connections 7&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://docs.collab.cloud/admin/hc7/whats-new/&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;linkTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;HCL Connections 7&quot;</span>
+                    <span class="p">},</span>
+                    <span class="p">{</span>
+                        <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;New CEO&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;We are proud to announce a new CEO&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://docs.collab.cloud/admin/hc7/whats-new/&quot;</span><span class="p">,</span>
+                        <span class="nt">&quot;linkTitle&quot;</span><span class="p">:</span> <span class="s2">&quot;HCL Connections 7&quot;</span>
+                    <span class="p">}</span>
+                <span class="p">]</span>
+            <span class="p">}</span>
+</code></pre></div>
                 
               
               
@@ -1860,41 +1905,6 @@
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../../connections-mobile-app/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Mobile App" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Mobile App
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../touchpoint/" class="md-footer__link md-footer__link--next" aria-label="Next: Touchpoint" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Touchpoint
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
