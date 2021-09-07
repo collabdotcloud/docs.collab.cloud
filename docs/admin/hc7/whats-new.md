@@ -9,4 +9,5 @@ There are some differences between [Connections 7 on premises](https://help.hclt
 - [Round trip editing for Connections Files](round-trip-edit.md) - edit your documents in Word
 - [Highlights](highlights.md) - New community startpage
 - [Custom Chat integration](chat.md) - Integrate your own chat service
+-  [Meeting integration](meeting.md) - Integrate your own meeting service
 - [Social Homepage](connections-social-homepage.md) - new Homepage
