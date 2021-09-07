@@ -10,9 +10,5 @@ There are some differences between [Connections 7 on premises](https://help.hclt
 - [Highlights](highlights.md) - New community startpage
 - [Custom Chat integration](chat.md) - Integrate your own chat service
 - [Meeting integration](meeting.md) - Integrate your own meeting service
-<<<<<<< HEAD
 - [Social Homepage](connections-social-homepage.md) - new Homepage
 - [Social Homepage: Announcements](announcements.md)
-=======
-- [Social Homepage](connections-social-homepage.md) - new Homepage
->>>>>>> ef35f13b8e76417d9f976f41eddf6c23fd6c59a6
