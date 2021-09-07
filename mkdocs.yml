@@ -74,8 +74,10 @@ nav:
           - Highlights: admin/hc7/highlights.md
           - Round trip editing files: admin/hc7/round-trip-edit.md
           - Chat: admin/hc7/chat.md
+          - Meeting: admin/hc7/meeting.md
           - Social Homepage: admin/hc7/connections-social-homepage.md
           - Announcements: admin/hc7/announcements.md
+          - Visual Design: admin/hc7/visual-update.md
           
       #- Business Partner Options:
       #    - Manage your Customer's Organisation: admin/bp-customer-orgs.md
