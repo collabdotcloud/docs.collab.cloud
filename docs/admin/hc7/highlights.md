@@ -36,3 +36,5 @@ This will add all existing community widgets into the Highlights app and you are
 
 As an Organisation Admin you are able to access and edit all communities.
 The only exception is Highlights. The customize button is only available to community owners.
+
+If you use the RSS widget with external RSS feeds see this [Page](highlights-rss-feed.md).
