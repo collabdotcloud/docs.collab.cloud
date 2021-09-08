@@ -5,6 +5,7 @@ With the new Chat integration it is possible to add your own chat systems into t
 [HCL Documentation on Github](https://github.com/hclcnx/global-samples/tree/master/microsoft-teams/Chat%20Integration)
 
 The integration is also possible if your chat system does not use your business email address as the id. Please open a ticket in our support system if you need assistance.
+We currently support integrations with Microsoft Teams, Slack and Sametime
 
 ## Examples
 
@@ -138,3 +139,11 @@ Similar to the Interesting to Me integration from Example 1, it is also possible
 }
 
 ```
+
+### Example 3 : Slack in the social Homepage
+
+### Example 4: Slack in the Business Card
+
+### Example 5 : Slack in the social Homepage
+
+### Example 6: Slack in the Business Card
