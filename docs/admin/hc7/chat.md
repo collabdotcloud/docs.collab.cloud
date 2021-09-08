@@ -19,7 +19,7 @@ Hovering over a profile picture, reveals the new chat icon.
 
 Add this JSON to your Appregistry:
 
-```js
+```json
 {
     "name": "MS Teams ITM Integrations",
     "title": "MS Teams ITM Integrations",
@@ -99,7 +99,7 @@ If you want to open the teams app directly, just enable the type *msteams* inste
 
 Similar to the Interesting to Me integration from Example 1, it is also possible to add the chat integration to the businesscard.
 
-```js
+```json
 {
     "name": "MS Teams Chat Integrations",
     "title": "MS Teams Chat Integrations",
@@ -140,10 +140,142 @@ Similar to the Interesting to Me integration from Example 1, it is also possible
 
 ```
 
-### Example 3 : Slack in the social Homepage
+### Example 3 : Slack in the social Homepage and Business Card
 
-### Example 4: Slack in the Business Card
+Just like the previous example for MS Teams integration above, this example will insert a similar integration into the Interesting To Me part of the new Social Homepage but for Slack.
+Hovering over a profile picture, reveals the new chat icon.
+It will also integrate into the business card of a user
 
-### Example 5 : Slack in the social Homepage
 
-### Example 6: Slack in the Business Card
+Add this JSON to your Appregistry:
+
+```json
+
+{
+    "name": "Slack Chat Integration",
+    "title": "Slack Chat Integration",
+    "description": "Slack chat for profiles",
+    "services": [
+        "Customizer"
+    ],
+    "state": "disabled",
+    "extensions": [
+        {
+            "name": "slack",
+            "description": "xoxp-1779396678037-1806310693792-1794995783287-7fef9bbed944fbeb0cb69f5cfc4b1eae",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "extensions/slackChat/slackChat.css",
+                    "extensions/slackChat/slackChat.js"
+                ],
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "global",
+            "state": "enabled"
+        }
+    ]
+}
+
+```
+
+### Example 5 : Sametime in the social Homepage
+
+Just like the previous example for MS Teams integration above, this example will insert a similar integration into the Interesting To Me part of the new Social Homepage but for Sametime.
+Hovering over a profile picture, reveals the new chat icon.
+
+```json
+
+{
+    "name": "Sametime ITM Integrations",
+    "title": "Sametime ITM Integrations",
+    "description": "Sametime integration actions",
+    "services": [
+        "ImportantToMe"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Sametime Chat Integrations",
+            "description": "Enable chat from ITM bubbles",
+            "translations": {
+                "": {
+                    "ImportantToMeSametimeIntegrationWebChat.label": "Sametime web chat"
+                },
+                "en": {
+                    "ImportantToMeSametimeIntegrationWebChat.label": "Sametime web chat"
+                },
+                "fr": {
+                    "ImportantToMeSametimeIntegrationWebChat.label": "Sametime bavarder Web"
+                }
+            },
+            "type": "com.ibm.itm.entry.person.default",
+            "payload": {
+                "actions": [
+                    {
+                        "type": "sametimeweb",
+                        "label": "%nls:ImportantToMeSametimeIntegrationWebChat.label",
+                        "icon": {
+                            "type": "svg",
+                            "data": "data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjU3LjQ5IDI0My45NCI+PGRlZnM+PHN0eWxlPi5jbHMtMSwuY2xzLTIsLmNscy0ze2ZpbGw6IzQxNzhiZTt9LmNscy0xe2NsaXAtcnVsZTpldmVub2RkO30uY2xzLTN7ZmlsbC1ydWxlOmV2ZW5vZGQ7fS5jbHMtNHtjbGlwLXBhdGg6dXJsKCNjbGlwLXBhdGgpO30uY2xzLTV7aXNvbGF0aW9uOmlzb2xhdGU7fS5jbHMtNntjbGlwLXBhdGg6dXJsKCNjbGlwLXBhdGgtMik7fS5jbHMtN3tjbGlwLXBhdGg6dXJsKCNjbGlwLXBhdGgtMyk7fTwvc3R5bGU+PGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMzLjg4IDMzLjg4KSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDAuNjYsODEuMzFoNjcuNzZWOTQuODZINDAuNjZabTAtNDAuNjVIMTQ5LjA3VjU0LjIxSDQwLjY2Wm02NiwxMzUuNTJMOTQuODYsMTY5LjQsMTIyLDEyMmg0MC42NWExMy41NiwxMy41NiwwLDAsMCwxMy41Ni0xMy41NVYyNy4xYTEzLjU2LDEzLjU2LDAsMCwwLTEzLjU2LTEzLjU1SDI3LjFBMTMuNTUsMTMuNTUsMCwwLDAsMTMuNTUsMjcuMXY4MS4zMkExMy41NSwxMy41NSwwLDAsMCwyNy4xLDEyMmg2MXYxMy41NWgtNjFBMjcuMSwyNy4xLDAsMCwxLDAsMTA4LjQyVjI3LjFBMjcuMSwyNy4xLDAsMCwxLDI3LjEsMEgxNjIuNjJhMjcuMSwyNy4xLDAsMCwxLDI3LjExLDI3LjF2ODEuMzJhMjcuMTEsMjcuMTEsMCwwLDEtMjcuMTEsMjcuMUgxMjkuODNaIi8+PC9jbGlwUGF0aD48Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMy44OCAzMy44OCkiPjxyZWN0IGNsYXNzPSJjbHMtMiIgeD0iLTMzLjg4IiB5PSItMzMuODgiIHdpZHRoPSIyNTcuNDkiIGhlaWdodD0iMjQzLjk0Ii8+PC9jbGlwUGF0aD48Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMy44OCAzMy44OCkiPjxyZWN0IGNsYXNzPSJjbHMtMiIgd2lkdGg9IjE4OS43MyIgaGVpZ2h0PSIxNzYuMTgiLz48L2NsaXBQYXRoPjwvZGVmcz48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMyIgZD0iTTQwLjY2LDgxLjMxaDY3Ljc2Vjk0Ljg2SDQwLjY2Wm0wLTQwLjY1SDE0OS4wN1Y1NC4yMUg0MC42NlptNjYsMTM1LjUyTDk0Ljg2LDE2OS40LDEyMiwxMjJoNDAuNjVhMTMuNTYsMTMuNTYsMCwwLDAsMTMuNTYtMTMuNTVWMjcuMWExMy41NiwxMy41NiwwLDAsMC0xMy41Ni0xMy41NUgyNy4xQTEzLjU1LDEzLjU1LDAsMCwwLDEzLjU1LDI3LjF2ODEuMzJBMTMuNTUsMTMuNTUsMCwwLDAsMjcuMSwxMjJoNjF2MTMuNTVoLTYxQTI3LjEsMjcuMSwwLDAsMSwwLDEwOC40MlYyNy4xQTI3LjEsMjcuMSwwLDAsMSwyNy4xLDBIMTYyLjYyYTI3LjEsMjcuMSwwLDAsMSwyNy4xMSwyNy4xdjgxLjMyYTI3LjExLDI3LjExLDAsMCwxLTI3LjExLDI3LjFIMTI5LjgzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMuODggMzMuODgpIi8+PGcgY2xhc3M9ImNscy00Ij48ZyBjbGFzcz0iY2xzLTUiPjxyZWN0IGNsYXNzPSJjbHMtMiIgd2lkdGg9IjI1Ny40OSIgaGVpZ2h0PSIyNDMuOTQiLz48ZyBjbGFzcz0iY2xzLTYiPjxyZWN0IGNsYXNzPSJjbHMtMiIgeD0iMzMuODgiIHk9IjMzLjg4IiB3aWR0aD0iMTg5LjczIiBoZWlnaHQ9IjE3Ni4xOCIvPjxnIGNsYXNzPSJjbHMtNyI+PHJlY3QgY2xhc3M9ImNscy0yIiB3aWR0aD0iMjU3LjQ5IiBoZWlnaHQ9IjI0My45NCIvPjwvZz48L2c+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPg"
+                        },
+                        "url": "https://webchat.testna.collab.cloud/chat/conversations/${email}",
+                        "enabled": true
+                    }
+                ]
+            },
+            "path": "OrientMe",
+            "state": "enabled"
+        }
+    ]
+}
+
+```
+
+### Example 6: Sametime in the Business Card
+
+Similar to the Interesting to Me integration from Example 1, it is also possible to add the chat integration for Sametime into the businesscard.
+
+```json
+
+{
+    "name": "HCL Sametime Chat Integration",
+    "title": "HCL Sametime Chat Integration",
+    "description": "HCL Sametime chat for bizcard and profiles",
+    "services": [
+        "Connections"
+    ],
+    "extensions": [
+        {
+            "ext_id": "com.hclsametime.v3.bizcard.chat",
+            "name": "HCL Sametime Chat Integration",
+            "title": "HCL Sametime Chat Integration",
+            "description": "Enable 1-1 chat from profile and bizcard",
+            "translations": {
+                "": {
+                    "SametimeBizcardChat-Connections_text": "Chat"
+                },
+                "fr": {
+                    "SametimeBizcardChat-Connections_text": "Bavarder"
+                },
+                "en": {
+                    "SametimeBizcardChat-Connections_text": "Chat"
+                }
+            },
+            "type": "com.hcl.appreg.ext.templatedLink",
+            "payload": {
+                "url": "",
+                "text": "%nls:SametimeBizcardChat-Connections_text",
+                "href": "https://webchat.testna.collab.cloud/chat/conversations/${email}",
+                "locator": "chat",
+                "target": "SametimeChat"
+            },
+            "object": "com.hcl.appreg.object.person",
+            "state": "enabled"
+        }
+    ]
+}
+
+```
