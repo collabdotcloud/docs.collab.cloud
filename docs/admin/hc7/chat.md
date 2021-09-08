@@ -10,6 +10,7 @@ We currently support integrations with Microsoft Teams, Slack and Sametime
 ## Examples
 
 The following examples show, how to integrate the MS Teams 1:1 chat into our collab.cloud.
+
 ### Example 1 : MS Teams in the social Homepage
 
 The first example is the MS Teams integration into the Interesting To Me part of the new Social Homepage.
