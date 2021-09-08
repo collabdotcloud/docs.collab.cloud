@@ -147,7 +147,6 @@ Just like the previous example for MS Teams integration above, this example will
 Hovering over a profile picture, reveals the new chat icon.
 It will also integrate into the business card of a user
 
-
 Add this JSON to your Appregistry:
 
 ```json
