@@ -2,7 +2,7 @@
 
 The RSS Widget allows to show external RSS feeds in your ICEC Homepage or on the Highlights Page/new Community Homepage.
 
-![Example RSS Widget](assets/images/admin/rss/rss-widget.png)
+![Example RSS Widget](/assets/images/admin/rss/rss-widget.png)
 
 For security reasons all the external Urls or domains need to be whitelisted.
 
