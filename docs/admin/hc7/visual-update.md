@@ -2,15 +2,13 @@
 
 Visual Update is a graphical layer on top of HCL Connections that provides HCL Connections with a fresh, more modern UI.  It can be easily enabled by an org admin using the [App Registry](/admin/appreg.md)
 
-
 ![My Profile](/assets/images/admin/visual-update/visual-update-profile.png)
 
 ![My Communities](/assets/images/admin/visual-update/visual-update-communities.png)
 
 ![Files](/assets/images/admin/visual-update/visual-update-files.png)
 
-
-# How to enable
+## How to enable
 
 To enable Touchpoint for your organisation, you will need to add a new Appregistry extension. For more information on Appregistry, see [here](https://docs.collab.cloud/admin/appreg/).
 
@@ -347,4 +345,3 @@ This is the JSON code that must be added
 }
 
 ```
-
