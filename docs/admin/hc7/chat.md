@@ -127,7 +127,7 @@ Similar to the Interesting to Me integration from Example 1, it is also possible
             "payload": {
                 "url": "",
                 "text": "%nls:TeamsBizcardChat-Connections_text",
-                "href": "https://teams.microsoft.com/l/chat/0/0?users=${!emails}",
+                "href": "https://teams.microsoft.com/l/chat/0/0?users=${email}",
                 "locator": "chat",
                 "target": "TeamsChat"
             },
