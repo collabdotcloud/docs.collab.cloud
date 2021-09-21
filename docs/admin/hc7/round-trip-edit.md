@@ -40,6 +40,6 @@ If you edit a Community File this way, the Community will be automatically added
 ## Problems
 
 - If you start the *Edit on Desktop* and you don't have the Desktop Connector installed, you'll get the default Windows Application selector dialog:
-![Windows Application Selector](/asssets/images/admin/roundtrip/no-connector.png)
+![Windows Application Selector](/assets/images/admin/roundtrip/no-connector.png)
 
 - If the connector is installed but not activated in Word or you are using a different Word processor, then the file will not automatically be synched back to connections. It will stay in the draft Monitor and needs to be published manually. Check if the HCL Connections Add-In is listed under active Application-Add-Ins.
