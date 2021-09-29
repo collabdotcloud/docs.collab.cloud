@@ -1,5 +1,13 @@
 # Administration Console - Latest Changes
 
+#### 2021-09-16
+
+###### Added
+
+- Create, view, rename and delete Sametime Groups
+- Add users to Sametime Groups
+- Remove users from Sametime Groups
+
 #### 2021-05-10
 
 ###### Added
