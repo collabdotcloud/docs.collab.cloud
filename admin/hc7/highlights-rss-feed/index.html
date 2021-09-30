@@ -20,7 +20,7 @@
     
     
       
-        <title>RSS Widget - ThreeThirds Collaboration Docs</title>
+        <title>RSS Feeds in Highlights and ICEC - ThreeThirds Collaboration Docs</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rss-widget" class="md-skip">
+        <a href="#rss-feeds-in-highlights-and-icec" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RSS Widget
+              RSS Feeds in Highlights and ICEC
             
           </span>
         </div>
@@ -1849,6 +1849,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#widget" class="md-nav__link">
+    Widget
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#whitelist" class="md-nav__link">
     Whitelist
   </a>
@@ -1868,18 +1875,24 @@
               
                 
                 
-                <h1 id="rss-widget">RSS Widget<a class="headerlink" href="#rss-widget" title="Permanent link">&para;</a></h1>
+                <h1 id="rss-feeds-in-highlights-and-icec">RSS Feeds in Highlights and ICEC<a class="headerlink" href="#rss-feeds-in-highlights-and-icec" title="Permanent link">&para;</a></h1>
 <p>The RSS Widget allows to show external RSS feeds in your ICEC Homepage or on the Highlights Page/new Community Homepage.</p>
+<p>Example RSS feed:</p>
 <p><img alt="Example RSS Widget" src="/assets/images/admin/rss/rss-widget.png" /></p>
-<p>For security reasons all the external Urls or domains need to be whitelisted.</p>
-<p>OrgAdmins can do this in the appregistry.</p>
+<p>For security reasons all the external URL's or domains need to be whitelisted.</p>
+<p>OrgAdmins need to do this in the appregistry.</p>
+<h2 id="widget">Widget<a class="headerlink" href="#widget" title="Permanent link">&para;</a></h2>
+<p><img alt="RSS Widget" src="/assets/images/admin/rss/rss-widget-2.png" /></p>
+<p>The RSS feeds are defined as Content sources</p>
+<p><img alt="Content Source" src="/assets/images/admin/rss/content-source-sm.png" /></p>
+<p>Each of these URL's or domains need to whitelisted in the appregistry</p>
 <h2 id="whitelist">Whitelist<a class="headerlink" href="#whitelist" title="Permanent link">&para;</a></h2>
 <p>Create a new app in the appregistry</p>
 <p><img alt="Appreg app" src="/assets/images/admin/rss/appreg-ext1.png" /></p>
 <p>Service needs to be <strong>Customizer</strong> and the extension point <strong>com.ibm.customizer.proxy</strong>
 The Extension name is just for your information and can be set to anything. For example : RSS Whitelist</p>
 <p>Enter an URL or a domain and hit the Next button.</p>
-<p><img alt="Appreg extension" src="/assets/images/admin/rss-appreg-ext3.png" /></p>
+<p><img alt="Appreg extension" src="/assets/images/admin/rss/appreg-ext3.png" /></p>
 <p>The graphical editor sometimes has issues with cacheing. Adding more url's or domains is easier in the code editor.
 The following example shows the whitelist for a url and for a domain. Just add more entries to the <em>"whitelist":[ ]</em></p>
 <div class="codehilite"><pre><span></span><code><span class="p">{</span>
