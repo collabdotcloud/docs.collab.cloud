@@ -2,7 +2,7 @@
 
 Highlights is a new feature for a better and smoother community experience. It contains widgets that allow you to design your community. This is the new default for all new communities, Highlights will be set as your default landing page for your new community.
 
-![Highlight-Community](../../assets/images/admin/highlights/highlights-community.png)
+![Highlight-Community](/assets/images/admin/highlights/highlights-community.png)
 
 ## Configure
 
@@ -19,6 +19,8 @@ That will give you access to a set of community applications on tab 1 and additi
 On tab 3 you can also alter the layout of the landing page
 
 ![Highlight-Layout](/assets/images/admin/highlights/highlights-layout.png)
+
+A list of widgets can be found in the [official documentation](https://help.hcltechsw.com/connections/v7/connectors/icec/cec-widgets.html)
 
 ## Add to existing community
 
@@ -38,3 +40,4 @@ As an Organisation Admin you are able to access and edit all communities.
 The only exception is Highlights. The customize button is only available to community owners.
 
 If you use the RSS widget with external RSS feeds see this [Page](highlights-rss-feed.md).
+
