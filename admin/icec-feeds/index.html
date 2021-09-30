@@ -937,13 +937,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#open-access" class="md-nav__link">
-    Open access
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1908,13 +1901,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#open-access" class="md-nav__link">
-    Open access
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1931,49 +1917,11 @@
                 <h1 id="engagement-getting-the-atomrss-feeds-to-work">Engagement Getting the Atom/RSS feeds to work<a class="headerlink" href="#engagement-getting-the-atomrss-feeds-to-work" title="Permanent link">&para;</a></h1>
 <p>ICEC is in cloud mode which uses a tighter security model.<br />
 It requires to whitelist any feed urls per default.</p>
+<p>With the latest HCL Connections 7 update, please follow these instructions <a href="/admin/highlights-rss-feed.md">Customizer Proxy</a></p>
 <h2 id="manage-the-whitelist">Manage the whitelist<a class="headerlink" href="#manage-the-whitelist" title="Permanent link">&para;</a></h2>
 <p>This gives you full control over the urls which can be accessed from Engagement Center RSS widget.
 This requires access to the appregistry, which is not end-user friendly at the moment.
 See <a href="https://github.com/hclcnx/customizer/blob/master/docs/HCLConnectionsCustomizer.md#listing-17-simple-customizer-proxy-extension">Detailed instructions</a> for further informations.</p>
-<h2 id="open-access">Open access<a class="headerlink" href="#open-access" title="Permanent link">&para;</a></h2>
-<p>If you want to allow all URL's, the following JavaScript block needs to be added inside the init function within the custom.js in Engagement Center:</p>
-<p>Goto customize-&gt;Engagement Center Settings -&gt; Customization Files -&gt; custom.js
-<img alt="Goto customize-&gt;Engagement Center Settings -&gt; Customization Files -&gt; custom.js" src="../../assets/images/admin/xcc-settings.png" /></p>
-<div class="codehilite"><pre><span></span><code><span class="cm">/**</span>
-<span class="cm">* Change the proxy to the connections AjaxProxy</span>
-<span class="cm">*/</span>
-<span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="p">(</span><span class="nx">XCC</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;object&quot;</span><span class="p">)</span> <span class="p">{</span>
-                <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="p">(</span><span class="nx">XCC</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;object&quot;</span><span class="p">)</span> <span class="p">{</span>
-
-                    <span class="nx">XCC</span><span class="p">.</span><span class="nx">T</span><span class="p">.</span><span class="nx">getAjaxProxyUrl</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">getAjaxProxyUrl</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">endpointRequestsPersonalized</span><span class="p">)</span> <span class="p">{</span>
-                        <span class="kd">var</span> <span class="nx">ret</span> <span class="o">=</span> <span class="nx">url</span><span class="p">,</span>
-                            <span class="nx">isSameHostRequest</span><span class="p">;</span>
-                        <span class="k">if</span> <span class="p">(</span><span class="nx">ret</span> <span class="o">&amp;&amp;</span> <span class="nx">ret</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="sr">/(^http[s]*):\/\//ig</span><span class="p">))</span> <span class="p">{</span>
-                            <span class="c1">// the URL string exists and starts with a http:// or https://</span>
-                            <span class="nx">isSameHostRequest</span> <span class="o">=</span> <span class="mi">0</span> <span class="o">===</span> <span class="nx">ret</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">().</span><span class="nx">indexOf</span><span class="p">(</span><span class="nx">XCC</span><span class="p">.</span><span class="nx">S</span><span class="p">.</span><span class="nx">endPoint</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span>
-                            <span class="k">if</span> <span class="p">(</span><span class="nx">endpointRequestsPersonalized</span> <span class="o">&amp;&amp;</span> <span class="nx">XCC</span><span class="p">.</span><span class="nx">S</span><span class="p">.</span><span class="nx">endPoint</span> <span class="o">&amp;&amp;</span> <span class="nx">isSameHostRequest</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// check if the URL starts with the endpoint url</span>
-                                <span class="nx">ret</span> <span class="o">=</span> <span class="nx">XCC</span><span class="p">.</span><span class="nx">S</span><span class="p">.</span><span class="nx">endPointProxy</span> <span class="o">+</span> <span class="nx">ret</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="nx">XCC</span><span class="p">.</span><span class="nx">S</span><span class="p">.</span><span class="nx">endPoint</span><span class="p">.</span><span class="nx">length</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
-                            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-
-                                <span class="c1">// &quot;/xcc/rest/proxy/&quot; can only be used, for internal URLs</span>
-                                <span class="k">if</span> <span class="p">(</span><span class="nx">isSameHostRequest</span> <span class="o">&amp;&amp;</span> <span class="nx">XCC</span><span class="p">.</span><span class="nx">S</span><span class="p">.</span><span class="nx">anon</span><span class="p">)</span> <span class="p">{</span>
-                                    <span class="nx">ret</span> <span class="o">=</span> <span class="s2">&quot;/xcc/rest/proxy/&quot;</span> <span class="o">+</span> <span class="nx">url</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/(^http[s]*):\/\//g</span><span class="p">,</span> <span class="s2">&quot;$1/&quot;</span><span class="p">);</span>
-                                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-                                    <span class="nx">ret</span> <span class="o">=</span> <span class="nx">XCC</span><span class="p">.</span><span class="nx">T</span><span class="p">.</span><span class="nx">getRootPath</span><span class="p">(</span><span class="s2">&quot;Communities&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/ajaxProxy/&quot;</span> <span class="o">+</span> <span class="nx">url</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/(^http[s]*):\/\//g</span><span class="p">,</span> <span class="s2">&quot;$1/&quot;</span><span class="p">);</span>
-                                <span class="p">}</span>
-
-                            <span class="p">}</span>
-                        <span class="p">}</span>
-
-                        <span class="k">return</span> <span class="nx">ret</span><span class="p">;</span>
-                    <span class="p">};</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-</code></pre></div>
-
-
-<p>Place this in the init function in custom.js.</p>
-<p><img alt="custom.js" src="../../assets/images/admin/xcc-proxy-change.png" /></p>
                 
               
               
