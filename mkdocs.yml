@@ -55,6 +55,8 @@ nav:
       - Manage Communities:
           - List Communities per User: admin/communities-list-per-user.md
           - Change Owner of a Community: admin/communities-change-owner.md
+      - Manage Sametime Groups:
+          - Create/Maintain Groups: admin/sametime-create-maintain-groups.md
       - Authentication:
           - Federated Identity Authentication with SAML: admin/auth-saml.md
           - Sametime Client Authentication: admin/admin-sametime.md
@@ -103,6 +105,9 @@ nav:
       - Using Sametime:
           - Getting Started: users/using-sametime-gettingstarted.md
           - Using Sametime: users/using-sametime.md
+          - Using Sametime Groups:
+              - Web Client: users/using-sametime-groups-stweb.md
+              - Sametime Client: users/using-sametime-groups-stclient.md
       - Using Activities Plus:
           - Getting Started: users/aplus-gettingstarted.md
           - Accessing Activities Plus: users/aplus-for-users.md
