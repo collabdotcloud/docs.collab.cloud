@@ -40,7 +40,8 @@ These announcements can be created in the [appregistry](/admin/appreg.md).
                     }
                 ]
             },
-            "path": "orientme"
+            "path": "orientme",
+            "state":"enabled"
         }
     ]
 }
