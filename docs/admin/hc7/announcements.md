@@ -17,7 +17,7 @@ These announcements can be created in the [appregistry](/admin/appreg.md).
 ```json
 {
     "name": "com.ibm.orientme.defaults",
-    "title": "com.ibm.orientme.defaults",
+    "title": "Announcements",
     "description": "Global Defaults for OrientMe Service",
     "services": [
         "OrientMe"
@@ -48,6 +48,7 @@ These announcements can be created in the [appregistry](/admin/appreg.md).
 ```
 
 ***Restrictions:*** There can only be one app active in the appregistry. If you have multiple messages just add it in the payload
+The first *name* tag needs to be set to *com.ibm.orientme.defaults*.
 
 ```json
 "payload": {
