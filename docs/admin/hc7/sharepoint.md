@@ -1,6 +1,6 @@
 # Sharepoint Community widget
 
-***Known Issue*** If you are not logged in sharepoint the widget sometimes points to the wrong login url. We have a case open with HCL.
+***Known Issue:*** If you are not logged in sharepoint the widget sometimes points to the wrong login url. We have a case open with HCL.
 Workaround: Either login to the sharepoint site first or open the full sharepoint widget and refresh the page before you try to click the login link.
 
 Official [HCL Documentation](https://opensource.hcltechsw.com/connections-doc/v7/configuringv7features/sharepoint/c_admin_sharepoint_app_container.html)
