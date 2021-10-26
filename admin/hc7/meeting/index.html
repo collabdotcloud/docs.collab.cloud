@@ -1069,9 +1069,66 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Meeting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Meeting
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#option-1-named-meeting-integration" class="md-nav__link">
+    Option 1: Named meeting integration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#option-2-general-icon" class="md-nav__link">
+    Option 2: General Icon
+  </a>
+  
+    <nav class="md-nav" aria-label="Option 2: General Icon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enable-integration" class="md-nav__link">
+    Enable integration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-the-meeting-link" class="md-nav__link">
+    Using the meeting link
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1948,6 +2005,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#option-1-named-meeting-integration" class="md-nav__link">
+    Option 1: Named meeting integration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#option-2-general-icon" class="md-nav__link">
+    Option 2: General Icon
+  </a>
+  
+    <nav class="md-nav" aria-label="Option 2: General Icon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enable-integration" class="md-nav__link">
+    Enable integration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-the-meeting-link" class="md-nav__link">
+    Using the meeting link
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1961,9 +2060,49 @@
                 
                 <h1 id="what-is-meeting-integration">What is Meeting integration<a class="headerlink" href="#what-is-meeting-integration" title="Permanent link">&para;</a></h1>
 <p>The meeting integration allows you to add a link to your personal meeting room in the HCL Connections header bar for easy access.</p>
-<p><img alt="Meeting Integration" src="/assets/images/admin/meeting/meeting.png" /></p>
-<h1 id="how-to-enable">How to enable<a class="headerlink" href="#how-to-enable" title="Permanent link">&para;</a></h1>
-<p>Coming Soon!</p>
+<p>There are 2 options:
+<img alt="Named Meeting Integration" src="/assets/images/admin/meeting/meeting.png" /></p>
+<p>and</p>
+<p><img alt="Meeting Integration" src="/assets/images/admin/meeting/meeting-header.png" /></p>
+<h2 id="option-1-named-meeting-integration">Option 1: Named meeting integration<a class="headerlink" href="#option-1-named-meeting-integration" title="Permanent link">&para;</a></h2>
+<p>see <a href="/admin/extension-webex.md">WebEx integration</a></p>
+<h2 id="option-2-general-icon">Option 2: General Icon<a class="headerlink" href="#option-2-general-icon" title="Permanent link">&para;</a></h2>
+<h3 id="enable-integration">Enable integration<a class="headerlink" href="#enable-integration" title="Permanent link">&para;</a></h3>
+<p>Similar to the WebEx integration the OrgAdmin needs to add the following appregistry extension</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;My WebMeeting&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;title&quot;</span><span class="o">:</span> <span class="s2">&quot;My WebMeeting&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;description&quot;</span><span class="o">:</span> <span class="s2">&quot;Allows each user to quickly access their own Web Meeting&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;services&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;Customizer&quot;</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;state&quot;</span><span class="o">:</span> <span class="s2">&quot;enabled&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;extensions&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;webMeeting&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;com.ibm.customizer.ui&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;payload&quot;</span><span class="o">:</span> <span class="p">{</span>
+                <span class="s2">&quot;include-files&quot;</span><span class="o">:</span> <span class="p">[</span>
+                    <span class="s2">&quot;extensions/meeting/commonTools.js&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;extensions/meeting/webMeeting.js&quot;</span>
+                <span class="p">],</span>
+                <span class="s2">&quot;cache-headers&quot;</span><span class="o">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;cache-control&quot;</span><span class="o">:</span> <span class="s2">&quot;max-age=43200&quot;</span>
+                <span class="p">}</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;path&quot;</span><span class="o">:</span> <span class="s2">&quot;global&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;state&quot;</span><span class="o">:</span> <span class="s2">&quot;enabled&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<h3 id="using-the-meeting-link">Using the meeting link<a class="headerlink" href="#using-the-meeting-link" title="Permanent link">&para;</a></h3>
+<p>Each user needs to put their meeting link in their Profile.
+see <a href="/users/using-webex-extension.md">WebEx Link</a>.</p>
+<p>The link name needs to be set to <strong>Meeting</strong> (case sensitive).</p>
+<p>If everything is configured correctly, the meeting icon will appear.</p>
                 
               
               
