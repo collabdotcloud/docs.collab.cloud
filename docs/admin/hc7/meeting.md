@@ -12,7 +12,7 @@ and Meeting Icon:
 
 ## Option 1: Named meeting integration
 
-see [WebEx integration](/admin/extension-webex.md)
+see [WebEx integration](/admin/extension-webex)
 
 ## Option 2: Meeting Icon
 
@@ -54,7 +54,7 @@ Similar to the WebEx integration the OrgAdmin needs to add the following appregi
 ### Using the meeting link
 
 Each user needs to put their meeting link in their Profile.
-see [WebEx Link](/users/using-webex-extension.md).
+see [WebEx Link](/users/using-webex-extension).
 
 The link name needs to be set to **Meeting** (case sensitive).
 
