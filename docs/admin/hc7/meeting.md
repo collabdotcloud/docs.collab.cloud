@@ -3,17 +3,20 @@
 The meeting integration allows you to add a link to your personal meeting room in the HCL Connections header bar for easy access.
 
 There are 2 options:
+
+Named meeting integration
 ![Named Meeting Integration](/assets/images/admin/meeting/meeting.png)
 
-and
-
+and Meeting Icon:
 ![Meeting Integration](/assets/images/admin/meeting/meeting-header.png)
 
 ## Option 1: Named meeting integration
 
 see [WebEx integration](/admin/extension-webex.md)
 
-## Option 2: General Icon
+## Option 2: Meeting Icon
+
+This is a more general meeting link.
 
 ### Enable integration
 
