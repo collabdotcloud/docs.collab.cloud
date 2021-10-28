@@ -10,7 +10,7 @@ It will open a dialog, when you click on *More*
 
 ![dialog](/assets/images/admin/announcement/dialog.png)
 
-These announcements can be created in the [appregistry](/admin/appreg.md).
+These announcements can be created in the [appregistry](/admin/appreg).
 
 ## Example
 
