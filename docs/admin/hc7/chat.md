@@ -8,7 +8,7 @@ The integration is also possible if your chat system does not use your business 
 We currently support integrations with Microsoft Teams, Slack and Sametime
 
 If you are integrating with your own Sametime server, it makes sense to remove our integration to our Multi-tenant Sametime server you see bottom right in connections. To do so, see this page:
-[Disable Sametime](extension-disable-sametime)
+[Disable Sametime](../../extension-disable-sametime)
 
 ## Examples
 
