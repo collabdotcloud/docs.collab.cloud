@@ -1,25 +1,27 @@
+**coming soon...**
+
 The "Report-to Chain" of an organisation refers to the organizational tree of
 an organisation.
 It's about who has to report to whom and who is managed by whom.
 
 An organisation admin can update the Report-to Chain for their organisation in
 the admin app. This can be done in two ways, by uploading a CSV with the 
-updated information or using-drag and drop, for quick and easy changes.
+updated information or using drag and drop, for quick and easy changes.
 
 The Report-to Chain page can be accessed by clicking on the Report-to Chain button on the Org-Users page.
 
 
-On the  you will see three tabs on the Report-to Chain page
+On the Report-to Chain page you will see three tabs:
 
 - View & Export
 - Editor
 - Update with CSV
 
-As an org admin you can update the "Report-to Chain" for your organization here. You can update it using a CSV file.
+As an Admin you can update the "Report-to Chain" for your organization here. You can update it using a CSV file.
 
 ## View & Export
 
-In the View and Export tab you can view the current Report-to Chain for your organisation and export it as a CSV. The exported CSV can be used to update the Report-to Chain or simply as a backup of sorts or to compare to Report-to Chains from different points of time.
+In the View and Export tab, you can view the current Report-to Chain for your organisation and export it as a CSV. The exported CSV can be used to update the Report-to Chain or simply as a backup of sorts or to compare to Report-to Chains from different points of time.
 
 The tree displays which users are managed by which.
 For example:
@@ -29,18 +31,18 @@ For example:
     - User 3
         - User 4
 
-In this example User 1 is the manager of Users 2 and 3 and User 3 is the manager of User 4.
+In this example, User 1 is the manager of Users 2 and 3 and User 3 is the manager of User 4.
 User 1 could for example be a CEO, User 3 a manager and users 2 and 4 employees managed by the CEO and the manager respectively.
 
 ## Editor
 
-In the Editor tab you can make changes to the current Report-to Chain using Drag and Drop. The tree has the same structure as the one under 'View & Export'.
+In the Editor tab, you can make changes to the current Report-to Chain using Drag and Drop. The tree has the same structure as the one under 'View & Export'.
 
 When dragging users you can think of it as setting a user as managed by another.
 
 Meaning if you drag 'User A' from somewhere and drop it on 'User B' you are setting 'User A' as managed by 'User B'. 
 
-To the right of the drag and drop editor you can see the exact changes that will be made. It should now read:
+To the right of the drag and drop editor, you can see the exact changes that will be made. It should now read:
 
 "Setting User A as manager by User B" // TODO check exact phrasing
 
@@ -63,7 +65,7 @@ We will always show you exactly what changes will be made after uploading the CS
 
 ### CSV structure
 
-Each user has its own row and the columns are the datapoints for all the users.
+Each user has its own row and the columns are the data points for all the users.
 
 The columns are the following in this order:
 
@@ -77,13 +79,13 @@ Columns: `emailAddress`, `uid`, `isManager`, `managerEmail`, `managerUid`
 
 ### UIDs vs. E-Mails
 
-To update a user either its `uid` or `emailAddress` needs to be given. (Otherwise the row is ignored) To set it as managed by some other user, one of `managerUid` or `managerEmail` needs to be given, otherwise it is understood as not managed by anyone.
+To update a user either its `uid` or `emailAddress` needs to be given. (Otherwise, the row is ignored) To set it as managed by some other user, one of `managerUid` or `managerEmail` needs to be given, otherwise it is understood as not managed by anyone.
 
-It is best practise to also supply both if the UID and E-Mail are known. 
+It is best-practise to also supply both if the UID and E-Mail are known. 
 
 It is much quicker to update the Report-to Chain with a CSV that includes UIDs. However, it is perfectly possible to update the Report-to Chain only with E-Mail addresses, but it will take longer. This is because we have to perform a look-up for every missing E-mail address.
 
-Therefore we suggest to export and download the CSV for the full Report-to Chain after a successful update. It will include all UIDs and E-mail for all the users and you can edit said
+Therefore we suggest exporting and downloading the CSV for the full Report-to Chain after a successful update. It will include all UIDs and E-mail for all the users and you can edit said
 
 ### CSV Example
 
