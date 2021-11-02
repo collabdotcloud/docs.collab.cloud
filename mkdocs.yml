@@ -38,6 +38,7 @@ nav:
           - Communities:
               - My Communities: admin/my-communities.md
               - Member of: admin/communities-member-of.md
+          - Report-to Chain: admin/report-to-chain.md
       - Manage Users:
           - General: admin/manage-users.md
           - For Hybrid Customers: admin/manage-users-hybrid.md
@@ -52,6 +53,7 @@ nav:
               - Select Users: admin/bulk-actions-select-user.md
               - Remove Connections Subscriptions: admin/bulk-actions-remove-subscription.md
               - Deactivate Users: admin/bulk-actions-deactivate-user.md
+          - Report-to Chain: admin/report-to-chain.md
       - Manage Communities:
           - List Communities per User: admin/communities-list-per-user.md
           - Change Owner of a Community: admin/communities-change-owner.md
