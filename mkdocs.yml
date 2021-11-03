@@ -38,7 +38,6 @@ nav:
           - Communities:
               - My Communities: admin/my-communities.md
               - Member of: admin/communities-member-of.md
-          - Report-to Chain: admin/report-to-chain.md
       - Manage Users:
           - General: admin/manage-users.md
           - For Hybrid Customers: admin/manage-users-hybrid.md

@@ -44,7 +44,7 @@ Meaning if you drag 'User A' from somewhere and drop it on 'User B' you are sett
 
 To the right of the drag and drop editor, you can see the exact changes that will be made. It should now read:
 
-"Setting User A as manager by User B" // TODO check exact phrasing
+"Setting **User A** as manager of **User B**"
 
 You can now click 'Apply changes' to apply your changes or click 'Discard changes' to undo everything.
 
