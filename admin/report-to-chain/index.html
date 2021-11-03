@@ -2058,7 +2058,7 @@ Meaning, if a user is missing in the CSV it won't remove it from the Report-to C
 <h3 id="uids-vs-e-mails">UIDs vs. E-Mails<a class="headerlink" href="#uids-vs-e-mails" title="Permanent link">&para;</a></h3>
 <p>To update a user either its <code>uid</code> or <code>emailAddress</code> needs to be given. (Otherwise, the row is ignored) To set it as managed by some other user, one of <code>managerUid</code> or <code>managerEmail</code> needs to be given, otherwise it is understood as not managed by anyone.</p>
 <p>It is best-practise to also supply both if the UID and E-Mail are known. </p>
-<p>It is much quicker to update the Report-to Chain with a CSV that includes UIDs. However, it is perfectly possible to update the Report-to Chain only with E-Mail addresses, but it will take longer. This is because we have to perform a look-up for every user without an UID.</p>
+<p>It is much quicker to update the Report-to Chain with a CSV that includes UIDs. However, it is perfectly possible to update the Report-to Chain only with E-Mail addresses, but it will take longer. This is because we have to perform a look-up for every user without a UID.</p>
 <p>Therefore we suggest exporting and downloading the CSV for the full Report-to Chain after a successful update. It will include all UIDs and E-mail for all the users and you can edit said</p>
 <h3 id="csv-example">CSV Example<a class="headerlink" href="#csv-example" title="Permanent link">&para;</a></h3>
 <p>Structure:</p>
