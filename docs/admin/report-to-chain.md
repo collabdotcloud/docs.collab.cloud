@@ -83,7 +83,7 @@ To update a user either its `uid` or `emailAddress` needs to be given. (Otherwis
 
 It is best-practise to also supply both if the UID and E-Mail are known. 
 
-It is much quicker to update the Report-to Chain with a CSV that includes UIDs. However, it is perfectly possible to update the Report-to Chain only with E-Mail addresses, but it will take longer. This is because we have to perform a look-up for every missing E-mail address.
+It is much quicker to update the Report-to Chain with a CSV that includes UIDs. However, it is perfectly possible to update the Report-to Chain only with E-Mail addresses, but it will take longer. This is because we have to perform a look-up for every user without an UID.
 
 Therefore we suggest exporting and downloading the CSV for the full Report-to Chain after a successful update. It will include all UIDs and E-mail for all the users and you can edit said
 
