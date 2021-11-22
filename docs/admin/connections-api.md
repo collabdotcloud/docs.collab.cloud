@@ -78,7 +78,7 @@ We will use the *EU endpoint* in this example.
 
     Body: (Content-Type: `application/x-www-form-urlencoded`)
 
-        grant_type:client_credentials
+        grant_type:password
         username:*Your username (E-mail)*
         password:*Your user's password*
         client_id:*Your Client-ID*
