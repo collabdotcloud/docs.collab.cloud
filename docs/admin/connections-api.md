@@ -60,7 +60,7 @@ Call our Open-ID Connect **token endpoint**. Please, use the correct one for you
 
 Use the following OAuth 2.0 config:
 
-- Grant-Type: Client-Credentials
+- Grant-Type: Password
 - Username: *Your users' username (E-mail)*
 - Password: *Your users' password*
 - Client-ID: *Your client ID* - [What is that?](#how-do-i-get-access-to-the-api)
