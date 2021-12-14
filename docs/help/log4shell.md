@@ -11,7 +11,8 @@ HCL Connections 7 does not use the the vulnerable log4j 2 versions.
 
 The ThreeThirds collab.cloud environment runs on HCL Connections 7.
 
-There's patch available for Connections 6 and 6.5.
+The elasticsearch, which is part of the new social homepage, uses the vulnerable log4j 2.11 library.
+Official statement from [ElasticSearch](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476).
 
 ## Sametime
 
