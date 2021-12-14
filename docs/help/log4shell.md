@@ -1,6 +1,12 @@
 # log4j Vulnerability CVE-2021-44228
 
-As you may have noticed. [Apache log4j Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) [Apache log4j site](https://logging.apache.org/log4j/2.x/security.html) has been discovered around December 9.
+As you may have noticed a vulnerability for systems called Apache log4j has been discovered.
+
+Read more here [Apache log4j Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) and here [Apache log4j site](https://logging.apache.org/log4j/2.x/security.html).
+
+We at ThreeThirds take security very seriously and we have immediately taken action to secure our environment and investigate possible security holes.
+
+Read in detail below:
 
 HCL has released a [Security Advisory](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095490)
 
