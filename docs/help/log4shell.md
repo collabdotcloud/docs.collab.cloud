@@ -22,4 +22,5 @@ Our Sametime 11 servers are not affected.
 ## Domino / Verse / Traveler
 
 Domino 11 and 12 are not affected
+
 [HCL KB](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095516)
