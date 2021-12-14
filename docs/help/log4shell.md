@@ -1,4 +1,4 @@
-# log4j Vulnerability
+# log4j Vulnerability CVE-2021-44228
 
 As you may have noticed. [Apache log4j Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) [Apache log4j site](https://logging.apache.org/log4j/2.x/security.html) has been discovered around December 9.
 
