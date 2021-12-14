@@ -140,6 +140,8 @@ nav:
       - "": help/known-issues.md
   - Faq:
       - "": help/faq.md
+  - Log4J:
+      - "": help/log4shell.md
 
 markdown_extensions:
   - admonition
