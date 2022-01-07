@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.collab.cloud/maintenance/</loc>
+         <lastmod>2022-01-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.collab.cloud/admin/admin-latest-changes/</loc>
          <lastmod>2022-01-07</lastmod>
          <changefreq>daily</changefreq>
