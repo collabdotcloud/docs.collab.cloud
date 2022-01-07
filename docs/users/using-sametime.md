@@ -1,27 +1,31 @@
-# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Using Sametime
+# ![SametimeLogo](/assets/images/HCL_Sametime_Master.png){:height="28"} Using Sametime
 
 ### Using Sametime from Connections
+
 Once authenticated to Connections the Sametime plugin will automatically be loaded. In the lower right corner the Sametime plugin can be found.
 
-<img src="/assets/images/screen-shots/sametime/connections-status.png" alt="Connections Status" width=50% />
+![Connections Status](/assets/images/screen-shots/sametime/connections-status.png){:width="50%"}
 
 Clicking the right icon will open the chat window. Persons can be added to the contact list by searching users by name in the search bar.
 
-<img src="/assets/images/screen-shots/sametime/chat-window-addperson.png" alt="Add Person" width=50% />
+![Add Person](/assets/images/screen-shots/sametime/chat-window-addperson.png){:width="50%"}
 
 A double click on a username will then open a chat window with this user.
 
-<img src="/assets/images/screen-shots/sametime/chat-window.png" alt="Chat Window" width=50% />
+![Chat Window](/assets/images/screen-shots/sametime/chat-window.png){:width="50%"}
 
 ### Using Sametime from Verse/iNotes
+
 Once logged in to mail application Verse/iNotes the Sametime plugin can be found for Verse in upper right corner:
 
-<img src="/assets/images/screen-shots/sametime/verse-status.png" alt="Verse Status" width=50% />
+![Verse Status](/assets/images/screen-shots/sametime/verse-status.png){:width="50%"}
 
 ### Using Sametime from Notes
+
 [Notes Client Setup](https://docs.collab.cloud/admin/admin-sametime/)
 
 ### Using Sametime from Standalone client
+
 On first start of the Sametime standalone client configuration is needed as follows. Please be aware that the login method with SAML SSO is the ONLY method to login to Sametime.
 As shown in the following picture set the servername to the appropriate cloud environment:
 
@@ -32,7 +36,7 @@ As shown in the following picture set the servername to the appropriate cloud en
 
 Put in your email address as username.
 
-<img src="/assets/images/screen-shots/sametime/sametime-rich-step1.png" alt="Verse Status" width=50% />
+![Verse Status](/assets/images/screen-shots/sametime/sametime-rich-step1.png){:width="50%"}
 
 Click on "Settings" to fill in SSO values as follows. For "Authentication server" field set the appropriate values.
 Check the box "Use token-based single sign-on".
@@ -44,7 +48,7 @@ EU|https://logineu.collab.cloud/auth/realms/connections-mt/protocol/saml/clients
 
 Set Authentication type to "SAML" and Login type to "Browser".
 
-<img src="/assets/images/screen-shots/sametime/sametime-rich-step2.png" alt="Verse Status" width=50% />
+![Verse Status](/assets/images/screen-shots/sametime/sametime-rich-step2.png){:width="50%"}
 
 <strong>IMPORTANT:</strong><br />
 Please do NOT check the "Automatically login" checkbox. This will produce issues together with the "remember me" checkbox in login web page from collab.cloud.
@@ -75,6 +79,6 @@ To enable mobile chat add a new Community and add the appropriate data there:
 
 Save the settings and login to chat.
 
-<img src="/assets/images/screen-shots/sametime/mobile-settings.png" alt="Mobile Settings" width=50% />
+![Mobile Settings](/assets/images/screen-shots/sametime/mobile-settings.png){:width="50%"}
 
 Go to [HCL's Sametime Documentation site](https://help.hcltechsw.com/sametime/sametime_welcome.html) for more information.
