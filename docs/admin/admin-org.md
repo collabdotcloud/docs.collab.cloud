@@ -22,12 +22,12 @@ _Keep watching this page as there will be weekly updates to the Documentation_
 
 |                                         | By Support Request | Admin App Now | Admin App Later | Not Supported |
 | --------------------------------------- | ------------------ | ------------- | --------------- | ------------- |
-| <strong>Account settings</strong>       |                    |               |                 |               |
+| **Account settings**       |                    |               |                 |               |
 | Modify Organisation Contact Information | `[X]`              | `[X]`         |                 |               |
 | Add Subscriptions to Organisation       | `[X]`              |               | `[X]`           |               |
 | Remove Subscriptions from Organisation  | `[X]`              |               |                 | `[X]`         |
 |                                         |                    |               |                 |               |
-| <strong>User Management - General</strong> |                    |               |                 |               |
+| **User Management - General** |                    |               |                 |               |
 | View Users                              |                    | `[X]`         |                 |               |
 | View Subscriptions                      |                    | `[X]`         |                 |               |
 | Reset Password                          |                    | `[X]`         |                 |               |
@@ -36,13 +36,13 @@ _Keep watching this page as there will be weekly updates to the Documentation_
 | Add Subscriptions to User               |                    | `[X]`         |                 |               |
 | Remove Subscriptions from User          |                    | `[X]`         |                 |               |
 |                                         |                    |               |                 |               |
-| <strong>User Management - Connections</strong> |                    |               |                 |               |
+| **User Management - Connections** |                    |               |                 |               |
 | Create Users                            |                    | `[X]`         |                 |               |
 | Rename Users                            |                    | `[X]`         |                 |               |
 | Update/Modify Users                     |                    | `[X]`         |                 |               |
 | Delete Users                            | `[X]`              |               | `[X]`           |               |
 |                                         |                    |               |                 |               |
-| <strong>User Management - Mail</strong> |                    |               |                 |               |
+| **User Management - Mail** |                    |               |                 |               |
 | Create Users                            | `[X]`\**           |               | `[X]`           |               |
 | Rename Users                            | `[X]`\**           |               | `[X]`           |               |
 | Update/Modify Users                     | `[X]`\**           |               | `[X]`           |               |
@@ -50,15 +50,15 @@ _Keep watching this page as there will be weekly updates to the Documentation_
 | Deploy Custom Mail Templates            | `[X]`\**           |               | `[X]`           |               |
 | Add/change mail quota                   |                    | `[X]`         |                 |               |
 |                                         |                    |               |                 |               |
-| <strong>User Management - Chat/IM</strong> |                    |               |                 |               |
+| **User Management - Chat/IM** |                    |               |                 |               |
 | Disable Sametime Chat                   | `[X]`              |               |                 |               |
 |                                         |                    |               |                 |               |
-| <strong>System</strong>                 |                    |               |                 |               |
+| **System**                 |                    |               |                 |               |
 | Change Theme/Colours                    |                    |               | `[X]`           |               |
 | Add Company Logo                        |                    |               | `[X]`           |               |
 | Manage IP Restrictions                  | `[X]`              |               | `[X]`           |               |
 | Add Organisation Extensions             | `[X]`\*            |               | `[X]`           |               |
 
 > \* Adding Organisation Extensions, or migrating Extensions from IBM Connections Cloud will need to be performed in consultation with ThreeThirds development, and may incur professional services fees.  
-> Organizaton Administrators can add custom Extensions via the Applications Register at `https://yourtenantname.collab.cloud/appreg`   
+> Organizaton Administrators can add custom Extensions via the Applications Register at `https://yourtenantname.collab.cloud/appreg`  
 > \** New mail users are handled by support request (Mail Cloud customers) or by registration in your on-premise Domino Directory (Hybrid Customers). See [User Management](https://docs.collab.cloud/admin/manage-users/) for more info.

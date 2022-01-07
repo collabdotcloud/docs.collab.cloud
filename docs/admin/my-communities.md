@@ -29,6 +29,6 @@ Click on a Sub-Community to show the details.
 
 Click on the Parent Community to show the details.
 
-<strong>NOTE</strong>: As an Org-Admin you will see all Communities, regardless of your membership. Therefore, you will be able to view a Community and maintain the Owners/Members.
+**NOTE**: As an Org-Admin you will see all Communities, regardless of your membership. Therefore, you will be able to view a Community and maintain the Owners/Members.
 
-<strong>NOTE</strong>: If you view a Community where you don't have any membership and Wikis are enabled on the overview page, errors and reloading of the page might occur. We are working on that to solve the issue in the near future.
+**NOTE**: If you view a Community where you don't have any membership and Wikis are enabled on the overview page, errors and reloading of the page might occur. We are working on that to solve the issue in the near future.

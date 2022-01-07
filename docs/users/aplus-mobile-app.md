@@ -16,18 +16,18 @@ When you start the app and reach the login screen you have multiple options on h
 
 In this case you should choose either **_Collab Cloud US_** or **_Collab Cloud Europe_** depending on which data center you are connected to. If you do not have that information, please contact your administrator.
 
-<img src="/assets/images/screen-shots/aplus/aplus-mobile-app1.png" alt="Choose Login Option" width="50%"/>
+![Choose Login Option](/assets/images/screen-shots/aplus/aplus-mobile-app1.png){:width="50%"}
 
 Once you have chosen your data center location enter your email address and password and click **_Log In_**. Note that you can change language in the upper right corner.
 
-<img src="/assets/images/screen-shots/aplus/aplus-mobile-app2.png" alt="Login Screen" width="50%"/>
+![Login Screen](/assets/images/screen-shots/aplus/aplus-mobile-app2.png){:width="50%"}
 
 You are in! Now you see all your existing Activities and can immediately start working!
 
 <table>
   <tr>
-    <td> <img src="/assets/images/screen-shots/aplus/aplus-mobile-app3.png"  alt="Activities Plus Home Screen" ></td>
-
-    <td> <img src="/assets/images/screen-shots/aplus/aplus-mobile-app4.png" alt="Activities Plus" </td>
+    <td> ![Activities Plus Home Screen](/assets/images/screen-shots/aplus/aplus-mobile-app3.png)</td>
+    
+    <td> ![Activities Plus](/assets/images/screen-shots/aplus/aplus-mobile-app4.png) </td>
    </tr>
 </table>

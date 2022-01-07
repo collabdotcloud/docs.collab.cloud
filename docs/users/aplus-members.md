@@ -6,11 +6,11 @@ An activity can be private where only the creator of the activity can view and w
 
 See all members in this activity on the right hand side.
 
-<img src="/assets/images/screen-shots/aplus/aplus-members.png" alt="Members" />
+![Members](/assets/images/screen-shots/aplus/aplus-members.png)
 
 To add members to the activity, open the members menu by clicking on **_Members_**
 
-<img src="/assets/images/screen-shots/aplus/aplus-members-menu.png" alt="Members menu" />
+![Members menu](/assets/images/screen-shots/aplus/aplus-members-menu.png)
 
 In this dialogue box you can:
 

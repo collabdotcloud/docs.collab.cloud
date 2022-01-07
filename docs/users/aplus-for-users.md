@@ -12,7 +12,7 @@ Find your activities in Activities Plus by clicking:
 
 **_Apps – Activities Plus_** in the Menu Bar of Connections.
 
-<img src="/assets/images/screen-shots/aplus/aplus-menu-item.png" alt="Activities Plus" />
+![Activities Plus](/assets/images/screen-shots/aplus/aplus-menu-item.png)
 
 ___
 
@@ -32,21 +32,21 @@ A Community Activity is an Activity that has been added to a specific Connection
 
 If you cannot see any Activities in a Community, the Activities Plus widget needs to be added to the Community. The Community Manager has access rights to do that.
 
-<img src="/assets/images/screen-shots/aplus/aplus-widget-in-community.png" alt="Activities Plus Widget in Community" />
+![Activities Plus Widget in Community](/assets/images/screen-shots/aplus/aplus-widget-in-community.png)
 
-____
+___
 
 Once the widget is added you have the option to show all Community Activities/Boards that belongs to this Community, or a specific Activity/Board. If you want to change these settings after saving, click on the settings wheel inside the widget.
 
-<img src="/assets/images/screen-shots/aplus/aplus-widget-settings.png" alt="Widget Settings" width="50%"/>
+![Widget Settings](/assets/images/screen-shots/aplus/aplus-widget-settings.png){:width="50%"}
 
 The new widget in the Community can be moved by dragging and dropping, or by clicking on the three dots in the upper right corner.
 
-<img src="/assets/images/screen-shots/aplus/aplus-move-widget.png" alt="Move Widget" width="50%"/>
+![Move Widget](/assets/images/screen-shots/aplus/aplus-move-widget.png){:width="50%"}
 
 A great tip is to move the Activities Plus widget so it covers the whole page, by dragging and dropping. When the widget is larger you get a better overview of your work.
 
-<img src="/assets/images/screen-shots/aplus/aplus-widget-in-community.png" alt="Activities Plus Widget in Community" />
+![Activities Plus Widget in Community](/assets/images/screen-shots/aplus/aplus-widget-in-community.png)
 
 If the Community already is a member of an Activity you will directly see that Activity in the widget. Start working immediately!
 
@@ -59,7 +59,7 @@ Go to the Activities Plus page by clicking
 
 **_Apps – Activities Plus_** in the Menu Bar
 
-<img src="/assets/images/screen-shots/aplus/aplus-homepage.png" alt="Activities Plus homepage" />
+![Activities Plus homepage](/assets/images/screen-shots/aplus/aplus-homepage.png)
 
 Open the Activity of your choice by clicking on it.
 
@@ -71,17 +71,17 @@ All members of this Community will now be added as members into the Activity. Th
 
 Before you click **_Add Members_** and close the dialogue box you have the option to set access rights for the members who will be added to the Activity.
 
-<img src="/assets/images/screen-shots/aplus/aplus-add-members.png" alt="Add The Community Members" />
+![Add The Community Members](/assets/images/screen-shots/aplus/aplus-add-members.png)
 
 Go back to the Community and have a look in the Activity Plus widget. Now you will see your Community Activity.
 
-<img src="/assets/images/screen-shots/aplus/aplus-activities-in-widget.png" alt="Activities In Widget" width="50%"/>
+![Activities In Widget](/assets/images/screen-shots/aplus/aplus-activities-in-widget.png){:width="50%"}
 
 ## Create a new Activity in the Community Widget
 
 In the Activities Plus widget, click the **_Orange plus_** in the bottom right hand side corner. A dialogue box will open with options for your new Activity.
 
-<img src="/assets/images/screen-shots/aplus/aplus-new-activity.png" alt="New Activity" width="50%"/>
+![New Activity](/assets/images/screen-shots/aplus/aplus-new-activity.png){:width="50%"}
 
 Once the new Activity is created you will see and be able to work in this Activity directly in the Community.
 

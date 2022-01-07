@@ -1,4 +1,4 @@
-#Intelligent instant apps for HCL Connections
+# Intelligent instant apps for HCL Connections
 
 ThreeThirds Business Apps is an intelligent instant business app creator that integrates into HCL Connections.
 
@@ -8,7 +8,7 @@ Extend collaboration reach to customers, suppliers and edge employees.
 
 ______
 
-###Apps, surveys and forms within minutes
+## Apps, surveys and forms within minutes
 
 With ready to use templates, and out of the box integration, empower your users to create instant line of business apps both for desktop and mobile usage.
 
@@ -23,6 +23,6 @@ ______
 
 ThreeThirds Business Apps are free for all our customers up to a certain level. See image below. Once you have reached the limit a subscription fee will be charged.
 
-<img src="/assets/images/screen-shots/businessapps/businessapps-sizes.png" alt="Freemium" />
+![Freemium](/assets/images/screen-shots/businessapps/businessapps-sizes.png)
 
 Contact us through the Support Portal if you are interested in a free learning session, help with getting started or for a subscription.

@@ -2,7 +2,7 @@
 
 When you invite colleagues, teams, or external parties to collaborate in your activity, you can decide what level of permission to allocate to them. Below, permissions are listed from the lowest access to the highest.
 
-<img src="/assets/images/screen-shots/aplus/aplus-members-menu.png" alt="Members menu" />
+![Members menu](/assets/images/screen-shots/aplus/aplus-members-menu.png)
 
 ## Reader
 
@@ -17,6 +17,7 @@ A member with Author permissions, has the ability to create new cards, edit thei
 An Editor has the ability to edit existing content, and create new content.
 
 ## Owner
+
 The Owner of a board has the ability to invite members to the board, and edit all cards and lists in the board.
 
 [Find out more about how to add members to an activity](https://docs.collab.cloud/users/aplus-members)

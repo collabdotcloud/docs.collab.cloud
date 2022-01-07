@@ -50,7 +50,7 @@ Set Authentication type to "SAML" and Login type to "Browser".
 
 ![Verse Status](/assets/images/screen-shots/sametime/sametime-rich-step2.png){:width="50%"}
 
-<strong>IMPORTANT:</strong><br />
+**IMPORTANT:**<br />
 Please do NOT check the "Automatically login" checkbox. This will produce issues together with the "remember me" checkbox in login web page from collab.cloud.
 Automatically login can be set with the "remember me" checkbox on login web page.
 
