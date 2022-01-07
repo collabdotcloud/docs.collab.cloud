@@ -5,11 +5,11 @@
 Administrators can log into the _ThreeThirds Collaboration Admin_ app by clicking the Cog icon in the top right of the screen in the Header Banner.
 In some browsers the icon does not show up on initial load, this is a bug we are workign on with HCL. A refresh brings it back.
 
-<img src="/assets/images/screen-shots/admin/admin-cog.png" alt="Admin Link" />
+![Admin Link](/assets/images/screen-shots/admin/admin-cog.png)
 
 ---
 
-<img src="/assets/images/screen-shots/admin/admin-app-1.png" alt="Admin App" />
+![Admin App](/assets/images/screen-shots/admin/admin-app-1.png)
 
 ---
 
@@ -59,6 +59,6 @@ _Keep watching this page as there will be weekly updates to the Documentation_
 | Manage IP Restrictions                  | `[X]`              |               | `[X]`           |               |
 | Add Organisation Extensions             | `[X]`\*            |               | `[X]`           |               |
 
-> \* Adding Organisation Extensions, or migrating Extensions from IBM Connections Cloud will need to be performed in consultation with ThreeThirds development, and may incur professional services fees. <br />
-> Organizaton Administrators can add custom Extensions via the Applications Register at `https://yourtenantname.collab.cloud/appreg`  <br />
+> \* Adding Organisation Extensions, or migrating Extensions from IBM Connections Cloud will need to be performed in consultation with ThreeThirds development, and may incur professional services fees.  
+> Organizaton Administrators can add custom Extensions via the Applications Register at `https://yourtenantname.collab.cloud/appreg`   
 > \** New mail users are handled by support request (Mail Cloud customers) or by registration in your on-premise Domino Directory (Hybrid Customers). See [User Management](https://docs.collab.cloud/admin/manage-users/) for more info.

@@ -1,4 +1,4 @@
-#Using the Support portal
+# Using the Support portal
 
 Welcome to our new Support Portal!
 
@@ -12,13 +12,13 @@ If you experience a problem with any of our services, and want to open a support
 
 [support.collab.cloud](https://support.collab.cloud)
 
-<img src="/assets/images/screen-shots/help/help-login.png" alt="Support Portal Login Page" />
+![Support Portal Login Page](/assets/images/screen-shots/help/help-login.png)
 
 ___
 
 The startpage of the Support Portal lets you start a new case or see ongoing cases.
 
-<img src="/assets/images/screen-shots/help/support-portal-startpage.png" alt="Support Portal Start Page" />
+![Support Portal Start Page](/assets/images/screen-shots/help/support-portal-startpage.png)
 
 ## Open a request - log an issue
 
@@ -26,7 +26,7 @@ Start a new request by clicking **_New Request_** in the left side menu.
 
 Choose which product you want to log an issue with in the menu that opens.
 
-<img src="/assets/images/screen-shots/help/support-portal-new-request.png" alt="New Request" />
+![New Request](/assets/images/screen-shots/help/support-portal-new-request.png)
 ___
 
 Fill in the form as detailed as possible. It is very important that we receive as much information as you have, so please include anything you can think of that will help us in the case. Otherwise we might need to come back to you with requests for more information and that will prolong the process on getting the issue solved.
@@ -49,12 +49,12 @@ In the field **_Impact_** you indicate how critical the downtime is for the busi
 
 The field **_Urgency_** is a measure of the time until there is a significant impact on your business. For example a high impact incident may have low urgency if the impact will not affect the business until the end of the financial year.
 
-- Critical - impacting business now 
+- Critical - impacting business now
 - High - imminent impact to business
-- Medium - will have a business impact in the near term 
+- Medium - will have a business impact in the near term
 - Low - will not have an impact for some time
 
-<img src="/assets/images/screen-shots/help/support-portal-new-incident.png" alt="New Incident" />
+![New Incident](/assets/images/screen-shots/help/support-portal-new-incident.png)
 
 ## Ongoing requests
 
@@ -62,4 +62,4 @@ See your ongoing requests by clicking **_Ongoing Requests_** in the left side me
 
 All Org Admins in your organisation sees all requests your organisations has submitted.
 
-<img src="/assets/images/screen-shots/help/support-portal-ongoing-request.png" alt="Ongoing Requests" />
+![Ongoing Requests](/assets/images/screen-shots/help/support-portal-ongoing-request.png)

@@ -1,4 +1,4 @@
-# <img src="/assets/images/three-thirds-logo.png" alt="ThreeThirds" width="25%" /> ThreeThirds Collaboration Docs
+# ![logo](assets/images/three-thirds-logo.png){:style="width:25%"} ThreeThirds Collaboration Docs
 
 Welcome to the ThreeThirds Collaboration documentation site. Here you can find information about about the ThreeThirds HCL Connections and HCL Domino Mail managed cloud service.
 

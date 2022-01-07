@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Sametime_Master.png" alt="SametimeLogo" height="28" /> Sametime Client Authentication
+# ![Sametime Logo](/assets/images/HCL_Sametime_Master.png){:height="28"} Sametime Client Authentication
 
 Administraton information for Sametime in the ThreeThirds *collab.cloud* environment.
 
@@ -41,7 +41,7 @@ To manually set up Sametime embedded client for Notes - configure the following 
 |Use this server for awareness status lookup|-check enabled-|
 |Use canonical names for status lookup|-leave blank-|
 
-<img src="/assets/images/screen-shots/sametime/st-set-st-1.png" alt="ST Manual Setup" />
+![ST Manual Setup](/assets/images/screen-shots/sametime/st-set-st-1.png)
 
 ---
 
@@ -87,7 +87,7 @@ To auto-configure settings for Sametime embedded client for all users using Marv
 
 > Use the button `Set all Change Options to ∞` to set theese options to be persistent for all users.
 
-<img src="/assets/images/screen-shots/sametime/mc-set-st-1.png" alt="MarvelClient ST 1" />
+![MarvelClient ST 1](/assets/images/screen-shots/sametime/mc-set-st-1.png)
 
 ---
 
@@ -105,5 +105,5 @@ To configure initial settings for Sametime embedded client for Notes via Policy 
 |Sametime Server|Depends where your service is located:<br/>`chatna.collab.cloud` (North America)<br/>`chateu.collab.cloud` (Europe)|Set Initial Value|
 |Log Onto Sametime Using Single Sign-On (SSO)|-set Enabled-|Set Initial Value|
 
-<img src="/assets/images/screen-shots/sametime/pol-set-st-1.png" alt="Desktop Policy ST 1" />
-<img src="/assets/images/screen-shots/sametime/pol-set-st-2.png" alt="Desktop Policy ST 2" />
+![Desktop Policy ST 1](/assets/images/screen-shots/sametime/pol-set-st-1.png)
+![Desktop Policy ST 2](/assets/images/screen-shots/sametime/pol-set-st-2.png)
