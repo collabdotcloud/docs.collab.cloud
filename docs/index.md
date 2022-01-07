@@ -31,10 +31,10 @@ Find more information [here](https://www.hcltechsw.com/products/domino)
 
 ### Datacenter America
 
-* January 16, 2022, 09:00-11:00 UTC:  
+* January 16, 2022, 09:00-11:00 UTC (03:00-05:00 CST):  
 Update Connections CFIX 70.2112. Connections will be down during the update.
 
 ### Datacenter Europe
 
-* January 15, 2022, 20:00-22:00 UTC:  
+* January 15, 2022, 19:00-21:00 UTC (20:00-22:00 CET):  
 Update Connections CFIX 70.2112. Connections will be down during the update.
