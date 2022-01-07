@@ -26,3 +26,15 @@ Find more information [here](https://www.hcltechsw.com/products/connections)
 * Simplify Microsoft 365 integration with Active Directory syncing.
 
 Find more information [here](https://www.hcltechsw.com/products/domino)
+
+## Planned maintenance
+
+### Datacenter Amerika
+
+* January 16, 2022, 10:00-13:00 UTC:  
+Update Connections CFIX 70.2112. Connections may be partially down during the update.
+
+### Datacenter Europe
+
+* January 15, 2022, 20:00-23:00 UTC:  
+Update Connections CFIX 70.2112. Connections may be partially down during the update.
