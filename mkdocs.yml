@@ -69,6 +69,7 @@ nav:
           - Engagement Center: admin/icec-feeds.md
           - Mobile App: admin/connections-mobile-app.md
           - Disable Sametime: admin/extension-disable-sametime.md
+          - Customize UI: admin/extensions/custom-css.md
       - Connections 7:
           - Whats new?: admin/hc7/whats-new.md
           - Touchpoint: admin/hc7/touchpoint.md
