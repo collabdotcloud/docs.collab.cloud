@@ -27,7 +27,7 @@ Find more information [here](https://www.hcltechsw.com/products/connections)
 
 Find more information [here](https://www.hcltechsw.com/products/domino)
 
-## Planned maintenance
+## Latest maintenance
 
 ### Datacenter America
 
