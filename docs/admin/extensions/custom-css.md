@@ -71,7 +71,7 @@ URL's to your images need to start with ***/files/customizer/[OrganizationID]***
                         },
                         "cache-headers": {
                            "cache-control": "max-age=0"
-                        }
+                        },
                         "path": "global"
                 }
         ]
