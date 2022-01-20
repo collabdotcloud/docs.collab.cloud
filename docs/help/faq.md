@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-**Q. Community list stays empty**  
+**Q. Community overview page stays empty**  
 If I click on Community, only the top header shows and the rest of the page stays empty.  
 ![Clean communities](/assets/images/faq/empty_community.png)
 
