@@ -41,7 +41,7 @@ Connections will be down during the update.
 Security Fix [KB0095391](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095391)
 Connections will be down during the update.
 
-## Latest maintenance
+## Previous maintenance
 
 ### Datacenter America
 
