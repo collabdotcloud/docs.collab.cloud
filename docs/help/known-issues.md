@@ -60,23 +60,9 @@ For customers who have Verse and Connections, the Connections integration in Ver
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
 
-## Invalid Links in the Connections Newsletter
-
-There is currently an issue with the Connections newsletter sent out by the platform.
-
-Some links redirect to the Sorry page, if you are not already logged in. Once you are logged in, the link should work.
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
-
 ## Wiki
 
 Wrong links in Apps menu and API calls to oauth endpoints in wikis return wrong links
-
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
-
-## Files search results
-
-Occasionally when searching for files in Community Files, there will be invalid links in the search results. Clicking the link will lead to an access denied error.
 
 *This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
 
@@ -137,3 +123,17 @@ Solution:
 ![id-comparison](/assets/images/screen-shots/aplus/aplus-sites-that-can-always-use-cookies.png)
 
 - Please note: You have to enable "Including third-party cookies on this site"
+
+## Files search results
+
+Occasionally when searching for files in Community Files, there will be invalid links in the search results. Clicking the link will lead to an access denied error.
+
+*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+
+## Invalid Links in the Connections Newsletter
+
+There is currently an issue with the Connections newsletter sent out by the platform.
+
+Some links redirect to the Sorry page, if you are not already logged in. Once you are logged in, the link should work.
+
+*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
