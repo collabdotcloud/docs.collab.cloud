@@ -1,10 +1,21 @@
 # Frequently Asked Questions
 
+**Q. Community list stays empty**
 
+**A.** This may be caused by your browser cache.  
+Try a different browser or clear the local cache.
+
+- [Chrome](https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop){:target="_blank"}
+- [FireFox](https://support.mozilla.org/en-US/kb/how-clear-firefox-cache){:target="_blank"}
+- [Edge](https://support.microsoft.com/en-us/microsoft-edge/view-and-delete-browser-history-in-microsoft-edge-00cf7943-a9e1-975a-a33d-ac10ce454ca4){:target="_blank"}
+- [Safari](https://support.apple.com/guide/safari/clear-your-browsing-history-sfri47acf5d6/mac){:target="_blank"}
+
+Try the clear only the local cache first.  
+![Cache only](/assets/images/faq/clear.png)
 
 **Q. I cannot upload files greater than 50MB in size with the Windows desktop plugin. The plugin returns an error 400.**
 
-**A.** This is a limit imposed by the desktop plugin. It can be changed via a registry key entry detailed here: [HCL Support page](<https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0021371&sys_kb_id=475262431b4f7784c1f9759d1e4bcbb7>)
+**A.** This is a limit imposed by the desktop plugin. It can be changed via a registry key entry detailed here: [HCL Support page](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0021371&sys_kb_id=475262431b4f7784c1f9759d1e4bcbb7){:target="_blank"}
 
 The maximum allowed upload size is 2000MB.
 
