@@ -2,7 +2,7 @@
 
 ## Where to find
 
-Organizaton Administrators can add custom Extensions via our admin portal [EU](https://admineu.collab.cloud)/ [NA](https://adminna.collab.cloud).
+Organizaton Administrators can add custom Extensions via our admin portal [EU](https://admineu.collab.cloud) / [NA](https://adminna.collab.cloud).
 
 ![appreg](../assets/images/admin/appreg/appreg.png)
 

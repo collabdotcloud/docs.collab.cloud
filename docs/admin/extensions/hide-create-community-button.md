@@ -1,6 +1,6 @@
 # Hide the "Create a Community" button
 
-Connections MT allows everyone to create new communities. If you need to limit this to only a limited number of users. This extension in the appreg may help.
+Connections MT allows everyone to create new communities. If you need to limit this to only a limited number of users. This extension in the [appreg](/admin/appreg.md) may help.
 
 ```json
 {
