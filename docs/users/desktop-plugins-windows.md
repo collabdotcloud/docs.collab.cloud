@@ -1,4 +1,4 @@
-# ![ConnectionsLogo]/assets/images/HCL_Connection_Master.png){:height="28"} HCL Connections for Windows
+# ![ConnectionsLogo](/assets/images/HCL_Connection_Master.png){:height="28"} HCL Connections for Windows
 
 ## Installation
 
