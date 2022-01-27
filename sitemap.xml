@@ -201,6 +201,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.collab.cloud/admin/extensions/hide-create-community-button/</loc>
+         <lastmod>2022-01-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.collab.cloud/admin/hc7/announcements/</loc>
          <lastmod>2022-01-27</lastmod>
          <changefreq>daily</changefreq>
