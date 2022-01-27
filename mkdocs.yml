@@ -67,6 +67,7 @@ nav:
           - Connections API: admin/connections-api.md
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
+          - Limit Community Creators: admin/extensions/hide-create-community-button.md
           - Mobile App: admin/connections-mobile-app.md
           - Disable Sametime: admin/extension-disable-sametime.md
           - Customize UI: admin/extensions/custom-css.md
