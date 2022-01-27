@@ -37,3 +37,5 @@ Connections MT allows everyone to create new communities. If you need to limit t
 
 ```
 
+The user on top part on the screenshot below, is listed in the exclude list. Whereas to bottom part shows a user who is not in the exclude list.
+![Create Community Button](/assets/images/extensions/community-hide.png)
