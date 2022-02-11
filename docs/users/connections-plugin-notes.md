@@ -51,7 +51,7 @@ Select connections.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin4.png)
 
-Enter the company server URL and go to Advanced. Select in the Authentication protocol OAUTH. Accept with OK.
+Enter the company collab.cloud server URL and go to Advanced. Select in the Authentication protocol OAUTH. Accept with OK.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin5.png)
 
@@ -80,7 +80,7 @@ Open the Menu on the upper right corner of the window Status Update and you will
 
 ### Tab Files
 
-Open the Menu on the upper right corner of the window Status Update and you will find more options to use
+Open the Menu on the upper right corner of the window Files and you will find more options to use
 
 ![Install](/assets/images/screen-shots/connections-plugin/OptionConnectionsPlugin5.png)
 
@@ -88,6 +88,17 @@ You can now add files by using drag and drop. This can be done to upload new doc
 
 ![Install](/assets/images/screen-shots/connections-plugin/OptionConnectionsPlugin2.png)
 
+You can also drag and drop whole e-mails from Notes Mailbox to your connections Files.
+
+![Install](/assets/images/screen-shots/connections-plugin/OptionConnectionsPlugin6.png)
+
+Choose the option to share the email to no one, to your company or to public.
+
+![Install](/assets/images/screen-shots/connections-plugin/OptionConnectionsPlugin7.png)
+
+You will now find your email in your connections files
+
+![Install](/assets/images/screen-shots/connections-plugin/OptionConnectionsPlugin8.png)
 
 
 
