@@ -51,12 +51,16 @@ Select connections.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin4.png)
 
-Enter the company server URL and your User name and password and go to Advanced.
-Select in the Authentication protocol to OAUTH. Accept with OK.
+Enter the company server URL and go to Advanced. Select in the Authentication protocol OAUTH. Accept with OK.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin5.png)
 
-Close Connectinos Preferences with OK button.
+Enter your credentials to login to connections of your company.
+
+![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin6.png)
+
+
+
 
 
 ## Utilization
