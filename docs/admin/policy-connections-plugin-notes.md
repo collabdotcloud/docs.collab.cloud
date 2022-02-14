@@ -1,4 +1,4 @@
-# Policy to deactivate activities Tab on Connection Plugin for HCL Notes
+# Policy to disable activities Tab on Connection Plugin for HCL Notes
 
 The function "activities" in Connection Plugin for HCL Notes does not work. This documentation describes how you can configure a policy on your Domino server to disable this option in the Connections Plugin for HCL Notes. 
 
