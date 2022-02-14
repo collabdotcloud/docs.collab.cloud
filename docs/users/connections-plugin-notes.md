@@ -5,6 +5,7 @@
 ### Where to find the software
 
 The Connections Addon Installer for Windows can be found on our [downloads page](https://docs.collab.cloud/help/downloads/)
+For Mac the Addon is allready inplemented in HCL Notes V12.
 
 ### How to install the software
 
@@ -51,11 +52,11 @@ Select connections.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin4.png)
 
-Enter the company collab.cloud server URL and go to Advanced. Select in the Authentication protocol OAUTH. Accept with OK.
+Enter the company collab.cloud server URL and go to Advanced. Select in the Authentication protocol OAUTH. Accept with OK then close the Preferences windows pressing ok.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin5.png)
 
-Enter your credentials to login to connections of your company.
+After a few seconds a window will show popup, please enter your credentials to login to connections of your company.
 
 ![Install](/assets/images/screen-shots/connections-plugin/ConfigConnectionsPlugin6.png)
 
