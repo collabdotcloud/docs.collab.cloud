@@ -71,7 +71,7 @@ nav:
           - Mobile App: admin/connections-mobile-app.md
           - Disable Sametime: admin/extension-disable-sametime.md
           - Customize UI: admin/extensions/custom-css.md
-          - Deactivate Activities Tab on Connections Plug-ins for HCL Notes: admin/policy-connections-plugin-notes.md
+          - Disable Activities on Connections Plug-ins for HCL Notes: admin/policy-connections-plugin-notes.md
       - Connections 7:
           - Whats new?: admin/hc7/whats-new.md
           - Touchpoint: admin/hc7/touchpoint.md
