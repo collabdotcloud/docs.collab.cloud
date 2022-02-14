@@ -68,7 +68,9 @@ nav:
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
           - Limit Community Creators: admin/extensions/hide-create-community-button.md
-          - Mobile App: admin/connections-mobile-app.md
+          - Mobile App:
+              - General Settings: admin/connections-mobile-app.md
+              - Add Activities Plus: admin/connections-mobile-app-add-aplus.md
           - Disable Sametime: admin/extension-disable-sametime.md
           - Customize UI: admin/extensions/custom-css.md
           - Disable Activities on Connections Plug-ins for HCL Notes: admin/policy-connections-plugin-notes.md
