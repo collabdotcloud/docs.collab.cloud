@@ -16,7 +16,7 @@
         <link rel="canonical" href="https://docs.collab.cloud/admin/connections-api/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.5">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.3.0">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.cdeb8541.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8b42a75e.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
@@ -1061,8 +1061,6 @@
       </a>
       
         
-
-
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -1274,10 +1272,57 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6_9" type="checkbox" id="__nav_3_6_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6_9">
+          Mobile App
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Mobile App" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_6_9">
+          <span class="md-nav__icon md-icon"></span>
+          Mobile App
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="../connections-mobile-app/" class="md-nav__link">
-        Mobile App
+        General Settings
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../connections-mobile-app-add-aplus/" class="md-nav__link">
+        Add Activities Plus
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1305,6 +1350,20 @@
     <li class="md-nav__item">
       <a href="../extensions/custom-css/" class="md-nav__link">
         Customize UI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../policy-connections-plugin-notes/" class="md-nav__link">
+        Disable Activities on Connections Plug-ins for HCL Notes
       </a>
     </li>
   
@@ -1730,6 +1789,20 @@
     <li class="md-nav__item">
       <a href="../../users/desktop-plugins-windows/" class="md-nav__link">
         Desktop Plug-ins for Windows
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../users/connections-plugin-notes/" class="md-nav__link">
+        Connections Plug-ins for HCL Notes
       </a>
     </li>
   
@@ -2469,8 +2542,6 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-
-
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -2687,7 +2758,6 @@ You will then be provided with your Client-ID and Client-Secret.</p>
 <div class="codehilite"><pre><span></span><code>POST https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 </code></pre></div>
 
-
 <p>Body: (Content-Type: <code>application/x-www-form-urlencoded</code>)</p>
 <div class="codehilite"><pre><span></span><code>grant_type:password
 username:*Your username (E-mail)*
@@ -2696,7 +2766,6 @@ client_id:*Your Client-ID*
 client_secret:*Your Client-Secret*
 scope:profile
 </code></pre></div>
-
 
 </li>
 <li>
@@ -2712,7 +2781,6 @@ scope:profile
     &quot;scope&quot;: &quot;email connectionsmt profile&quot;
 }
 </code></pre></div>
-
 
 </li>
 </ul>
@@ -2731,11 +2799,9 @@ scope:profile
 <div class="codehilite"><pre><span></span><code>GET https://YOUR_TENANT.collab.cloud/files/oauth/api/nonce
 </code></pre></div>
 
-
 <p>Headers:</p>
 <div class="codehilite"><pre><span></span><code>&quot;Authorization&quot;: &quot;Bearer &lt;Your token&gt;&quot;
 </code></pre></div>
-
 
 </li>
 <li>
@@ -2782,11 +2848,9 @@ scope:profile
 <div class="codehilite"><pre><span></span><code>GET https://YOUR_TENANT.collab.cloud/profiles/atom/search.do?name=Bob
 </code></pre></div>
 
-
 <p>Headers:</p>
 <div class="codehilite"><pre><span></span><code>&quot;Cookie&quot;: &quot;LtpaToken2=&lt;Your LTPA token&gt;&quot;
 </code></pre></div>
-
 
 </li>
 <li>
@@ -2796,7 +2860,6 @@ scope:profile
 Here come the Bob&#39;s
 ...
 </code></pre></div>
-
 
 </li>
 </ul>
@@ -2809,13 +2872,11 @@ Here come the Bob&#39;s
 <div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
 </code></pre></div>
 
-
 </li>
 <li>
 <p>Token endpoint:</p>
 <div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 </code></pre></div>
-
 
 </li>
 <li>
@@ -2823,7 +2884,6 @@ Here come the Bob&#39;s
 <p><a href="https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration">EU Open-ID configuration</a></p>
 <div class="codehilite"><pre><span></span><code>https://logineu.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
 </code></pre></div>
-
 
 <p>To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.</p>
 </li>
@@ -2835,13 +2895,11 @@ Here come the Bob&#39;s
 <div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/auth
 </code></pre></div>
 
-
 </li>
 <li>
 <p>Token endpoint:</p>
 <div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/protocol/openid-connect/token
 </code></pre></div>
-
 
 </li>
 <li>
@@ -2849,7 +2907,6 @@ Here come the Bob&#39;s
 <p><a href="https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration">US Open-ID configuration</a></p>
 <div class="codehilite"><pre><span></span><code>https://loginna.collab.cloud/auth/realms/connections-mt/.well-known/openid-configuration
 </code></pre></div>
-
 
 <p>To see the supported features of the Enpoint and the current configuration, take a look at the JSON response of this URL.</p>
 </li>
@@ -2887,7 +2944,6 @@ curl -o req1.json -k -H <span class="s2">&quot;Content-Type: application/x-www-f
 <span class="nv">NONCE</span><span class="o">=</span><span class="sb">`</span>curl -k -H <span class="s2">&quot;Authorization: Bearer </span><span class="nv">$TOKEN2</span><span class="s2">&quot;</span> <span class="nv">$URL</span>/files/oauth/api/nonce -X GET -c cookies.txt<span class="sb">`</span>
 curl -o myuserlibrary.xml -b cookies.txt -k <span class="nv">$URL</span>/files/basic/api/myuserlibrary/feed?includePath<span class="o">=</span>true<span class="p">&amp;</span><span class="nv">includeQuota</span><span class="o">=</span>true<span class="p">&amp;</span><span class="nv">ps</span><span class="o">=</span><span class="m">10</span><span class="p">&amp;</span><span class="nv">sortBy</span><span class="o">=</span>updated 
 </code></pre></div>
-
 
 <h3 id="lotusscript">Lotusscript<a class="headerlink" href="#lotusscript" title="Permanent link">&para;</a></h3>
 <p>Sample Implementation using Lotusscript can be found <a href="/assets/files/api-connect-3t.nsf">here</a>.
@@ -2997,10 +3053,10 @@ In the sub sessionInfo.new set your client-id, client-secret, username and passw
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sticky"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sticky"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.f8263e09.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.1e84347e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.4fc53ad4.min.js"></script>
       
     
   </body>
