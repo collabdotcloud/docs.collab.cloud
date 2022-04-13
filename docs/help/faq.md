@@ -67,3 +67,12 @@ The maximum allowed upload size is 2000MB.
 **Q. I have configured my Desktop Connector. Why can't I see my communities?**
 
 **A.** Your community information in the desktop plugin is stored client-side. This means we were unable to migrate it and the communities will need to be re-added. Once re-added, you will be able to access your community data.
+
+**Q. I cannot upload a file !**
+
+**A.** The following file types are blocked
+
+- exe
+- bat
+- sh
+- com
