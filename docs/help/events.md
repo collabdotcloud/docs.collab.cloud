@@ -40,7 +40,7 @@ The new Highlights application ( [New Connections 7 feature](https://docs.collab
 
 ## Some more information on the Highlights application
 
-As you can see, this new application has a lot to offer to make your communities even ,ore powerfull, it's loaded with new widgets, you have more flexibility on the layout of the community, and if you have a designer in your company, you can add custom stylesheets, to change the colors, backgrounds etc... 
+As you can see, this new application has a lot to offer to make your communities even ,more powerfull, it's loaded with new widgets, you have more flexibility on the layout of the community, and if you have a designer in your company, you can add custom stylesheets, to change the colors, backgrounds etc... 
 For more information see [here](https://docs.collab.cloud/admin/hc7/highlights/)
 
 In case of questions, do not hesitate to open a ticket in the support system and ask about this new feature.
