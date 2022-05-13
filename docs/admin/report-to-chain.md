@@ -1,15 +1,40 @@
-**coming soon...**
-
 The "Report-to Chain" of an organisation refers to the organizational tree of
 an organisation.
-It's about who has to report to whom and who is managed by whom.
+It's represents the organizational hirarchy and who has to report to whom and who is managed by whom.
 
-An organisation admin can update the Report-to Chain for their organisation in
-the admin app. This can be done in two ways, by uploading a CSV with the 
-updated information or using drag and drop, for quick and easy changes.
+An organisation Administrator can update the Report-to Chain for their organisation in
+the Admin App. This can be done in two ways, by uploading a CSV with the
+updated information or using drag and drop, for quick changes.
 
-The Report-to Chain page can be accessed by clicking on the Report-to Chain button on the Org-Users page.
+## Report-to Chain in Connections
 
+You can see the Report-to Chain on the right sidebar of a user profile. If it
+is missing there, the user is not in the Report-to Chain structure and needs to
+be included by updating the information using the Admin-App.
+
+The profile for a user in the Report-to Chain looks like this:
+
+![Report-to Chain in user profile](/assets/images/screen-shots/admin/report-to-chain-user-9-profile.png)
+
+With the sidebar looking something like this:
+
+![Report-to Chain section in user profile](/assets/images/screen-shots/admin/report-to-chain-user-9-profile-small.png)
+
+This is what the full Report-to Chain in Connections looks like. It is
+
+![Report-to Chain section in user profile](/assets/images/screen-shots/admin/report-to-chain-user-9-full.png)
+
+![Report-to Chain section in user profile](/assets/images/screen-shots/admin/report-to-chain-user-2-managed.png)
+
+## Report-to Chain in AdminApp
+
+The Report-to Chain page in the Admin-App can be accessed by clicking the 'Report-to Chain' button in the Organizations users overview
+
+![Report-to Chain button in Admin-App](/assets/images/screen-shots/admin/report-to-chain-admin-app.png)
+
+Which will redirect you to the Report-to Chain page.
+
+![Report-to Chain page in Admin-App](/assets/images/screen-shots/admin/report-to-chain-page.png)
 
 On the Report-to Chain page you will see three tabs:
 
@@ -17,9 +42,7 @@ On the Report-to Chain page you will see three tabs:
 - Editor
 - Update with CSV
 
-As an Admin you can update the "Report-to Chain" for your organization here. You can update it using a CSV file.
-
-## View & Export
+### View & Export
 
 In the View and Export tab, you can view the current Report-to Chain for your organisation and export it as a CSV. The exported CSV can be used to update the Report-to Chain or simply as a backup of sorts or to compare to Report-to Chains from different points of time.
 
@@ -27,20 +50,20 @@ The tree displays which users are managed by which.
 For example:
 
 - User 1
-    - User 2
-    - User 3
-        - User 4
+  - User 2
+  - User 3
+    - User 4
 
 In this example, User 1 is the manager of Users 2 and 3 and User 3 is the manager of User 4.
 User 1 could for example be a CEO, User 3 a manager and users 2 and 4 employees managed by the CEO and the manager respectively.
 
-## Editor
+### Editor
 
 In the Editor tab, you can make changes to the current Report-to Chain using Drag and Drop. The tree has the same structure as the one under 'View & Export'.
 
 When dragging users you can think of it as setting a user as managed by another.
 
-Meaning if you drag 'User A' from somewhere and drop it on 'User B' you are setting 'User A' as managed by 'User B'. 
+Meaning if you drag 'User A' from somewhere and drop it on 'User B' you are setting 'User A' as managed by 'User B'.
 
 To the right of the drag and drop editor, you can see the exact changes that will be made. It should now read:
 
@@ -48,7 +71,7 @@ To the right of the drag and drop editor, you can see the exact changes that wil
 
 You can now click 'Apply changes' to apply your changes or click 'Discard changes' to undo everything.
 
-## Update with CSV
+### Update with CSV
 
 You can also update the Report-to Chain for your organization with a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)-file.
 
@@ -63,7 +86,7 @@ Therefore you don't need a CSV file with the full Report-to chain and can simply
 
 We will always show you exactly what changes will be made after uploading the CSV and you will have to confirm the changes before anything is changed in the database.
 
-### CSV structure
+#### CSV structure
 
 Each user has its own row and the columns are the data points for all the users.
 
@@ -77,23 +100,23 @@ Columns: `emailAddress`, `uid`, `isManager`, `managerEmail`, `managerUid`
 - `managerEmail`: The E-mail address of the manager of this user. Can be empty if the user has no manager
 - `managerUid`: The Connections userID of the manager of this user. Can be empty if the user has no manager
 
-### UIDs vs. E-Mails
+#### UIDs vs. E-Mails
 
 To update a user either its `uid` or `emailAddress` needs to be given. (Otherwise, the row is ignored) To set it as managed by some other user, one of `managerUid` or `managerEmail` needs to be given, otherwise it is understood as not managed by anyone.
 
-It is best-practise to also supply both if the UID and E-Mail are known. 
+It is best-practise to also supply both if the UID and E-Mail are known.
 
 It is much quicker to update the Report-to Chain with a CSV that includes UIDs. However, it is perfectly possible to update the Report-to Chain only with E-Mail addresses, but it will take longer. This is because we have to perform a look-up for every user without a UID.
 
 Therefore we suggest exporting and downloading the CSV for the full Report-to Chain after a successful update. It will include all UIDs and E-mail for all the users and you can edit said
 
-### CSV Example
+#### CSV Example
 
 Structure:
 
 - user3@orga.com.au
-    - user1@orga.com.au
-        - user5@orga.com.au
+  - user1@orga.com.au
+    - user5@orga.com.au
 
 Preview table:
 
@@ -114,6 +137,6 @@ user5@orga.com.au,1000000005,N,user1@orga.com.au,1000000001
 
 Explaination:
 
-  - User 1 is managed by user 3 but is also a manager itself. The `managerEmail` and `managerUid` indicate who user 1 is managed by. `isManager` set to `Y` indicates that user 1 is a manager itself.
-  - User 3 is a manager but is not managed by anyone, indicated by missing `managerEmail` **and** missing `managerUid`.
-  - User 5 is managed by user 1 but is not a manager itself. This is indicated by `isManager` set to `N`.
+- User 1 is managed by user 3 but is also a manager itself. The `managerEmail` and `managerUid` indicate who user 1 is managed by. `isManager` set to `Y` indicates that user 1 is a manager itself.
+- User 3 is a manager but is not managed by anyone, indicated by missing `managerEmail` **and** missing `managerUid`.
+- User 5 is managed by user 1 but is not a manager itself. This is indicated by `isManager` set to `N`.
