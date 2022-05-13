@@ -1,24 +1,24 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections Quota and Storage
+# ![ConnectionsLogo](/assets/images/HCL_Connection_Master.png){:height="28"} HCL Connections Quota and Storage
 
 Below are the quotas and storage limits for HCL Connections Cloud:
 
-##Communities
+## Communities
 
 Community Default: 50GB
 Upload limit files: 2GB
 
-##Wikis
+## Wikis
 
 Attachment: 2GB
 Page size: 10MB
 Total size: 20GB
 
-##Blogs:
+## Blogs
 
 Maximum Media Size: 250MB
 Max Size: 4096MB
 
-##Forums:
+## Forums
 
 Max Upload: 100MB
 

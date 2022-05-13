@@ -8,9 +8,9 @@ ___
 
 The picture below shows a start page with colourful tiles. Each tile is one activity with names (blurred in this image), when it was last accessed, progress on tasks and more.
 
-<img src="/assets/images/screen-shots/aplus/aplus-start-page.png" alt="Activities Plus start page"/>
+![Activities Plus start page](/assets/images/screen-shots/aplus/aplus-start-page.png)
 
-## On this start page you can:
+## On this start page you can
 
 * Create a new activity by clicking on the **_Plus sign and Create_**
 

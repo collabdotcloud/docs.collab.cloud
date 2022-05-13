@@ -19,7 +19,7 @@ If you are registering an on-premises mail or apps user - this procedure will st
 
 ## Directory Sync
 
-Your mail cluster is configured to synchronize your Domino Directory with the _collab.cloud_ identity management system and the Admin App approximately every <strong>3 minutes</strong>\** </br></br>
+Your mail cluster is configured to synchronize your Domino Directory with the _collab.cloud_ identity management system and the Admin App approximately every **3 minutes**\** </br></br>
     ![domreg-sync](/assets/images/screen-shots/admin/domreg-sync.png)
 
 The Directory Sync process will detect changes in the Domino Directory and perform the following:
@@ -76,7 +76,7 @@ Clicking the reset password button gives you 2 options as follows:
 ## Updating User Info in Domino Directory
 
 Name changes (such as firstname., lastname and email address) performed via the Domino Administrations Process (adminP) will be synchronized with the _collab.cloud_ Admin App.</br>
-<strong>If the user has a Connections license - additonal steps are required</strong>.
+**If the user has a Connections license - additonal steps are required**.
 
 If you are renaming a mail & Connections user, you need to log into the Admin App to perform a re-save to update the Connections Profile:
 

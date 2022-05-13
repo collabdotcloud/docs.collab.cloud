@@ -2,7 +2,7 @@
 
 Open an existing activity by clicking on one of the Activity tiles on the Activities Plus Start Page.
 
-<img src="/assets/images/screen-shots/aplus/aplus-activity.png" alt="Activity" />
+![Activity](/assets/images/screen-shots/aplus/aplus-activity.png)
 
 All tasks in this activity are shown in this view. Each title row is a **_List_** and and underneath the lists you find the **_tasks_**. Expand or collapse the lists by clicking the arrows on the list row or **_Expand All_** / **_Collapse All_**.
 
@@ -12,7 +12,7 @@ ___
 
 ## Several ways of working with an activity
 
-<img src="/assets/images/screen-shots/aplus/aplus-right-menu.png" alt="Right menu" />
+![Right menu](/assets/images/screen-shots/aplus/aplus-right-menu.png)
 
 On the right hand side you will find a menu with lots of functionality. From the top:
 
@@ -42,6 +42,6 @@ Add tasks to your activity by clicking **_Add a Card_** at the bottom of the lis
 
 Add lists to your activity by clicing **_Add a List_** at the bottom of the activity.
 
-<img src="/assets/images/screen-shots/aplus/aplus-add.png" alt="Add cards and lists" />
+![Add cards and lists](/assets/images/screen-shots/aplus/aplus-add.png)
 
 ___

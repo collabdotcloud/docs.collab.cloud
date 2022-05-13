@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections Mobile Apps
+# ![ConnectionsLogo](/assets/images/HCL_Connection_Master.png){:height="28"} HCL Connections Mobile Apps
 
 ## Download the app to your device
 
@@ -12,7 +12,7 @@ For Android: [HCL Connections Mobile App](https://play.google.com/store/apps/det
 
 On the first login screen choose **_My company's server_**
 
-<img src="/assets/images/screen-shots/mobileapp/hclmobile1.png" alt="My company's server" width="50%" />
+![My company's server](/assets/images/screen-shots/mobileapp/hclmobile1.png){:width="50%"}
 
 The field **_Account Name_** is optional. Here you can choose a name of your account if you like.
 
@@ -20,9 +20,9 @@ In the **_Server URL_** field, type your dedicated company URL. If you do not kn
 
 <table>
   <tr>
-    <td> <img src="/assets/images/screen-shots/mobileapp/hclmobile2.png"  alt="Server URL" ></td>
+    <td> ![Server URL](/assets/images/screen-shots/mobileapp/hclmobile2.png)</td>
 
-    <td> <img src="/assets/images/screen-shots/mobileapp/hclmobile3.png" alt="Server URL" </td>
+    <td> ![Server URL](/assets/images/screen-shots/mobileapp/hclmobile3.png) </td>
    </tr>
 </table>
 
@@ -30,8 +30,8 @@ Click **_Continue_**
 
 Fill in your email address and Password and click **_Log In_** Note that you can change language in the upper right corner.
 
-<img src="/assets/images/screen-shots/mobileapp/hclmobile5.png" alt="Log In" width="50%"/>
+![Log In](/assets/images/screen-shots/mobileapp/hclmobile5.png){:width="50%"}
 
 You are in!
 
-<img src="/assets/images/screen-shots/mobileapp/hclmobile6.png" alt="Connections Mobile" width="50%"/>
+![Connections Mobile](/assets/images/screen-shots/mobileapp/hclmobile6.png){:width="50%"}

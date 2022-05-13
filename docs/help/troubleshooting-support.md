@@ -16,6 +16,6 @@ If you experience a problem with any of our services, and want to open a support
 
 [support.collab.cloud](https://support.collab.cloud)
 
-<img src="/assets/images/screen-shots/help/help-login.png" alt="Support Portal Login Page" />
+![Support Portal Login Page](/assets/images/screen-shots/help/help-login.png)
 
 For more information on how to use the Support Portal please go to this page [Support Portal](https://docs.collab.cloud/help/using-the-support-portal)

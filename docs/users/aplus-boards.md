@@ -24,7 +24,7 @@ Sales Tracking, Event Management, Customer Support, Agile Projects, Employee Onb
 
 Kudos Boards updates in real time across multiple users. You can literally see the information update from another user on your screen, including when they drag and drop items from one list to another.
 
-<img src="/assets/images/screen-shots/aplus/aplus-boards.png" alt="Kudos Boards" />
+![Kudos Boards](/assets/images/screen-shots/aplus/aplus-boards.png)
 
 ___
 
@@ -36,7 +36,7 @@ Perfect for project planning and monitoring deadlines. See exactly who does what
 
 Drag and drop tasks, tags and people directly in the swim lanes of the timeline. Adjust deadline. Plan weeks and months of work.
 
-<img src="/assets/images/screen-shots/aplus/aplus-timeline.png" alt="Kudos Boards" />
+![Kudos Boards](/assets/images/screen-shots/aplus/aplus-timeline.png)
 
 ___
 
@@ -46,11 +46,11 @@ In our MindMap view you get the perfect overview of your tasks. Great for brains
 
 Start on a blank canvas and build up your project as if you had post-it notes on a whiteboard. Move your tasks around with easy drag-and drop.
 
-<img src="/assets/images/screen-shots/aplus/aplus-mindmap.png" alt="Kudos Boards" />
+![Kudos Boards](/assets/images/screen-shots/aplus/aplus-mindmap.png)
 
 ___
 
-# Start today!
+## Start today!
 
 We welcome you to test Kudos Boards today.
 

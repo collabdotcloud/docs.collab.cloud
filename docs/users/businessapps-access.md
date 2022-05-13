@@ -6,22 +6,22 @@ To add the Business Apps widget, go to:
 
 **_Community Actions – Add Apps_** in the right hand side of the Community
 
-<img src="/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png" alt="Community Actions Add Apps" />
+![Community Actions Add Apps](/assets/images/screen-shots/aplus/aplus-community-actions-add-apps.png)
 
 Select **_Business Apps_** in the list
 
-<img src="/assets/images/screen-shots/businessapps/add-businessapps.png" alt="Community Actions Add Apps" width="50%/>
+![Community Actions Add Apps](/assets/images/screen-shots/businessapps/add-businessapps.png){:width="50%"}
 
 Once the widget is added you have the option to show all Community Apps that belongs to this Community, or a specific Community App. If you want to change these settings after saving, simply delete the widget and start over by adding it again to the Community.
 
-<img src="/assets/images/screen-shots/businessapps/businessapps-widget.png" alt="Widget Settings" width="50%"/>
+![Widget Settings](/assets/images/screen-shots/businessapps/businessapps-widget.png){:width="50%"}
 
 The new widget in the Community can be moved by dragging and dropping, or by clicking on the three dots in the upper right corner.
 
-<img src="/assets/images/screen-shots/businessapps/businessapps-move-widget.png" alt="Move Widget" width="50%"/>
+![Move Widget](/assets/images/screen-shots/businessapps/businessapps-move-widget.png){:width="50%"}
 
 A great tip is to move the widget so it covers the whole page, by dragging and dropping. When the widget is larger you get a better overview of your work.
 
-<img src="/assets/images/screen-shots/businessapps/businessapps-widget-in-community.png" alt="Business Apps Widget in Community" />
+![Business Apps Widget in Community](/assets/images/screen-shots/businessapps/businessapps-widget-in-community.png)
 
 Now you can start working immediately!

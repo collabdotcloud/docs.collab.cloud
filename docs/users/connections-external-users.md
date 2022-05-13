@@ -1,14 +1,14 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections External Users
+# ![ConnectionsLogo](/assets/images/HCL_Connection_Master.png){:height="28"} HCL Connections External Users
 
 External Users in your organisation can participate fully in things they are directly involved with, such as a file they've created or that someone has shared with them.
 
 If you have experience from Connections on-premises you will see that The experience is similar, but not identical.
 
-##Adding external users
+## Adding external users
 
 If you like to add an external user to your Community you need to contact your company Administrator who can create them for you. Then you can add them to your Community.
 
-##External users - what they **CAN** do
+## External users - what they **CAN** do
 
 * Collaborate fully as members in Communities they are added to
 * Follow these things:
@@ -25,7 +25,7 @@ If you like to add an external user to your Community you need to contact your c
 * Share files with people
 * See status updates if they are @mentioned in them
 
-##External users - what they **CAN NOT** do
+## External users - what they **CAN NOT** do
 
 * Invite people to their network, or Follow people
 * @mention people

@@ -26,10 +26,8 @@ extra:
       link: https://www.linkedin.com/company/threethirds-hcl-cloud-hosting
 
 nav:
-  - Home: index.md
+  - Home: index.md    
   - Getting Started: getting-started-new.md
-#  - Migration from IBM SmartCloud: ibm-migration.md
-
   - Admin Documentation:
       - Manage Organisation:
           - Overview: admin/admin-org.md
@@ -69,8 +67,13 @@ nav:
           - Connections API: admin/connections-api.md
           - Desktop Connector: admin/desktop-connector-windows.md
           - Engagement Center: admin/icec-feeds.md
-          - Mobile App: admin/connections-mobile-app.md
+          - Limit Community Creators: admin/extensions/hide-create-community-button.md
+          - Mobile App:
+              - General Settings: admin/connections-mobile-app.md
+              - Add Activities Plus: admin/connections-mobile-app-add-aplus.md
           - Disable Sametime: admin/extension-disable-sametime.md
+          - Customize UI: admin/extensions/custom-css.md
+          - Disable Activities on Connections Plug-ins for HCL Notes: admin/policy-connections-plugin-notes.md
       - Connections 7:
           - Whats new?: admin/hc7/whats-new.md
           - Touchpoint: admin/hc7/touchpoint.md
@@ -100,6 +103,7 @@ nav:
               - WebEx: users/using-webex-extension.md
               - Desktop Sync for Mac: users/desktop-plugins-mac.md
               - Desktop Plug-ins for Windows: users/desktop-plugins-windows.md
+              - Connections Plug-ins for HCL Notes: users/connections-plugin-notes.md
           - Quotas and storage: users/quotas-storage.md
           - Connections Mobile App: users/connections-mobile-app.md
           - External users: users/connections-external-users.md
@@ -139,10 +143,13 @@ nav:
   - Known Issues:
       - "": help/known-issues.md
   - Faq:
-      - "": help/faq.md
+      - "Q&A": help/faq.md
+      - "Log4j": help/log4shell.md  
+      
 
 markdown_extensions:
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
   - toc:

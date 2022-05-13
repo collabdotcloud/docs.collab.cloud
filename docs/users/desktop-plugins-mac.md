@@ -1,4 +1,4 @@
-# <img src="/assets/images/HCL_Connection_Master.png" alt="ConnectionsLogo" height="28" /> HCL Connections for Mac
+# ![ConnectionsLogo](/assets/images/HCL_Connection_Master.png){:height="28"}HCL Connections for Mac
 
 ## Install The Desktop Connector for Mac
 
@@ -34,6 +34,3 @@ As the list of communities was stored on the client they could not be migrated, 
 
 Information on how to use the Desktop Connector for Mac can be found on the HCL documentation website [here](https://help.hcltechsw.com/connections/v65/connectors/enduser/mac_desktop_plugin_filesync_gs2_2.html)
 
-### Add you Communities
-
-As the list of communities was stored on the client they could not be migrated, you will have to add them again

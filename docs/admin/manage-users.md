@@ -31,7 +31,7 @@ Connections subscriptions that are assigned to your Organization will be present
 
 ### Mail
 
-<strong>NOTE</strong>: Clustered Mail Cloud subscriptions can not yet be added via the _collab.cloud_ Admin App. For Clustered Mail Cloud subscriptions to be added to your User, please send a request to [support@collab.cloud](mailto:support@collab.cloud). </br>
+**NOTE**: Clustered Mail Cloud subscriptions can not yet be added via the _collab.cloud_ Admin App. For Clustered Mail Cloud subscriptions to be added to your User, please send a request to [support@collab.cloud](mailto:support@collab.cloud). </br>
 For Hybrid customers - please follow the steps in the [Hybrid Customers](https://docs.collab.cloud/admin/manage-users-hybrid/) doc.
 
 ---
