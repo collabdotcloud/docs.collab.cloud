@@ -164,6 +164,15 @@ Explaination:
 
 ### Error messages
 
-#### Your request timed out
+#### "Your request timed out"
 
-#### ...
+... info coming soon...
+
+#### "There are problems connecting to the [...] DB"
+
+... info coming soon...
+
+#### Other Errors
+
+Please open a ticket on [support.collab.cloud](https://support.collab.cloud) with the error message and 
+what happend. We will get back to you as soon as possible.
