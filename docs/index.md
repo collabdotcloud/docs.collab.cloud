@@ -1,4 +1,8 @@
-# ![logo](assets/images/three-thirds-logo.png){:style="width:25%"} ThreeThirds Collaboration Docs
+# 
+
+![logo](assets/images/three-thirds-logo.png)
+
+{:style="width:25%"} ThreeThirds Collaboration Docs
 
 Welcome to the ThreeThirds Collaboration documentation site. Here you can find information about about the ThreeThirds HCL Connections and HCL Domino Mail managed cloud service.
 
@@ -29,7 +33,15 @@ Find more information [here](https://www.hcltechsw.com/products/domino)
 
 ## Planned maintenance
 
-None
+### Datacenter America
+
+* August 28, 2022, 03:00AM-06:00AM CDT , 5:00-8:00PM JST / 7:00-10:00PM AEDT (08:00-11:00 UTC).  
+Update Connections to the latest Fix pack. Connections will be down during the update.
+
+### Datacenter Europe
+
+* August 27, 2022, 20:00-23:00 CEST (18:00-21:00 UTC)  
+Update Connections to the latest Fix pack. Connections will be down during the update.
 
 ## Previous maintenance
 
