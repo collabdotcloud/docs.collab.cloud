@@ -40,8 +40,7 @@ Update Connections to the latest Fix pack. Connections will be down during the u
 
 ### Datacenter Europe
 
-* August 27, 2022, 20:00-23:00 CEST (18:00-21:00 UTC)  
-Update Connections to the latest Fix pack. Connections will be down during the update.
+nothing planned
 
 ## Previous maintenance
 
@@ -58,6 +57,9 @@ Connections will be down during the update.
 Update Connections CFIX 70.2112. Connections will be down during the update.
 
 ### Datacenter Europe
+
+* August 27, 2022, 20:00-23:00 CEST (18:00-21:00 UTC)  
+Update Connections to the latest Fix pack. Connections will be down during the update.
 
 * March 25, 2022, 21:00-23:00 CET (20:00-22:00 UTC)  
 Update Connections to the latest Fix pack. Connections will be down during the update.
