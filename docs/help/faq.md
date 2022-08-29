@@ -76,3 +76,4 @@ The maximum allowed upload size is 2000MB.
 - bat
 - sh
 - com
+- cmd
