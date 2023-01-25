@@ -18,7 +18,7 @@ Sametime standalone and Notes Plugin does not show the profile pictures.
 
 Some external feeds don't show at the moment.
 
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+*This is an issue with the HCL Connections for Multi-Tenant code. There are some workarounds available, so please reach out to us if you run into this through support so we can investigate your specific use case.*
 
 ## Activities Plus Community Widget doesn't work in Safari
 
