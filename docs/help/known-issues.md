@@ -12,7 +12,7 @@ Thank you for your continued patience and understanding!
 
 Sametime standalone and Notes Plugin does not show the profile pictures.
 
-*This is an issue with the HCL Connections for Multi-Tenant code. We currently have an open case with HCL to resolve this issue and will deploy a fix once it is made available to us.*
+*We are working on a solution together with HCL and will deploy once it is ready.*
 
 ## External Feeds in ICEC
 
