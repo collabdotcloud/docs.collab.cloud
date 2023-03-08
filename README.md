@@ -20,6 +20,7 @@ The static files for the website are served out from the `gh-pages` branch.
 
     ```sh
     pip3 install mkdocs-redirects
+    pip3 install markdown
     ```
 
 ### General guide
