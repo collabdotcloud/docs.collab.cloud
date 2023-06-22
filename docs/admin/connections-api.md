@@ -148,7 +148,7 @@ As long as your session is active and the cookie is set in the request, you will
 
 In this example, we are searching for users named Bob.
 
-We use the Profiles search API, as documented [here](https://ds_infolib.hcltechsw.com/ldd/lcwiki.nsf/xpAPIViewer.xsp?lookupName=HCL+Connections+6.5+API+Documentation#action=openDocument&res_title=Searching_Profiles_programmatically_65&content=apicontent).
+We use the Profiles search API, as documented [here](https://ds_infolib.hcltechsw.com/ldd/lcwiki.nsf/xpAPIViewer.xsp?lookupName=HCL+Connections+7.0+API+Documentation#action=openDocument&content=catcontent&ct=api).
 
 - Request
 
