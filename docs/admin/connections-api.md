@@ -6,7 +6,7 @@ For the documentation for the Connections API please refer to the official Conne
 
 [HCL Connections API Documentation](https://ds-infolib.hcltechsw.com/ldd/lcwiki.nsf)
 
-We currently use version 6.5 on our Multi-Tenant environment.
+We currently use version  on our Multi-Tenant environment.
 
 ## How do I get access to the API?
 
