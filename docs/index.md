@@ -40,6 +40,9 @@ nothing planned
 
 ### Datacenter America
 
+* June 18, 2023, 03:00AM-06:00AM CDT , 5:00-8:00PM JST / 7:00-10:00PM AEDT (07:00-12:00 UTC).  
+Update Connections to the latest Fix pack. Connections will be down during the update.
+
 * August 28, 2022, 03:00AM-06:00AM CDT , 5:00-8:00PM JST / 7:00-10:00PM AEDT (08:00-11:00 UTC).  
 Update Connections to the latest Fix pack. Connections will be down during the update.
 
@@ -54,6 +57,9 @@ Connections will be down during the update.
 Update Connections CFIX 70.2112. Connections will be down during the update.
 
 ### Datacenter Europe
+
+* June 18, 2023, 09:00-12:00 CEST , 5:00-8:00PM JST / 7:00-10:00PM AEDT (07:00-10:00 UTC).  
+Update Connections to the latest Fix pack. Connections will be down during the update.
 
 * August 27, 2022, 20:00-23:00 CEST (18:00-21:00 UTC)  
 Update Connections to the latest Fix pack. Connections will be down during the update.
