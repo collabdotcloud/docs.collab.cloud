@@ -31,16 +31,19 @@ Find more information [here](https://www.hcltechsw.com/products/domino)
 
 ### Datacenter America
 
-nothing planned
+* July 1, 2023, 03:00AM-07:00AM CDT , 5:00-9:00PM JST / 7:00-11:00PM AEDT (07:00-11:00 UTC).  
+Update Connections to the latest Fix pack. Connections will be down during the update.
+
 ### Datacenter Europe
 
-nothing planned
+* July 1, 2023, 09:00-13:00 CEST , 5:00PM-9:00PM JST / 7:00-11:00PM AEDT (07:00-11:00 UTC).  
+Update Connections to the latest Fix pack. Connections will be down during the update.
 
 ## Previous maintenance
 
 ### Datacenter America
 
-* June 18, 2023, 03:00AM-06:00AM CDT , 5:00-8:00PM JST / 7:00-10:00PM AEDT (07:00-12:00 UTC).  
+* June 18, 2023, 03:00AM-06:00AM CDT , 5:00-8:00PM JST / 7:00-10:00PM AEDT (07:00-10:00 UTC).  
 Update Connections to the latest Fix pack. Connections will be down during the update.
 
 * August 28, 2022, 03:00AM-06:00AM CDT , 5:00-8:00PM JST / 7:00-10:00PM AEDT (08:00-11:00 UTC).  
