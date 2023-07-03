@@ -1,10 +1,6 @@
-# 
+# ThreeThirds Collaboration Docs
 
-![logo](assets/images/three-thirds-logo.png)
-
-{:style="width:25%"} ThreeThirds Collaboration Docs
-
-Welcome to the ThreeThirds Collaboration documentation site. Here you can find information about about the ThreeThirds HCL Connections and HCL Domino Mail managed cloud service.
+![logo](assets/images/three-thirds-logo.png){:style="width:20%;float:left;"} Welcome to the ThreeThirds Collaboration documentation site. Here you can find information about about the ThreeThirds HCL Connections and HCL Domino Mail managed cloud service.
 
 ThreeThirds Collaboration is comprised of 3 companies [ISW](https://isw.com.au), [Belsoft](https://www.belsoft-group.ch/en/) and [Prominic](https://prominic.net/) who are industry leaders in HCL Digital Solutions including Connections, Notes/Domino, Sametime and many other software products formerly from IBM.
 
