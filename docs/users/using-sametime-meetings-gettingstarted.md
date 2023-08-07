@@ -20,4 +20,5 @@ On login page you can login with your valid collab.cloud credentials or as a gue
 ### Using Sametime Meeting
 
 A guide how to use Sametime Meeting is available here:
-https://www.hcl-software.com/sametime/quick-start-guide
+
+[Official Quick Start Guide Sametime Meeting HCL](https://www.hcl-software.com/sametime/quick-start-guide)
