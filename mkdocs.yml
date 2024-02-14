@@ -86,8 +86,8 @@ nav:
           - Announcements: admin/hc7/announcements.md
           - Visual Design: admin/hc7/visual-update.md
       - 3dparty Cookies:
-          - Chrome: admin/3dpartycookies/chrome.md
-          - Firefox: admin/3dpartycookies/firefox.md
+          - Chrome: admin/3rdpartycookies/chrome.md
+          - Firefox: admin/3rdpartycookies/firefox.md
 
       #- Business Partner Options:
       #    - Manage your Customer's Organisation: admin/bp-customer-orgs.md
