@@ -6,27 +6,27 @@ repo_url: https://collab.cloud
 repo_name: collab.cloud
 
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sticky
-  palette:
-    primary: cyan #2ABDEA
-    accent: grey
-  favicon: assets/images/favicon.png
+    name: material
+    features:
+      - navigation.tabs
+      - navigation.sticky
+    palette:
+        primary: cyan #2ABDEA
+        accent: grey
+    favicon: assets/images/favicon.png
 #  logo: assets/images/logo.svg
 
 extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/collabdotcloud
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/3thirdscollab
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/threethirds-hcl-cloud-hosting
+    social:
+      - icon: fontawesome/brands/github-alt
+        link: https://github.com/collabdotcloud
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/3thirdscollab
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/company/threethirds-hcl-cloud-hosting
 
 nav:
-  - Home: index.md    
+  - Home: index.md
   - Getting Started: getting-started-new.md
   - Admin Documentation:
       - Manage Organisation:
@@ -42,7 +42,7 @@ nav:
           - Additional Roles:
               - Get Admin News: admin/get-admin-news.md
               - Support Role: admin/support-role.md
-      #      - Mail/IM Only Customers: admin/manage-users-mailim.md
+          #      - Mail/IM Only Customers: admin/manage-users-mailim.md
           - Last Login: admin/last-login.md
           - Export User List: admin/export-user-list.md
           - Switch Subscription: admin/subscription-switch.md
@@ -88,7 +88,6 @@ nav:
       - 3dparty Cookies:
           - Chrome: admin/3rdpartycookies/chrome.md
           - Firefox: admin/3rdpartycookies/firefox.md
-
       #- Business Partner Options:
       #    - Manage your Customer's Organisation: admin/bp-customer-orgs.md
       # - Latest Changes: admin/admin-latest-changes.md
@@ -131,7 +130,7 @@ nav:
           - Activities Plus Mobile App: users/aplus-mobile-app.md
           - Activities Plus Free Onboarding session: users/aplus-learning.md
           - Kudos Boards (premium experience): users/aplus-boards.md
-      
+
   - Help:
       - Troubleshooting & Support: help/troubleshooting-support.md
       - Using the Support Portal: help/using-the-support-portal.md
@@ -145,26 +144,20 @@ nav:
       - "": help/known-issues.md
   - Faq:
       - "Q&A": help/faq.md
-      - "Log4j": help/log4shell.md  
-      
+      - "Log4j": help/log4shell.md
 
 markdown_extensions:
   - admonition
   - attr_list
   - codehilite:
-      guess_lang: false
+        guess_lang: false
   - toc:
-      permalink: true
+        permalink: true
 
 extra_css:
   - "/assets/css/custom.css"
-#google_analytics:
-#  - "INSERT CODE FROM GOOGLE SITE ADMIN"
-#  - "auto"
 
 plugins:
-  - search:
-      lang: en
   - redirects:
-      redirect_maps:
-        'admin/api-clients.md': 'admin/connections-api.md'
+        redirect_maps:
+            'admin/api-clients.md': 'admin/connections-api.md'
